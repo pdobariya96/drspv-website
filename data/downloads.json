@@ -1,0 +1,62 @@
+[
+  {
+    "id": "itr-checklist",
+    "title": "ITR Filing Checklist 2025-26",
+    "description": "Complete checklist of documents and information needed for filing your Income Tax Return. Covers salary, business, capital gains, and all deductions.",
+    "format": "PDF",
+    "pages": 4,
+    "size": "420 KB",
+    "category": "Income Tax",
+    "color": "#3B82F6"
+  },
+  {
+    "id": "gst-compliance-calendar",
+    "title": "GST Compliance Calendar FY 2025-26",
+    "description": "Month-wise calendar of all GST return due dates, payment deadlines, and annual filing dates with applicable penalties for late filing.",
+    "format": "PDF",
+    "pages": 2,
+    "size": "280 KB",
+    "category": "GST",
+    "color": "#10B981"
+  },
+  {
+    "id": "startup-registration-guide",
+    "title": "Startup Registration Guide",
+    "description": "Step-by-step guide to registering your startup in India — from company incorporation to DPIIT recognition, MSME registration, and tax benefits.",
+    "format": "PDF",
+    "pages": 8,
+    "size": "1.2 MB",
+    "category": "Business",
+    "color": "#F43F5E"
+  },
+  {
+    "id": "tds-rate-chart",
+    "title": "TDS Rate Chart FY 2025-26",
+    "description": "Quick reference chart of all TDS sections, rates, thresholds, and due dates. Includes rates for residents and non-residents with DTAA considerations.",
+    "format": "PDF",
+    "pages": 3,
+    "size": "350 KB",
+    "category": "TDS",
+    "color": "#F59E0B"
+  },
+  {
+    "id": "company-compliance-checklist",
+    "title": "Company Annual Compliance Checklist",
+    "description": "Comprehensive checklist of all annual compliances for Private Limited Companies — ROC filings, board meetings, statutory registers, and audits.",
+    "format": "PDF",
+    "pages": 5,
+    "size": "510 KB",
+    "category": "Companies Act",
+    "color": "#6366F1"
+  },
+  {
+    "id": "fema-nri-guide",
+    "title": "FEMA Guide for NRIs",
+    "description": "Essential guide covering NRI taxation, FEMA regulations, property investment rules, repatriation limits, and reporting requirements for non-residents.",
+    "format": "PDF",
+    "pages": 10,
+    "size": "1.5 MB",
+    "category": "FEMA",
+    "color": "#A855F7"
+  }
+]

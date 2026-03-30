@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dl-01",
+    "title": "ITR Filing Checklist",
+    "description": "A comprehensive checklist of all documents and information required for income tax return filing across ITR-1, ITR-2, ITR-3, and ITR-4. Covers salary, house property, capital gains, business income, and deductions under Chapter VI-A. Includes AIS/26AS verification steps and common mistakes to avoid.",
+    "icon": "FileText",
+    "pages": 12,
+    "updated": "March 2026",
+    "category": "Income Tax",
+    "filename": "itr-checklist.pdf",
+    "emailSubject": "Request for ITR Filing Checklist - DRSPV & Associates",
+    "emailBody": "Hi,\n\nI would like to receive the ITR Filing Checklist from DRSPV & Associates. Please share the PDF at your earliest convenience.\n\nThank you."
+  },
+  {
+    "id": "dl-02",
+    "title": "Old vs New Tax Regime Comparison Guide",
+    "description": "A detailed side-by-side comparison of the old and new income tax regimes for FY 2025-26, including slab rates, eligible deductions, break-even analysis at different income levels, and a decision framework to help taxpayers choose the most beneficial regime. Includes worked-out examples for salaried and business individuals.",
+    "icon": "Calculator",
+    "pages": 16,
+    "updated": "March 2026",
+    "category": "Income Tax",
+    "filename": "tax-regime-guide.pdf",
+    "emailSubject": "Request for Old vs New Tax Regime Guide - DRSPV & Associates",
+    "emailBody": "Hi,\n\nI would like to receive the Old vs New Tax Regime Comparison Guide from DRSPV & Associates. Please share the PDF at your earliest convenience.\n\nThank you."
+  },
+  {
+    "id": "dl-03",
+    "title": "GST Compliance Calendar 2025-26",
+    "description": "A month-by-month calendar of all GST filing deadlines for FY 2025-26, covering GSTR-1, GSTR-3B, GSTR-9, CMP-08, and IFF. Includes separate timelines for monthly and quarterly (QRMP) filers, e-invoice requirements, and a quick reference for late fee and interest calculations.",
+    "icon": "Calendar",
+    "pages": 10,
+    "updated": "March 2026",
+    "category": "GST",
+    "filename": "gst-calendar.pdf",
+    "emailSubject": "Request for GST Compliance Calendar 2025-26 - DRSPV & Associates",
+    "emailBody": "Hi,\n\nI would like to receive the GST Compliance Calendar for FY 2025-26 from DRSPV & Associates. Please share the PDF at your earliest convenience.\n\nThank you."
+  },
+  {
+    "id": "dl-04",
+    "title": "IPO Readiness Checklist",
+    "description": "A step-by-step guide for companies planning an IPO in India, covering SEBI ICDR eligibility criteria, financial statement requirements (Ind-AS restated financials), corporate governance prerequisites, DRHP preparation, ESOP restructuring considerations, and post-listing compliance under LODR Regulations.",
+    "icon": "TrendingUp",
+    "pages": 20,
+    "updated": "March 2026",
+    "category": "IPO",
+    "filename": "ipo-readiness.pdf",
+    "emailSubject": "Request for IPO Readiness Checklist - DRSPV & Associates",
+    "emailBody": "Hi,\n\nI would like to receive the IPO Readiness Checklist from DRSPV & Associates. Our company is exploring the possibility of going public and this guide would be very helpful.\n\nThank you."
+  },
+  {
+    "id": "dl-05",
+    "title": "NRI Tax & FEMA Quick Guide",
+    "description": "An essential guide for NRIs covering residential status determination under Section 6, taxation of Indian income, DTAA benefits, NRE/NRO/FCNR account rules, property purchase and sale provisions, LRS limits, Form 15CA/15CB requirements, and key FEMA compliance obligations for overseas Indians.",
+    "icon": "Globe",
+    "pages": 18,
+    "updated": "March 2026",
+    "category": "FEMA",
+    "filename": "nri-tax-guide.pdf",
+    "emailSubject": "Request for NRI Tax & FEMA Quick Guide - DRSPV & Associates",
+    "emailBody": "Hi,\n\nI am an NRI and would like to receive the NRI Tax & FEMA Quick Guide from DRSPV & Associates. Please share the PDF at your earliest convenience.\n\nThank you."
+  },
+  {
+    "id": "dl-06",
+    "title": "Tax Notice Response Guide",
+    "description": "A practical guide to understanding and responding to common income tax notices including Section 143(1) intimations, Section 143(2) scrutiny, Section 148 reassessment, and CPC demand notices. Covers response timelines, rectification procedures under Section 154, appeal filing under Section 246A, and tips for effective communication with the department.",
+    "icon": "Shield",
+    "pages": 14,
+    "updated": "March 2026",
+    "category": "Income Tax",
+    "filename": "tax-notice-guide.pdf",
+    "emailSubject": "Request for Tax Notice Response Guide - DRSPV & Associates",
+    "emailBody": "Hi,\n\nI have received a tax notice and would like to understand my options. Please share the Tax Notice Response Guide from DRSPV & Associates.\n\nThank you."
+  }
+]

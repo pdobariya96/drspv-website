@@ -1,0 +1,1800 @@
+[
+  {
+    "id": "blog-capital-gains-property-sale",
+    "type": "blog",
+    "title": "Capital Gains Tax on Property Sale in India: Complete Guide with Worked Examples",
+    "excerpt": "Calculate capital gains tax on property sale in India. Covers STCG, LTCG, indexation removal, Section 54 exemptions, and Budget 2024 changes.",
+    "url": "/blog/capital-gains-property-sale",
+    "category": "Income Tax"
+  },
+  {
+    "id": "blog-got-income-tax-notice-what-to-do",
+    "type": "blog",
+    "title": "Got an Income Tax Notice? Step-by-Step Guide on What to Do",
+    "excerpt": "Received an income tax notice? Do not panic. Learn the types of notices, deadlines, and how to respond correctly to avoid penalties.",
+    "url": "/blog/got-income-tax-notice-what-to-do",
+    "category": "Income Tax"
+  },
+  {
+    "id": "blog-gstr-9-common-mistakes",
+    "type": "blog",
+    "title": "10 Common Mistakes in GSTR-9 Annual Return Filing (and How to Avoid Them)",
+    "excerpt": "Avoid costly errors in your GST annual return. Learn the 10 most common GSTR-9 mistakes taxpayers make and how to fix them before filing.",
+    "url": "/blog/gstr-9-common-mistakes",
+    "category": "GST"
+  },
+  {
+    "id": "blog-new-income-tax-slabs-2025-26",
+    "type": "blog",
+    "title": "New Income Tax Slabs 2025-26: Complete Guide to Union Budget 2025 Changes",
+    "excerpt": "Union Budget 2025-26 revised tax slabs under the new regime. Compare old vs new regime, calculate your savings, and choose wisely.",
+    "url": "/blog/new-income-tax-slabs-2025-26",
+    "category": "Income Tax"
+  },
+  {
+    "id": "blog-nre-nro-fcnr-comparison-2026",
+    "type": "blog",
+    "title": "NRE vs NRO vs FCNR Accounts: Complete Comparison for NRIs (2026)",
+    "excerpt": "Compare NRE, NRO, and FCNR bank accounts for NRIs. Understand tax treatment, repatriation rules, and which account suits your needs.",
+    "url": "/blog/nre-nro-fcnr-comparison-2026",
+    "category": "FEMA"
+  },
+  {
+    "id": "blog-private-ltd-vs-llp-vs-proprietorship",
+    "type": "blog",
+    "title": "Private Limited vs LLP vs Proprietorship: Which Business Structure Is Right for You?",
+    "excerpt": "Compare Private Limited Company, LLP, and Sole Proprietorship on liability, tax, compliance, and funding. Choose the right structure for your business.",
+    "url": "/blog/private-ltd-vs-llp-vs-proprietorship",
+    "category": "Business"
+  },
+  {
+    "id": "blog-safari-retreats-sc-2024-itc-impact",
+    "type": "blog",
+    "title": "Safari Retreats Supreme Court Judgement: How It Changes ITC on Construction",
+    "excerpt": "The Supreme Court's Safari Retreats ruling reshapes ITC claims on commercial construction. Understand the impact on landlords and developers.",
+    "url": "/blog/safari-retreats-sc-2024-itc-impact",
+    "category": "GST"
+  },
+  {
+    "id": "blog-section-80c-investments-ranked",
+    "type": "blog",
+    "title": "Section 80C Investments Ranked: Best Options by Returns and Tax Savings (2026)",
+    "excerpt": "Compare all Section 80C investment options ranked by returns, lock-in period, risk, and tax efficiency. Make smarter tax-saving decisions.",
+    "url": "/blog/section-80c-investments-ranked",
+    "category": "Income Tax"
+  },
+  {
+    "id": "blog-sme-ipo-complete-guide-2026",
+    "type": "blog",
+    "title": "SME IPO in India: Complete Guide for Investors and Companies (2026)",
+    "excerpt": "Everything about SME IPOs in India -- eligibility, process, SEBI rules, allotment, and risks. A complete 2026 guide for investors and companies.",
+    "url": "/blog/sme-ipo-complete-guide-2026",
+    "category": "IPO"
+  },
+  {
+    "id": "blog-what-is-drhp-ipo-explained",
+    "type": "blog",
+    "title": "What Is DRHP in IPO? The Draft Red Herring Prospectus Explained Simply",
+    "excerpt": "Understand what a DRHP is, why it matters in the IPO process, what it contains, and how investors should read it before applying for an IPO.",
+    "url": "/blog/what-is-drhp-ipo-explained",
+    "category": "IPO"
+  },
+  {
+    "id": "kb-income-tax-act-analysis-summary",
+    "type": "knowledge",
+    "title": "Income Tax Act, 2025 — Complete Section-wise Quick Analysis",
+    "excerpt": "Complete logical mapping of the Income Tax Act, 2025 — every section, rule, and form organized by topic with quick analysis and cross-references.",
+    "url": "/knowledge-bank/income-tax/act-analysis-summary",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-01-basis-of-charge",
+    "type": "knowledge",
+    "title": "Basis of Charge - Sections 4 & 5 | Residential Status & Scope of Total Income",
+    "excerpt": "Understand the foundation of Indian income tax - chargeability under Section 4, residential status determination, and scope of total income under Section 5 for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-01-basis-of-charge",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-02-exempt-incomes-sec10",
+    "type": "knowledge",
+    "title": "Exempt Incomes under Section 10 | Complete Guide to Tax-Free Income",
+    "excerpt": "Comprehensive guide to incomes exempt under Section 10 of the Income Tax Act - agricultural income, HRA, LTA, gratuity, and other key exemptions for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-02-exempt-incomes-sec10",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-03-salaries-sec15-17",
+    "type": "knowledge",
+    "title": "Income from Salaries - Sections 15 to 17 | Allowances, Perquisites & Deductions",
+    "excerpt": "Complete guide to computing income from salaries under Sections 15-17 - salary components, allowances, perquisites, retirement benefits, and deductions for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-03-salaries-sec15-17",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-04-house-property-sec22-27",
+    "type": "knowledge",
+    "title": "Income from House Property - Sections 22 to 27 | Annual Value, Deductions u/s 24",
+    "excerpt": "Complete guide to computing income from house property under Sections 22-27 - annual value determination, deductions under Section 24, self-occupied and let-out property rules for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-04-house-property-sec22-27",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-05-business-profession-sec28-44",
+    "type": "knowledge",
+    "title": "Business & Profession Income - Sections 28 to 44 | Expenses, Depreciation & Presumptive Tax",
+    "excerpt": "Comprehensive guide to income from business and profession under Sections 28-44 - allowed and disallowed expenses, depreciation, presumptive taxation schemes for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-05-business-profession-sec28-44",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-06-capital-gains-sec45-55",
+    "type": "knowledge",
+    "title": "Capital Gains - Sections 45 to 55 | STCG, LTCG, Indexation & Exemptions",
+    "excerpt": "Complete guide to capital gains taxation under Sections 45-55 - STCG, LTCG, indexation benefit, exemptions under Section 54/54F/54EC, and Budget 2025 changes for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-06-capital-gains-sec45-55",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-07-other-sources-sec56-59",
+    "type": "knowledge",
+    "title": "Income from Other Sources - Sections 56 to 59 | Dividends, Interest, Gifts & More",
+    "excerpt": "Complete guide to income from other sources under Sections 56-59 - dividends, interest income, gifts, family pension, and taxation of unexplained income for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-07-other-sources-sec56-59",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-08-setoff-carry-forward",
+    "type": "knowledge",
+    "title": "Set Off & Carry Forward of Losses - Sections 70 to 80 | Inter-Head & Intra-Head Rules",
+    "excerpt": "Complete guide to set off and carry forward of losses under Sections 70-80 - intra-head set off, inter-head set off, carry forward rules, and restrictions for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-08-setoff-carry-forward",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-09-deductions-80c-to-80u",
+    "type": "knowledge",
+    "title": "Deductions under Chapter VI-A - Sections 80C to 80U | Comprehensive Tax Saving Guide",
+    "excerpt": "Complete guide to Chapter VI-A deductions from Section 80C to 80U - tax saving investments, health insurance, NPS, donations, disability deductions for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-09-deductions-80c-to-80u",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-10-tds-tcs-advance-tax",
+    "type": "knowledge",
+    "title": "TDS, TCS & Advance Tax - Complete Guide | Rates, Due Dates & Compliance",
+    "excerpt": "Comprehensive guide to TDS rates, TCS provisions, advance tax instalments, and self-assessment tax - due dates, penalties, and compliance requirements for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-10-tds-tcs-advance-tax",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-11-assessment-scrutiny-sec143-148",
+    "type": "knowledge",
+    "title": "Assessment & Scrutiny Proceedings — Sections 143, 144, 147 & 148",
+    "excerpt": "Complete guide to income tax assessment proceedings — intimation u/s 143(1), scrutiny u/s 143(2), best judgement u/s 144, reassessment u/s 147/148, and faceless assessment u/s 144B with landmark judgements and practical timelines.",
+    "url": "/knowledge-bank/income-tax/ch-11-assessment-scrutiny-sec143-148",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-12-unexplained-income-sec68-69D",
+    "type": "knowledge",
+    "title": "Unexplained Cash Credits & Income — Sections 68 to 69D",
+    "excerpt": "Comprehensive guide to Sections 68, 69, 69A, 69B, 69C, 69D — unexplained cash credits, investments, money, and expenditure, with Section 115BBE taxation at 78%, landmark Supreme Court judgements, and practical defence strategies.",
+    "url": "/knowledge-bank/income-tax/ch-12-unexplained-income-sec68-69D",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-13-penalties-prosecution-sec270A-276",
+    "type": "knowledge",
+    "title": "Penalties & Prosecution — Sections 270A, 271 & 276",
+    "excerpt": "Detailed guide to income tax penalties under Section 270A (under-reporting & misreporting), Section 271 (concealment), interest under Sections 234A/234B/234C, criminal prosecution under Section 276C, and immunity provisions with landmark judgements.",
+    "url": "/knowledge-bank/income-tax/ch-13-penalties-prosecution-sec270A-276",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-14-appeals-dispute-resolution",
+    "type": "knowledge",
+    "title": "Appeals & Dispute Resolution — CIT(A), ITAT, High Court",
+    "excerpt": "Complete guide to income tax appeals — filing before CIT(Appeals)/NFAC, ITAT, High Court, and Supreme Court, with revision u/s 264, Vivad se Vishwas scheme, stay of demand, faceless appeals, and practical cost-benefit analysis.",
+    "url": "/knowledge-bank/income-tax/ch-14-appeals-dispute-resolution",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-15-search-survey-sec132-133A",
+    "type": "knowledge",
+    "title": "Search, Survey & Investigation — Sections 132, 132A & 133A",
+    "excerpt": "Comprehensive guide to income tax search (raid) under Section 132, survey under Section 133A, requisition under Section 132A, post-search assessment under Sections 153A and 153C, rights during search, and landmark judgements on search-related issues.",
+    "url": "/knowledge-bank/income-tax/ch-15-search-survey-sec132-133A",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-16-returns-filing-sec139-142",
+    "type": "knowledge",
+    "title": "Income Tax Returns & Filing — Sections 139 to 142",
+    "excerpt": "Complete guide to income tax return filing under the Income Tax Act, 2025 — Section 139 (mandatory, belated, revised, updated returns), Section 140 (verification), Section 140A (self-assessment tax), Section 142(1) notices, ITR forms (ITR-1 to ITR-7), Rule 12, Form 26AS, AIS, TIS, due dates, and penalty provisions for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-16-returns-filing-sec139-142",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-17-clubbing-income-sec60-65",
+    "type": "knowledge",
+    "title": "Clubbing of Income — Sections 60 to 65",
+    "excerpt": "Comprehensive guide to clubbing of income provisions under the Income Tax Act, 2025 — Sections 60 to 65 covering transfer of income, revocable transfers, income of spouse, minor child, son's wife, HUF members, with worked examples, landmark judgements, and practical compliance tips for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-17-clubbing-income-sec60-65",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-18-tax-audit-mat-amt-sec44AB-115JB",
+    "type": "knowledge",
+    "title": "Tax Audit, MAT & AMT — Sections 44AB, 115JB & 115JC",
+    "excerpt": "Comprehensive guide to tax audit under Section 44AB (thresholds, Form 3CA/3CB/3CD), Minimum Alternate Tax (MAT) under Section 115JB (book profit, 15% rate, MAT credit, Form 29B), Alternate Minimum Tax (AMT) under Section 115JC (Form 29C), and compliance requirements under the Income Tax Act, 2025 for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-18-tax-audit-mat-amt-sec44AB-115JB",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-19-international-taxation-dtaa-sec90-91",
+    "type": "knowledge",
+    "title": "International Taxation & DTAA — Sections 90, 91 & 195",
+    "excerpt": "Comprehensive guide to international taxation under the Income Tax Act, 2025 — Sections 5(2), 9, 90, 90A, 91, 195, DTAA concepts (Permanent Establishment, tie-breaker rules, beneficial ownership, MAP), TRC, Form 10F, Form 15CA/15CB, TDS on payments to non-residents, and India's key treaty network for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-19-international-taxation-dtaa-sec90-91",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-20-transfer-pricing-sec92-92F",
+    "type": "knowledge",
+    "title": "Transfer Pricing — Sections 92 to 92F",
+    "excerpt": "Comprehensive guide to transfer pricing under the Income Tax Act, 2025 — Sections 92 to 92F covering arm's length price (ALP), associated enterprises, international transactions, specified domestic transactions, TP methods (CUP, RPM, CPM, TNMM, PSM), TPO reference, Safe Harbour Rules, APA, secondary adjustments, documentation (Master File, Local File, CbCR), Form 3CEB, thin capitalisation under Section 94B, and compliance requirements for AY 2026-27.",
+    "url": "/knowledge-bank/income-tax/ch-20-transfer-pricing-sec92-92F",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-21-gaar-anti-avoidance-sec95-102",
+    "type": "knowledge",
+    "title": "General Anti-Avoidance Rules (GAAR) — Sections 95 to 102 | Impermissible Avoidance Arrangements",
+    "excerpt": "Complete guide to GAAR under Sections 95-102 of the Income Tax Act, 2025 — impermissible avoidance arrangements, four-part test, consequences, treaty override, POEM rules, thin capitalisation, and the GAAR invocation procedure under Rules 10U-10UC.",
+    "url": "/knowledge-bank/income-tax/ch-21-gaar-anti-avoidance-sec95-102",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-22-charitable-trusts-sec11-13",
+    "type": "knowledge",
+    "title": "Charitable Trusts & Institutions — Sections 11 to 13 | Registration, Exemptions & Compliance",
+    "excerpt": "Comprehensive guide to taxation of charitable trusts and institutions under Sections 11-13 of the Income Tax Act, 2025 — registration under Section 12AB, exemption conditions, application of income, accumulation rules, Section 80G donations, and audit requirements under Form 10B/10BB.",
+    "url": "/knowledge-bank/income-tax/ch-22-charitable-trusts-sec11-13",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-23-special-tax-rates-sec115",
+    "type": "knowledge",
+    "title": "Special Tax Rates & New Tax Regime — Section 115 Series | Complete Guide to Concessional Rates",
+    "excerpt": "Comprehensive guide to special tax rates under Section 115 series of the Income Tax Act, 2025 — new tax regime (Section 115BAC), concessional corporate rates (115BAA/115BAB), unexplained income (115BBE), crypto taxation (115BBH), MAT, surcharge rates, rebate under Section 87A, and old vs new regime comparison.",
+    "url": "/knowledge-bank/income-tax/ch-23-special-tax-rates-sec115",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-24-cash-transaction-limits-sec269",
+    "type": "knowledge",
+    "title": "Cash Transaction Restrictions — Sections 269SS, 269T, 269ST & 269SU | Penalties & Compliance",
+    "excerpt": "Complete guide to cash transaction limits under the Income Tax Act, 2025 — Section 269SS (loans/deposits), Section 269T (repayment), Section 269ST (Rs. 2 lakh cash receipt limit), Section 269SU (mandatory electronic payments), Section 40A(3) disallowance, Section 194N TDS on cash withdrawal, and penalties under Sections 271D, 271E, 271DA.",
+    "url": "/knowledge-bank/income-tax/ch-24-cash-transaction-limits-sec269",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-25-recovery-refunds-rectification-sec154-245",
+    "type": "knowledge",
+    "title": "Rectification, Recovery & Refunds — Sections 154, 220-232 & 237-245 | Demand Management Guide",
+    "excerpt": "Complete guide to rectification of orders under Section 154, recovery of tax demands under Sections 220-232, refund procedures under Sections 237-245 of the Income Tax Act, 2025 — garnishee orders, stay of demand, interest on refunds under Section 244A, and demand management strategies.",
+    "url": "/knowledge-bank/income-tax/ch-25-recovery-refunds-rectification-sec154-245",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-income-tax-ch-26-notifications-circulars-cbdt",
+    "type": "knowledge",
+    "title": "CBDT Notifications, Circulars & Key Orders — Practical Reference Guide",
+    "excerpt": "Complete reference guide to CBDT Notifications, Circulars, and Orders that impact day-to-day tax compliance — covering ITR forms, TDS rates, audit thresholds, faceless assessment, and recent amendments.",
+    "url": "/knowledge-bank/income-tax/ch-26-notifications-circulars-cbdt",
+    "pillar": "income-tax"
+  },
+  {
+    "id": "kb-gst-gst-01-basics-cgst-sgst-igst",
+    "type": "knowledge",
+    "title": "GST Fundamentals: Understanding CGST, SGST & IGST",
+    "excerpt": "A comprehensive guide to the GST constitutional framework, the dual levy structure of CGST, SGST and IGST, and how India's indirect tax system works.",
+    "url": "/knowledge-bank/gst/gst-01-basics-cgst-sgst-igst",
+    "pillar": "gst"
+  },
+  {
+    "id": "kb-gst-gst-02-registration-threshold",
+    "type": "knowledge",
+    "title": "GST Registration: Threshold Limits, Process & Voluntary Registration",
+    "excerpt": "Complete guide to GST registration requirements under Section 22-24 of CGST Act, threshold limits, mandatory registration categories, and benefits of voluntary registration.",
+    "url": "/knowledge-bank/gst/gst-02-registration-threshold",
+    "pillar": "gst"
+  },
+  {
+    "id": "kb-gst-gst-03-input-tax-credit",
+    "type": "knowledge",
+    "title": "Input Tax Credit (ITC): Rules, Conditions, Blocked Credits & Reversal",
+    "excerpt": "Detailed guide to ITC under Sections 16-21 of the CGST Act covering eligibility conditions, blocked credits under Section 17(5), reversal rules, and the new ITC matching framework.",
+    "url": "/knowledge-bank/gst/gst-03-input-tax-credit",
+    "pillar": "gst"
+  },
+  {
+    "id": "kb-gst-gst-04-returns-gstr1-3b-9",
+    "type": "knowledge",
+    "title": "GST Returns: GSTR-1, GSTR-3B, GSTR-9 Filing Guide",
+    "excerpt": "Complete guide to the GST return filing system including GSTR-1, GSTR-3B, GSTR-9 annual return, due dates, late fees, and reconciliation best practices.",
+    "url": "/knowledge-bank/gst/gst-04-returns-gstr1-3b-9",
+    "pillar": "gst"
+  },
+  {
+    "id": "kb-gst-gst-05-audit-assessment",
+    "type": "knowledge",
+    "title": "GST Audit & Assessment: Sections 65, 66, 73 & 74 Explained",
+    "excerpt": "Understanding GST audit under Sections 65 and 66, self-assessment, provisional and scrutiny assessments, and demand proceedings under Sections 73 and 74 of the CGST Act.",
+    "url": "/knowledge-bank/gst/gst-05-audit-assessment",
+    "pillar": "gst"
+  },
+  {
+    "id": "kb-gst-gst-06-e-invoicing-e-way-bill",
+    "type": "knowledge",
+    "title": "E-Invoicing & E-Way Bill: Requirements, Rules & Compliance",
+    "excerpt": "Comprehensive guide to GST e-invoicing under Rule 48(4), e-way bill requirements under Rule 138, turnover thresholds, exemptions, and practical compliance strategies.",
+    "url": "/knowledge-bank/gst/gst-06-e-invoicing-e-way-bill",
+    "pillar": "gst"
+  },
+  {
+    "id": "kb-gst-gst-07-composition-scheme",
+    "type": "knowledge",
+    "title": "GST Composition Scheme: Eligibility, Rates & Restrictions",
+    "excerpt": "Complete guide to the GST Composition Scheme under Section 10 of the CGST Act including eligibility criteria, tax rates, quarterly CMP-08 filing, and practical considerations.",
+    "url": "/knowledge-bank/gst/gst-07-composition-scheme",
+    "pillar": "gst"
+  },
+  {
+    "id": "kb-gst-gst-08-penalties-offences",
+    "type": "knowledge",
+    "title": "GST Penalties, Interest & Offences: Complete Guide",
+    "excerpt": "Detailed coverage of penalties under Section 122-138 of the CGST Act, interest provisions under Section 50, offences attracting prosecution, and compounding of offences.",
+    "url": "/knowledge-bank/gst/gst-08-penalties-offences",
+    "pillar": "gst"
+  },
+  {
+    "id": "kb-ipo-handbook-ipo-01-what-is-ipo",
+    "type": "knowledge",
+    "title": "What Is an IPO? A Complete Guide to Initial Public Offerings in India",
+    "excerpt": "Understand IPO basics — why companies go public, types of IPOs in India, and how the process works under SEBI regulations.",
+    "url": "/knowledge-bank/ipo-handbook/ipo-01-what-is-ipo",
+    "pillar": "ipo-handbook"
+  },
+  {
+    "id": "kb-ipo-handbook-ipo-02-sme-vs-mainboard",
+    "type": "knowledge",
+    "title": "SME IPO vs Mainboard IPO: BSE SME, NSE Emerge & Mainboard Compared",
+    "excerpt": "Compare BSE SME, NSE Emerge, and Mainboard IPO routes — eligibility criteria, costs, timelines, and which path suits your company.",
+    "url": "/knowledge-bank/ipo-handbook/ipo-02-sme-vs-mainboard",
+    "pillar": "ipo-handbook"
+  },
+  {
+    "id": "kb-ipo-handbook-ipo-03-pre-ipo-preparation",
+    "type": "knowledge",
+    "title": "Pre-IPO Preparation: Financial Readiness, Governance & Internal Controls",
+    "excerpt": "How to prepare your company for an IPO — financial restructuring, corporate governance setup, internal controls, and auditor readiness.",
+    "url": "/knowledge-bank/ipo-handbook/ipo-03-pre-ipo-preparation",
+    "pillar": "ipo-handbook"
+  },
+  {
+    "id": "kb-ipo-handbook-ipo-04-sebi-icdr-regulations",
+    "type": "knowledge",
+    "title": "SEBI ICDR Regulations: IPO Eligibility Criteria Explained",
+    "excerpt": "Detailed breakdown of SEBI (Issue of Capital and Disclosure Requirements) Regulations, 2018 — eligibility norms, disclosure rules, and key provisions for IPOs.",
+    "url": "/knowledge-bank/ipo-handbook/ipo-04-sebi-icdr-regulations",
+    "pillar": "ipo-handbook"
+  },
+  {
+    "id": "kb-ipo-handbook-ipo-05-drhp-explained",
+    "type": "knowledge",
+    "title": "DRHP Explained: Components, Drafting & SEBI Review Process",
+    "excerpt": "Complete guide to the Draft Red Herring Prospectus — what it contains, how it is drafted, the SEBI review process, and common observation areas.",
+    "url": "/knowledge-bank/ipo-handbook/ipo-05-drhp-explained",
+    "pillar": "ipo-handbook"
+  },
+  {
+    "id": "kb-ipo-handbook-ipo-06-ipo-process-timeline",
+    "type": "knowledge",
+    "title": "IPO Process Timeline: Step-by-Step from D-180 to Listing Day",
+    "excerpt": "A detailed IPO timeline from 180 days before filing to listing day — every milestone, deadline, and regulatory checkpoint mapped out.",
+    "url": "/knowledge-bank/ipo-handbook/ipo-06-ipo-process-timeline",
+    "pillar": "ipo-handbook"
+  },
+  {
+    "id": "kb-ipo-handbook-ipo-07-listing-day",
+    "type": "knowledge",
+    "title": "Listing Day: Allotment, Price Discovery, Grey Market & What to Expect",
+    "excerpt": "Everything about IPO listing day — allotment process, price discovery mechanism, grey market premium, and how listing day trading works.",
+    "url": "/knowledge-bank/ipo-handbook/ipo-07-listing-day",
+    "pillar": "ipo-handbook"
+  },
+  {
+    "id": "kb-ipo-handbook-ipo-08-post-ipo-obligations",
+    "type": "knowledge",
+    "title": "Post-IPO Obligations: LODR Compliance, Quarterly Reporting & Insider Trading Rules",
+    "excerpt": "Comprehensive guide to post-listing compliance — SEBI LODR requirements, quarterly financial reporting, insider trading regulations, and corporate governance obligations.",
+    "url": "/knowledge-bank/ipo-handbook/ipo-08-post-ipo-obligations",
+    "pillar": "ipo-handbook"
+  },
+  {
+    "id": "kb-ipo-handbook-ipo-09-case-studies",
+    "type": "knowledge",
+    "title": "Notable Indian IPO Case Studies: Success Stories & Lessons Learned",
+    "excerpt": "Analysis of landmark Indian IPOs — what worked, what didn't, and key lessons for companies planning their own public listing.",
+    "url": "/knowledge-bank/ipo-handbook/ipo-09-case-studies",
+    "pillar": "ipo-handbook"
+  },
+  {
+    "id": "kb-fema-fema-01-fundamentals",
+    "type": "knowledge",
+    "title": "FEMA Fundamentals: Current Account, Capital Account & RBI's Role",
+    "excerpt": "An introductory guide to the Foreign Exchange Management Act, 1999 covering the regulatory framework, current vs capital account transactions, RBI's role, and the shift from FERA to FEMA.",
+    "url": "/knowledge-bank/fema/fema-01-fundamentals",
+    "pillar": "fema"
+  },
+  {
+    "id": "kb-fema-fema-02-fdi-automatic-approval",
+    "type": "knowledge",
+    "title": "FDI in India: Automatic Route, Approval Route & Sectoral Caps",
+    "excerpt": "Complete guide to Foreign Direct Investment policy under FEMA including automatic and approval routes, sectoral caps, entry conditions, reporting requirements and Press Note 3 implications.",
+    "url": "/knowledge-bank/fema/fema-02-fdi-automatic-approval",
+    "pillar": "fema"
+  },
+  {
+    "id": "kb-fema-fema-03-lrs-remittance-scheme",
+    "type": "knowledge",
+    "title": "LRS: Liberalised Remittance Scheme -- USD 250,000 Limit Explained",
+    "excerpt": "Detailed guide to the RBI's Liberalised Remittance Scheme under FEMA covering the USD 250,000 annual limit, permitted and prohibited transactions, TCS implications, and compliance requirements.",
+    "url": "/knowledge-bank/fema/fema-03-lrs-remittance-scheme",
+    "pillar": "fema"
+  },
+  {
+    "id": "kb-fema-fema-04-nri-banking-nre-nro-fcnr",
+    "type": "knowledge",
+    "title": "NRI Banking: NRE, NRO & FCNR Accounts Explained",
+    "excerpt": "Comprehensive guide to NRI bank accounts under FEMA -- NRE, NRO and FCNR(B) accounts covering features, tax treatment, repatriation rules, and account management for non-resident Indians.",
+    "url": "/knowledge-bank/fema/fema-04-nri-banking-nre-nro-fcnr",
+    "pillar": "fema"
+  },
+  {
+    "id": "kb-fema-fema-05-odi-investment-abroad",
+    "type": "knowledge",
+    "title": "Overseas Direct Investment (ODI): Rules for Indian Investments Abroad",
+    "excerpt": "Complete guide to Overseas Direct Investment regulations under FEMA covering the OI Rules 2022, automatic and approval routes, financial commitment limits, and reporting requirements for Indian entities investing abroad.",
+    "url": "/knowledge-bank/fema/fema-05-odi-investment-abroad",
+    "pillar": "fema"
+  },
+  {
+    "id": "kb-fema-fema-06-ecb-external-borrowings",
+    "type": "knowledge",
+    "title": "External Commercial Borrowings (ECB): Framework, Routes & Compliance",
+    "excerpt": "Detailed guide to External Commercial Borrowings under FEMA covering the ECB framework, eligible borrowers and lenders, all-in-cost ceiling, end-use restrictions, and RBI reporting requirements.",
+    "url": "/knowledge-bank/fema/fema-06-ecb-external-borrowings",
+    "pillar": "fema"
+  },
+  {
+    "id": "kb-fema-fema-07-export-import-regulations",
+    "type": "knowledge",
+    "title": "FEMA Export-Import Regulations: Forex Compliance for Trade",
+    "excerpt": "Guide to FEMA regulations governing export and import of goods and services, including payment timelines, write-off provisions, advance remittance rules, and reporting requirements under FEMA 23 and FEMA 17.",
+    "url": "/knowledge-bank/fema/fema-07-export-import-regulations",
+    "pillar": "fema"
+  },
+  {
+    "id": "kb-fema-fema-08-penalties-compounding",
+    "type": "knowledge",
+    "title": "FEMA Penalties & Compounding: Enforcement, Adjudication & Settlement",
+    "excerpt": "Complete guide to FEMA penalty provisions under Section 13, compounding of contraventions under Section 15, adjudication process, Enforcement Directorate's role, and practical strategies for handling FEMA violations.",
+    "url": "/knowledge-bank/fema/fema-08-penalties-compounding",
+    "pillar": "fema"
+  },
+  {
+    "id": "faq-faq-01",
+    "type": "faq",
+    "title": "What is the due date for filing ITR for individuals (non-audit cases)?",
+    "excerpt": "The due date for filing Income Tax Return for individuals who are not required to get their accounts audited is 31st July of the assessment year. For ",
+    "url": "/resources/faq#faq-01",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-02",
+    "type": "faq",
+    "title": "What are the advance tax due dates and thresholds?",
+    "excerpt": "If your total tax liability exceeds Rs. 10,000 in a financial year, you must pay advance tax in four instalments: 15% by 15th June, 45% by 15th Septem",
+    "url": "/resources/faq#faq-02",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-03",
+    "type": "faq",
+    "title": "What is the difference between the old and new tax regime?",
+    "excerpt": "The new tax regime (default from FY 2023-24) offers lower slab rates but eliminates most deductions like 80C, 80D, HRA, and LTA. The old regime allows",
+    "url": "/resources/faq#faq-03",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-04",
+    "type": "faq",
+    "title": "How do I respond to an income tax notice under Section 143(1)?",
+    "excerpt": "A Section 143(1) intimation is an automated comparison of your filed return with the department's records. If there is a demand, verify the discrepanc",
+    "url": "/resources/faq#faq-04",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-05",
+    "type": "faq",
+    "title": "What deductions are available under Section 80C?",
+    "excerpt": "Section 80C allows a maximum deduction of Rs. 1,50,000 per year for investments in PPF, EPF, ELSS, NSC, 5-year FD, life insurance premium, tuition fee",
+    "url": "/resources/faq#faq-05",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-06",
+    "type": "faq",
+    "title": "What is Form 26AS and how do I check it?",
+    "excerpt": "Form 26AS is your Annual Tax Statement showing TDS/TCS deducted, advance tax paid, self-assessment tax, and high-value transactions reported by third ",
+    "url": "/resources/faq#faq-06",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-07",
+    "type": "faq",
+    "title": "What is the Annual Information Statement (AIS)?",
+    "excerpt": "AIS is a comprehensive statement available on the income tax portal that shows all financial transactions reported by banks, mutual funds, registrars,",
+    "url": "/resources/faq#faq-07",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-08",
+    "type": "faq",
+    "title": "How are capital gains on shares and mutual funds taxed?",
+    "excerpt": "Listed equity shares held for more than 12 months attract LTCG tax at 12.5% (above Rs. 1.25 lakh exemption) from FY 2024-25. STCG on listed equity is ",
+    "url": "/resources/faq#faq-08",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-09",
+    "type": "faq",
+    "title": "When should I file a revised return and what is the deadline?",
+    "excerpt": "A revised return under Section 139(5) can be filed if you discover any omission or error in your original return. The deadline is 31st December of the",
+    "url": "/resources/faq#faq-09",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-10",
+    "type": "faq",
+    "title": "What is TDS on salary and how is Form 16 issued?",
+    "excerpt": "Employers deduct TDS on salary under Section 192 based on estimated annual income and declared investments. Form 16 is the TDS certificate issued by t",
+    "url": "/resources/faq#faq-10",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-11",
+    "type": "faq",
+    "title": "What is the tax treatment for rental income?",
+    "excerpt": "Rental income is taxed under 'Income from House Property'. You can claim a standard deduction of 30% on Net Annual Value and deduct home loan interest",
+    "url": "/resources/faq#faq-11",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-12",
+    "type": "faq",
+    "title": "Which ITR form should I use for filing?",
+    "excerpt": "ITR-1 (Sahaj) is for salaried individuals with income up to Rs. 50 lakh. ITR-2 is for individuals with capital gains or foreign assets. ITR-3 is for b",
+    "url": "/resources/faq#faq-12",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-13",
+    "type": "faq",
+    "title": "What is Section 44AD presumptive taxation for businesses?",
+    "excerpt": "Section 44AD allows eligible businesses with turnover up to Rs. 3 crore (if 95% digital receipts) to declare 6% of digital turnover and 8% of cash tur",
+    "url": "/resources/faq#faq-13",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-14",
+    "type": "faq",
+    "title": "How do I claim HRA exemption if I pay rent?",
+    "excerpt": "HRA exemption under Section 10(13A) is the minimum of: actual HRA received, 50% of salary (metro) or 40% (non-metro), or rent paid minus 10% of salary",
+    "url": "/resources/faq#faq-14",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-15",
+    "type": "faq",
+    "title": "What are the penalties for late filing of ITR?",
+    "excerpt": "Under Section 234F, a late filing fee of Rs. 5,000 applies if ITR is filed after the due date but before 31st December. The fee is Rs. 1,000 if total ",
+    "url": "/resources/faq#faq-15",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-16",
+    "type": "faq",
+    "title": "How is income from cryptocurrency and digital assets taxed in India?",
+    "excerpt": "From FY 2022-23, gains from transfer of Virtual Digital Assets (VDAs) including cryptocurrency are taxed at a flat 30% under Section 115BBH, with no d",
+    "url": "/resources/faq#faq-16",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-17",
+    "type": "faq",
+    "title": "What is the tax audit requirement under Section 44AB?",
+    "excerpt": "Tax audit under Section 44AB is mandatory if business turnover exceeds Rs. 1 crore (Rs. 10 crore if 95%+ transactions are digital) or professional gro",
+    "url": "/resources/faq#faq-17",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-18",
+    "type": "faq",
+    "title": "Can I claim deduction for health insurance premium?",
+    "excerpt": "Under Section 80D, you can claim deduction of up to Rs. 25,000 for health insurance premium for self, spouse, and children. An additional Rs. 25,000 (",
+    "url": "/resources/faq#faq-18",
+    "category": "income-tax"
+  },
+  {
+    "id": "faq-faq-19",
+    "type": "faq",
+    "title": "Who is required to register for GST?",
+    "excerpt": "GST registration is mandatory if aggregate turnover exceeds Rs. 40 lakh (Rs. 20 lakh for special category states) for goods, or Rs. 20 lakh (Rs. 10 la",
+    "url": "/resources/faq#faq-19",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-20",
+    "type": "faq",
+    "title": "What is the due date for filing GSTR-3B?",
+    "excerpt": "GSTR-3B is a monthly summary return due by the 20th of the following month for taxpayers with turnover above Rs. 5 crore. For taxpayers with turnover ",
+    "url": "/resources/faq#faq-20",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-21",
+    "type": "faq",
+    "title": "What is Input Tax Credit (ITC) and how do I claim it?",
+    "excerpt": "ITC allows you to reduce the GST paid on inputs from your output GST liability. To claim ITC, the supplier must have filed their GSTR-1 and the invoic",
+    "url": "/resources/faq#faq-21",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-22",
+    "type": "faq",
+    "title": "What is GSTR-9 and when is it due?",
+    "excerpt": "GSTR-9 is the annual return under GST, summarizing all monthly/quarterly returns filed during the year. It is mandatory for all regular taxpayers with",
+    "url": "/resources/faq#faq-22",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-23",
+    "type": "faq",
+    "title": "What is the Composition Scheme under GST?",
+    "excerpt": "The Composition Scheme is available for businesses with turnover up to Rs. 1.5 crore (Rs. 75 lakh for special category states). Tax is paid at a flat ",
+    "url": "/resources/faq#faq-23",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-24",
+    "type": "faq",
+    "title": "How do I file GSTR-1 and what are the deadlines?",
+    "excerpt": "GSTR-1 contains details of all outward supplies (sales) made during the period. For monthly filers (turnover above Rs. 5 crore), it is due by the 11th",
+    "url": "/resources/faq#faq-24",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-25",
+    "type": "faq",
+    "title": "What is an e-Invoice under GST and who needs to generate it?",
+    "excerpt": "E-invoicing is mandatory for businesses with aggregate turnover exceeding Rs. 5 crore from 1st August 2023. The Invoice Registration Portal (IRP) gene",
+    "url": "/resources/faq#faq-25",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-26",
+    "type": "faq",
+    "title": "What is GSTR-2B and how is it different from GSTR-2A?",
+    "excerpt": "GSTR-2B is a static, auto-generated ITC statement available on the 14th of each month, based on suppliers' GSTR-1 and GSTR-5 filings. Unlike GSTR-2A, ",
+    "url": "/resources/faq#faq-26",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-27",
+    "type": "faq",
+    "title": "What is GST on export of goods and services?",
+    "excerpt": "Exports are treated as zero-rated supplies under GST. Exporters can either export under a Letter of Undertaking (LUT) without paying IGST, or pay IGST",
+    "url": "/resources/faq#faq-27",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-28",
+    "type": "faq",
+    "title": "How is reverse charge mechanism (RCM) applied under GST?",
+    "excerpt": "Under RCM, the recipient pays GST instead of the supplier. RCM applies on specified goods/services listed under Section 9(3) such as legal services, G",
+    "url": "/resources/faq#faq-28",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-29",
+    "type": "faq",
+    "title": "What is an e-Way Bill and when is it required?",
+    "excerpt": "An e-Way Bill must be generated on the e-Way Bill portal for movement of goods exceeding Rs. 50,000 in value. Part A contains supply details and Part ",
+    "url": "/resources/faq#faq-29",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-30",
+    "type": "faq",
+    "title": "Can GST registration be cancelled and what is the process?",
+    "excerpt": "GST registration can be cancelled voluntarily if business is discontinued or turnover falls below threshold, by filing Form GST REG-16. The officer ma",
+    "url": "/resources/faq#faq-30",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-31",
+    "type": "faq",
+    "title": "What happens if I miss the GST return filing deadline?",
+    "excerpt": "Late filing of GST returns attracts a late fee of Rs. 50 per day (Rs. 20 for nil returns) for GSTR-1 and GSTR-3B, capped at Rs. 5,000 to Rs. 10,000 de",
+    "url": "/resources/faq#faq-31",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-32",
+    "type": "faq",
+    "title": "What is TDS and TCS under GST?",
+    "excerpt": "GST TDS at 2% (1% CGST + 1% SGST) is deducted by government bodies and specified entities on payments exceeding Rs. 2.5 lakh for supply of goods or se",
+    "url": "/resources/faq#faq-32",
+    "category": "gst"
+  },
+  {
+    "id": "faq-faq-33",
+    "type": "faq",
+    "title": "What are the eligibility criteria for an IPO in India?",
+    "excerpt": "Under SEBI ICDR Regulations, a company must have net tangible assets of at least Rs. 3 crore in each of the preceding 3 years, average pre-tax operati",
+    "url": "/resources/faq#faq-33",
+    "category": "ipo"
+  },
+  {
+    "id": "faq-faq-34",
+    "type": "faq",
+    "title": "What is a DRHP and how is it different from RHP?",
+    "excerpt": "The Draft Red Herring Prospectus (DRHP) is filed with SEBI for review and does not contain the final price or number of shares. After SEBI observation",
+    "url": "/resources/faq#faq-34",
+    "category": "ipo"
+  },
+  {
+    "id": "faq-faq-35",
+    "type": "faq",
+    "title": "How long does the IPO process take from start to listing?",
+    "excerpt": "The typical IPO timeline is 8-12 months. This includes 2-3 months for due diligence and DRHP preparation, 30 days for SEBI review (extendable), 2-3 mo",
+    "url": "/resources/faq#faq-35",
+    "category": "ipo"
+  },
+  {
+    "id": "faq-faq-36",
+    "type": "faq",
+    "title": "What financial statements are required for an IPO?",
+    "excerpt": "SEBI requires restated Ind-AS financial statements for the preceding 3-5 financial years, audited by qualified CAs. This includes Balance Sheet, Profi",
+    "url": "/resources/faq#faq-36",
+    "category": "ipo"
+  },
+  {
+    "id": "faq-faq-37",
+    "type": "faq",
+    "title": "What is the role of a Chartered Accountant in an IPO?",
+    "excerpt": "Qualified CAs play a critical role in IPO readiness: preparing restated financial statements under Ind-AS, issuing the auditor's report on restated fi",
+    "url": "/resources/faq#faq-37",
+    "category": "ipo"
+  },
+  {
+    "id": "faq-faq-38",
+    "type": "faq",
+    "title": "What is the lock-in period for promoter shares after an IPO?",
+    "excerpt": "Under SEBI ICDR Regulations, promoters must lock-in at least 18 months of their post-issue shareholding contributing to minimum promoter contribution ",
+    "url": "/resources/faq#faq-38",
+    "category": "ipo"
+  },
+  {
+    "id": "faq-faq-39",
+    "type": "faq",
+    "title": "What is an SME IPO and how is it different from a mainboard IPO?",
+    "excerpt": "SME IPOs are listed on BSE SME or NSE Emerge platforms. The minimum application size is Rs. 1 lakh (vs Rs. 15,000 for mainboard). Post-issue paid-up c",
+    "url": "/resources/faq#faq-39",
+    "category": "ipo"
+  },
+  {
+    "id": "faq-faq-40",
+    "type": "faq",
+    "title": "What are the ongoing compliance requirements after an IPO?",
+    "excerpt": "Post-listing, companies must comply with SEBI LODR Regulations including quarterly financial results, annual reports, corporate governance requirement",
+    "url": "/resources/faq#faq-40",
+    "category": "ipo"
+  },
+  {
+    "id": "faq-faq-41",
+    "type": "faq",
+    "title": "What is ESOP restructuring before an IPO?",
+    "excerpt": "Companies often restructure Employee Stock Option Plans before an IPO to align with SEBI guidelines. This includes ensuring ESOP pools are within acce",
+    "url": "/resources/faq#faq-41",
+    "category": "ipo"
+  },
+  {
+    "id": "faq-faq-42",
+    "type": "faq",
+    "title": "What is the minimum public offer and oversubscription in an IPO?",
+    "excerpt": "For mainboard IPOs, the minimum public offer must be at least 10% of post-issue capital (25% for issue size below Rs. 4,000 crore). Oversubscription i",
+    "url": "/resources/faq#faq-42",
+    "category": "ipo"
+  },
+  {
+    "id": "faq-faq-43",
+    "type": "faq",
+    "title": "What is the Liberalised Remittance Scheme (LRS) and what is the current limit?",
+    "excerpt": "Under LRS, all resident individuals can remit up to USD 2,50,000 per financial year for permissible current and capital account transactions such as e",
+    "url": "/resources/faq#faq-43",
+    "category": "fema"
+  },
+  {
+    "id": "faq-faq-44",
+    "type": "faq",
+    "title": "What are the FEMA compliance requirements for NRIs?",
+    "excerpt": "NRIs must maintain NRE/NRO accounts for Indian earnings and remittances. NRE accounts are freely repatriable and tax-exempt, while NRO accounts are ta",
+    "url": "/resources/faq#faq-44",
+    "category": "fema"
+  },
+  {
+    "id": "faq-faq-45",
+    "type": "faq",
+    "title": "What is Form 15CA and 15CB?",
+    "excerpt": "Form 15CA is an online declaration by the remitter filed on the income tax portal for any foreign remittance. Form 15CB is a certificate from a qualif",
+    "url": "/resources/faq#faq-45",
+    "category": "fema"
+  },
+  {
+    "id": "faq-faq-46",
+    "type": "faq",
+    "title": "What are the rules for Foreign Direct Investment (FDI) in India?",
+    "excerpt": "FDI is permitted in most sectors under the automatic route, while some sectors like defence, telecom, and insurance require government approval above ",
+    "url": "/resources/faq#faq-46",
+    "category": "fema"
+  },
+  {
+    "id": "faq-faq-47",
+    "type": "faq",
+    "title": "What is ODI (Overseas Direct Investment) and what are the compliance requirements?",
+    "excerpt": "Under FEMA ODI Regulations 2022, Indian residents can invest abroad in a foreign entity up to 400% of their net worth. Form ODI Part I must be filed w",
+    "url": "/resources/faq#faq-47",
+    "category": "fema"
+  },
+  {
+    "id": "faq-faq-48",
+    "type": "faq",
+    "title": "What is ECB (External Commercial Borrowing) under FEMA?",
+    "excerpt": "ECB allows Indian entities to borrow from foreign sources under the RBI's ECB framework. Track I covers medium-term borrowings (3-5 years) and Track I",
+    "url": "/resources/faq#faq-48",
+    "category": "fema"
+  },
+  {
+    "id": "faq-faq-49",
+    "type": "faq",
+    "title": "Can NRIs buy property in India under FEMA?",
+    "excerpt": "NRIs and OCIs can purchase residential and commercial property in India without RBI approval, but cannot buy agricultural land, plantation property, o",
+    "url": "/resources/faq#faq-49",
+    "category": "fema"
+  },
+  {
+    "id": "faq-faq-50",
+    "type": "faq",
+    "title": "What are the penalties for FEMA non-compliance?",
+    "excerpt": "FEMA violations can attract a penalty up to three times the sum involved, or Rs. 2 lakh where the amount is not quantifiable, under Section 13. For co",
+    "url": "/resources/faq#faq-50",
+    "category": "fema"
+  },
+  {
+    "id": "faq-faq-51",
+    "type": "faq",
+    "title": "What services does DRSPV & Associates offer?",
+    "excerpt": "DRSPV & Associates is a full-service Chartered Accountancy firm offering income tax planning and filing, GST registration and compliance, IPO readines",
+    "url": "/resources/faq#faq-51",
+    "category": "general"
+  },
+  {
+    "id": "faq-faq-52",
+    "type": "faq",
+    "title": "How do I engage DRSPV & Associates for tax filing?",
+    "excerpt": "You can reach out via WhatsApp, email, or our website contact form. After an initial consultation (free for individuals), our CAs will assess your req",
+    "url": "/resources/faq#faq-52",
+    "category": "general"
+  },
+  {
+    "id": "faq-faq-53",
+    "type": "faq",
+    "title": "Do you offer services for NRIs and overseas clients?",
+    "excerpt": "Yes, we serve NRIs and overseas clients across all time zones. Our services include NRI tax filing in India, DTAA benefit claims, FEMA compliance, rep",
+    "url": "/resources/faq#faq-53",
+    "category": "general"
+  },
+  {
+    "id": "faq-faq-54",
+    "type": "faq",
+    "title": "What documents do I need for income tax return filing?",
+    "excerpt": "For salaried individuals: Form 16, bank statements, investment proofs (80C, 80D), home loan certificate, rent receipts, and AIS/26AS. For business own",
+    "url": "/resources/faq#faq-54",
+    "category": "general"
+  },
+  {
+    "id": "faq-faq-55",
+    "type": "faq",
+    "title": "Do you handle tax notices and assessments?",
+    "excerpt": "Yes, our CAs handle all types of income tax notices including Section 143(1) intimations, Section 143(2) scrutiny notices, Section 148 reassessment no",
+    "url": "/resources/faq#faq-55",
+    "category": "general"
+  },
+  {
+    "id": "faq-faq-56",
+    "type": "faq",
+    "title": "What are your fees for CA services?",
+    "excerpt": "Our fees vary based on the complexity and scope of work. Individual ITR filing starts from Rs. 1,500. Business tax filing, GST compliance, and audit e",
+    "url": "/resources/faq#faq-56",
+    "category": "general"
+  },
+  {
+    "id": "glossary-term-001",
+    "type": "glossary",
+    "title": "AIS (Annual Information Statement)",
+    "excerpt": "A comprehensive statement available on the income tax e-filing portal that consolidates all financial transactions reported by banks, mutual funds, st",
+    "url": "/resources/glossary#ais-(annual-information-statement)"
+  },
+  {
+    "id": "glossary-term-002",
+    "type": "glossary",
+    "title": "Advance Tax",
+    "excerpt": "Tax paid in instalments during the financial year by taxpayers whose estimated tax liability exceeds Rs. 10,000. Due dates are 15th June (15%), 15th S",
+    "url": "/resources/glossary#advance-tax"
+  },
+  {
+    "id": "glossary-term-003",
+    "type": "glossary",
+    "title": "AOP (Association of Persons)",
+    "excerpt": "A group of individuals or entities that come together for a common purpose to earn income. An AOP is a separate taxable entity under the Income Tax Ac",
+    "url": "/resources/glossary#aop-(association-of-persons)"
+  },
+  {
+    "id": "glossary-term-004",
+    "type": "glossary",
+    "title": "Assessment Year (AY)",
+    "excerpt": "The year following the financial year in which income is assessed and tax returns are filed. For income earned during FY 2024-25 (1st April 2024 to 31",
+    "url": "/resources/glossary#assessment-year-(ay)"
+  },
+  {
+    "id": "glossary-term-005",
+    "type": "glossary",
+    "title": "Audit Report",
+    "excerpt": "A formal opinion issued by a Chartered Accountant on the financial statements of an entity. Tax audit report (Form 3CD) is filed under Section 44AB. S",
+    "url": "/resources/glossary#audit-report"
+  },
+  {
+    "id": "glossary-term-006",
+    "type": "glossary",
+    "title": "AD Bank (Authorised Dealer Bank)",
+    "excerpt": "A bank authorised by the Reserve Bank of India to deal in foreign exchange under FEMA. AD Category I banks handle all current and capital account tran",
+    "url": "/resources/glossary#ad-bank-(authorised-dealer-bank)"
+  },
+  {
+    "id": "glossary-term-007",
+    "type": "glossary",
+    "title": "Balance Sheet",
+    "excerpt": "A financial statement that shows the assets, liabilities, and equity of a business at a specific point in time. It follows the equation: Assets = Liab",
+    "url": "/resources/glossary#balance-sheet"
+  },
+  {
+    "id": "glossary-term-008",
+    "type": "glossary",
+    "title": "BOI (Body of Individuals)",
+    "excerpt": "A group consisting only of individuals (not other entities like companies or firms) who join together for a common purpose to earn income. Similar to ",
+    "url": "/resources/glossary#boi-(body-of-individuals)"
+  },
+  {
+    "id": "glossary-term-009",
+    "type": "glossary",
+    "title": "Book Profit",
+    "excerpt": "Net profit as shown in the profit and loss account prepared in accordance with Schedule III of the Companies Act, adjusted as per Section 115JB for MA",
+    "url": "/resources/glossary#book-profit"
+  },
+  {
+    "id": "glossary-term-010",
+    "type": "glossary",
+    "title": "Business Income",
+    "excerpt": "Income earned from carrying on a business or profession, computed under the head 'Profits and Gains of Business or Profession' under Sections 28-44. D",
+    "url": "/resources/glossary#business-income"
+  },
+  {
+    "id": "glossary-term-011",
+    "type": "glossary",
+    "title": "Capital Gains",
+    "excerpt": "Profit arising from the transfer (sale, exchange, or compulsory acquisition) of a capital asset. Short-term capital gains apply if the asset is held f",
+    "url": "/resources/glossary#capital-gains"
+  },
+  {
+    "id": "glossary-term-012",
+    "type": "glossary",
+    "title": "CGST (Central Goods and Services Tax)",
+    "excerpt": "The central component of GST levied on intra-state supply of goods and services under the CGST Act, 2017. CGST is collected by the Central Government ",
+    "url": "/resources/glossary#cgst-(central-goods-and-services-tax)"
+  },
+  {
+    "id": "glossary-term-013",
+    "type": "glossary",
+    "title": "CIT (Commissioner of Income Tax)",
+    "excerpt": "A senior officer in the Income Tax Department who oversees the administration of income tax in a designated jurisdiction. CIT(Appeals) is the first ap",
+    "url": "/resources/glossary#cit-(commissioner-of-income-tax)"
+  },
+  {
+    "id": "glossary-term-014",
+    "type": "glossary",
+    "title": "Companies Act, 2013",
+    "excerpt": "The principal legislation governing incorporation, management, and dissolution of companies in India. It prescribes requirements for annual filings (A",
+    "url": "/resources/glossary#companies-act,-2013"
+  },
+  {
+    "id": "glossary-term-015",
+    "type": "glossary",
+    "title": "Compounding (FEMA)",
+    "excerpt": "A process under Section 15 of FEMA that allows a person who has contravened FEMA provisions to apply for settlement by paying a compounding fee. RBI h",
+    "url": "/resources/glossary#compounding-(fema)"
+  },
+  {
+    "id": "glossary-term-016",
+    "type": "glossary",
+    "title": "DRHP (Draft Red Herring Prospectus)",
+    "excerpt": "The preliminary offer document filed by a company with SEBI before an IPO. It contains all material information about the company, its financials, ris",
+    "url": "/resources/glossary#drhp-(draft-red-herring-prospectus)"
+  },
+  {
+    "id": "glossary-term-017",
+    "type": "glossary",
+    "title": "DTAA (Double Taxation Avoidance Agreement)",
+    "excerpt": "A bilateral treaty between India and another country to prevent the same income from being taxed in both countries. India has DTAAs with over 90 count",
+    "url": "/resources/glossary#dtaa-(double-taxation-avoidance-agreement)"
+  },
+  {
+    "id": "glossary-term-018",
+    "type": "glossary",
+    "title": "Depreciation",
+    "excerpt": "The systematic allocation of the cost of a tangible or intangible asset over its useful life. Under the Income Tax Act, depreciation is allowed under ",
+    "url": "/resources/glossary#depreciation"
+  },
+  {
+    "id": "glossary-term-019",
+    "type": "glossary",
+    "title": "DIN (Director Identification Number)",
+    "excerpt": "A unique identification number allotted to individuals appointed as directors of a company. Application is made through Form DIR-3 via the MCA portal.",
+    "url": "/resources/glossary#din-(director-identification-number)"
+  },
+  {
+    "id": "glossary-term-020",
+    "type": "glossary",
+    "title": "Deemed Dividend",
+    "excerpt": "Under Section 2(22)(e), loans or advances given by a closely-held company to its shareholders holding 10% or more voting power are treated as deemed d",
+    "url": "/resources/glossary#deemed-dividend"
+  },
+  {
+    "id": "glossary-term-021",
+    "type": "glossary",
+    "title": "ECB (External Commercial Borrowing)",
+    "excerpt": "Borrowings by Indian entities from foreign lenders in foreign currency under the RBI's ECB framework regulated by FEMA. ECB can be raised under the au",
+    "url": "/resources/glossary#ecb-(external-commercial-borrowing)"
+  },
+  {
+    "id": "glossary-term-022",
+    "type": "glossary",
+    "title": "ELSS (Equity Linked Savings Scheme)",
+    "excerpt": "A type of mutual fund that qualifies for deduction under Section 80C of the Income Tax Act. ELSS has a mandatory lock-in period of 3 years (shortest a",
+    "url": "/resources/glossary#elss-(equity-linked-savings-scheme)"
+  },
+  {
+    "id": "glossary-term-023",
+    "type": "glossary",
+    "title": "E-Invoice",
+    "excerpt": "An electronically generated invoice registered on the Invoice Registration Portal (IRP) under GST. Mandatory for businesses with aggregate turnover ex",
+    "url": "/resources/glossary#e-invoice"
+  },
+  {
+    "id": "glossary-term-024",
+    "type": "glossary",
+    "title": "E-Way Bill",
+    "excerpt": "An electronic document generated on the e-Way Bill portal for movement of goods worth more than Rs. 50,000 under GST. It contains details of the consi",
+    "url": "/resources/glossary#e-way-bill"
+  },
+  {
+    "id": "glossary-term-025",
+    "type": "glossary",
+    "title": "Equity Shares",
+    "excerpt": "Shares representing ownership interest in a company, entitling holders to voting rights and dividends. Equity shares carry the highest risk but also t",
+    "url": "/resources/glossary#equity-shares"
+  },
+  {
+    "id": "glossary-term-026",
+    "type": "glossary",
+    "title": "FEMA (Foreign Exchange Management Act, 1999)",
+    "excerpt": "The primary legislation governing foreign exchange transactions in India, replacing FERA. FEMA regulates current account transactions (trade, services",
+    "url": "/resources/glossary#fema-(foreign-exchange-management-act,-1999)"
+  },
+  {
+    "id": "glossary-term-027",
+    "type": "glossary",
+    "title": "Form 16",
+    "excerpt": "A TDS certificate issued by an employer to an employee under Section 203, containing details of salary paid, deductions allowed, and tax deducted at s",
+    "url": "/resources/glossary#form-16"
+  },
+  {
+    "id": "glossary-term-028",
+    "type": "glossary",
+    "title": "Form 26AS",
+    "excerpt": "The Annual Tax Statement containing details of TDS/TCS credited to the taxpayer's PAN, advance tax and self-assessment tax paid, refunds issued, and h",
+    "url": "/resources/glossary#form-26as"
+  },
+  {
+    "id": "glossary-term-029",
+    "type": "glossary",
+    "title": "FPI (Foreign Portfolio Investor)",
+    "excerpt": "An entity registered with SEBI under the FPI Regulations that invests in Indian securities (equity, debt, derivatives) through the portfolio route. FP",
+    "url": "/resources/glossary#fpi-(foreign-portfolio-investor)"
+  },
+  {
+    "id": "glossary-term-030",
+    "type": "glossary",
+    "title": "FDI (Foreign Direct Investment)",
+    "excerpt": "Investment by a non-resident entity in the equity instruments of an Indian company under the automatic or government approval route, regulated by FEMA",
+    "url": "/resources/glossary#fdi-(foreign-direct-investment)"
+  },
+  {
+    "id": "glossary-term-031",
+    "type": "glossary",
+    "title": "Financial Year (FY)",
+    "excerpt": "The 12-month accounting period from 1st April to 31st March used for income computation and tax assessment in India. Also known as the 'previous year'",
+    "url": "/resources/glossary#financial-year-(fy)"
+  },
+  {
+    "id": "glossary-term-032",
+    "type": "glossary",
+    "title": "Form 3CD",
+    "excerpt": "The tax audit report format prescribed under Section 44AB containing detailed information about the taxpayer's business operations, accounting policie",
+    "url": "/resources/glossary#form-3cd"
+  },
+  {
+    "id": "glossary-term-033",
+    "type": "glossary",
+    "title": "GST (Goods and Services Tax)",
+    "excerpt": "India's comprehensive indirect tax on supply of goods and services, implemented from 1st July 2017, replacing multiple central and state taxes. GST op",
+    "url": "/resources/glossary#gst-(goods-and-services-tax)"
+  },
+  {
+    "id": "glossary-term-034",
+    "type": "glossary",
+    "title": "GSTIN (Goods and Services Tax Identification Number)",
+    "excerpt": "A 15-digit unique identification number assigned to every registered GST taxpayer. The format is: 2 digits state code + 10 digits PAN + 1 digit entity",
+    "url": "/resources/glossary#gstin-(goods-and-services-tax-identification-number)"
+  },
+  {
+    "id": "glossary-term-035",
+    "type": "glossary",
+    "title": "GSTR-1",
+    "excerpt": "A monthly or quarterly GST return containing details of all outward supplies (sales) including B2B invoices, B2C large invoices, exports, credit/debit",
+    "url": "/resources/glossary#gstr-1"
+  },
+  {
+    "id": "glossary-term-036",
+    "type": "glossary",
+    "title": "GSTR-3B",
+    "excerpt": "A monthly or quarterly summary return for payment of GST liability. It contains consolidated details of outward and inward supplies, ITC claimed, and ",
+    "url": "/resources/glossary#gstr-3b"
+  },
+  {
+    "id": "glossary-term-037",
+    "type": "glossary",
+    "title": "GSTR-9",
+    "excerpt": "The annual return under GST to be filed by regular taxpayers with aggregate turnover exceeding Rs. 2 crore, by 31st December of the following year. It",
+    "url": "/resources/glossary#gstr-9"
+  },
+  {
+    "id": "glossary-term-038",
+    "type": "glossary",
+    "title": "HRA (House Rent Allowance)",
+    "excerpt": "An allowance paid by employers to employees to meet rental expenses. Exemption under Section 10(13A) is the minimum of: actual HRA received, 50% of ba",
+    "url": "/resources/glossary#hra-(house-rent-allowance)"
+  },
+  {
+    "id": "glossary-term-039",
+    "type": "glossary",
+    "title": "HUF (Hindu Undivided Family)",
+    "excerpt": "A separate taxable entity under Indian tax law consisting of a common ancestor and all lineal descendants along with their wives and unmarried daughte",
+    "url": "/resources/glossary#huf-(hindu-undivided-family)"
+  },
+  {
+    "id": "glossary-term-040",
+    "type": "glossary",
+    "title": "HSN Code (Harmonized System of Nomenclature)",
+    "excerpt": "An internationally standardized system of numbers used to classify traded products. Under GST, HSN codes are used to classify goods for determining th",
+    "url": "/resources/glossary#hsn-code-(harmonized-system-of-nomenclature)"
+  },
+  {
+    "id": "glossary-term-041",
+    "type": "glossary",
+    "title": "IGST (Integrated Goods and Services Tax)",
+    "excerpt": "GST levied on inter-state supply of goods and services and on imports under the IGST Act, 2017. IGST is collected by the Central Government and subseq",
+    "url": "/resources/glossary#igst-(integrated-goods-and-services-tax)"
+  },
+  {
+    "id": "glossary-term-042",
+    "type": "glossary",
+    "title": "ITR (Income Tax Return)",
+    "excerpt": "The annual return filed by taxpayers with the Income Tax Department declaring total income and tax liability for a financial year. Different ITR forms",
+    "url": "/resources/glossary#itr-(income-tax-return)"
+  },
+  {
+    "id": "glossary-term-043",
+    "type": "glossary",
+    "title": "ITC (Input Tax Credit)",
+    "excerpt": "The credit of GST paid on inputs (raw materials, services, capital goods) that a registered taxpayer can claim against output GST liability. ITC is av",
+    "url": "/resources/glossary#itc-(input-tax-credit)"
+  },
+  {
+    "id": "glossary-term-044",
+    "type": "glossary",
+    "title": "Ind-AS (Indian Accounting Standards)",
+    "excerpt": "A set of accounting standards converged with IFRS, applicable to listed companies, companies with net worth above Rs. 250 crore, and their holding/sub",
+    "url": "/resources/glossary#ind-as-(indian-accounting-standards)"
+  },
+  {
+    "id": "glossary-term-045",
+    "type": "glossary",
+    "title": "Indexation",
+    "excerpt": "A method of adjusting the purchase price of a capital asset for inflation using the Cost Inflation Index (CII) notified by the government, to compute ",
+    "url": "/resources/glossary#indexation"
+  },
+  {
+    "id": "glossary-term-046",
+    "type": "glossary",
+    "title": "IPO (Initial Public Offering)",
+    "excerpt": "The first sale of shares by a private company to the public, regulated by SEBI under the ICDR Regulations. The process involves filing DRHP with SEBI,",
+    "url": "/resources/glossary#ipo-(initial-public-offering)"
+  },
+  {
+    "id": "glossary-term-047",
+    "type": "glossary",
+    "title": "LRS (Liberalised Remittance Scheme)",
+    "excerpt": "An RBI scheme allowing resident individuals to remit up to USD 2,50,000 per financial year for permissible current and capital account transactions in",
+    "url": "/resources/glossary#lrs-(liberalised-remittance-scheme)"
+  },
+  {
+    "id": "glossary-term-048",
+    "type": "glossary",
+    "title": "LLP (Limited Liability Partnership)",
+    "excerpt": "A business structure that combines the flexibility of a partnership with the limited liability protection of a company, governed by the LLP Act, 2008.",
+    "url": "/resources/glossary#llp-(limited-liability-partnership)"
+  },
+  {
+    "id": "glossary-term-049",
+    "type": "glossary",
+    "title": "LTCG (Long-Term Capital Gains)",
+    "excerpt": "Capital gains arising from the transfer of a long-term capital asset. From FY 2024-25, LTCG on listed equity shares and equity mutual funds is taxed a",
+    "url": "/resources/glossary#ltcg-(long-term-capital-gains)"
+  },
+  {
+    "id": "glossary-term-050",
+    "type": "glossary",
+    "title": "LUT (Letter of Undertaking)",
+    "excerpt": "A declaration filed by an exporter on the GST portal in Form GST RFD-11, undertaking to export goods/services without payment of IGST. Filing LUT is a",
+    "url": "/resources/glossary#lut-(letter-of-undertaking)"
+  },
+  {
+    "id": "glossary-term-051",
+    "type": "glossary",
+    "title": "MAT (Minimum Alternate Tax)",
+    "excerpt": "A minimum tax of 15% on book profit applicable to companies whose regular tax liability is lower than MAT, computed under Section 115JB. MAT credit (e",
+    "url": "/resources/glossary#mat-(minimum-alternate-tax)"
+  },
+  {
+    "id": "glossary-term-052",
+    "type": "glossary",
+    "title": "MCA (Ministry of Corporate Affairs)",
+    "excerpt": "The government ministry responsible for administration of the Companies Act, 2013 and LLP Act, 2008. MCA operates the MCA21 portal for company incorpo",
+    "url": "/resources/glossary#mca-(ministry-of-corporate-affairs)"
+  },
+  {
+    "id": "glossary-term-053",
+    "type": "glossary",
+    "title": "MSME (Micro, Small and Medium Enterprises)",
+    "excerpt": "Enterprises classified based on investment in plant and machinery and annual turnover under the MSMED Act, 2006. Micro: investment up to Rs. 1 crore a",
+    "url": "/resources/glossary#msme-(micro,-small-and-medium-enterprises)"
+  },
+  {
+    "id": "glossary-term-054",
+    "type": "glossary",
+    "title": "NRI (Non-Resident Indian)",
+    "excerpt": "An Indian citizen or person of Indian origin who is not a resident of India for income tax purposes. Under Section 6, a person is NRI if they are in I",
+    "url": "/resources/glossary#nri-(non-resident-indian)"
+  },
+  {
+    "id": "glossary-term-055",
+    "type": "glossary",
+    "title": "NRO Account (Non-Resident Ordinary Account)",
+    "excerpt": "A bank account maintained by NRIs in India for depositing income earned in India such as rent, dividends, and pension. NRO accounts are denominated in",
+    "url": "/resources/glossary#nro-account-(non-resident-ordinary-account)"
+  },
+  {
+    "id": "glossary-term-056",
+    "type": "glossary",
+    "title": "NRE Account (Non-Resident External Account)",
+    "excerpt": "A bank account for NRIs to deposit foreign earnings in India. NRE accounts are maintained in Indian rupees, and both the principal and interest are fr",
+    "url": "/resources/glossary#nre-account-(non-resident-external-account)"
+  },
+  {
+    "id": "glossary-term-057",
+    "type": "glossary",
+    "title": "ODI (Overseas Direct Investment)",
+    "excerpt": "Investment by an Indian resident in the equity of a foreign entity, regulated by FEMA ODI Regulations, 2022. Indian entities can invest up to 400% of ",
+    "url": "/resources/glossary#odi-(overseas-direct-investment)"
+  },
+  {
+    "id": "glossary-term-058",
+    "type": "glossary",
+    "title": "OCI (Overseas Citizen of India)",
+    "excerpt": "A status granted to foreign nationals of Indian origin or spouses of Indian citizens, providing them with multiple entry, multi-purpose lifelong visa ",
+    "url": "/resources/glossary#oci-(overseas-citizen-of-india)"
+  },
+  {
+    "id": "glossary-term-059",
+    "type": "glossary",
+    "title": "PAN (Permanent Account Number)",
+    "excerpt": "A 10-character alphanumeric identifier issued by the Income Tax Department to all taxpayers in India. PAN is mandatory for filing ITR, opening bank ac",
+    "url": "/resources/glossary#pan-(permanent-account-number)"
+  },
+  {
+    "id": "glossary-term-060",
+    "type": "glossary",
+    "title": "PFMS (Public Financial Management System)",
+    "excerpt": "A web-based application of the Government of India that tracks fund flow to implementing agencies for government schemes. For taxpayers, PFMS is relev",
+    "url": "/resources/glossary#pfms-(public-financial-management-system)"
+  },
+  {
+    "id": "glossary-term-061",
+    "type": "glossary",
+    "title": "Previous Year",
+    "excerpt": "The financial year (1st April to 31st March) in which income is earned. Under the Income Tax Act, income of the previous year is taxed in the immediat",
+    "url": "/resources/glossary#previous-year"
+  },
+  {
+    "id": "glossary-term-062",
+    "type": "glossary",
+    "title": "Presumptive Taxation",
+    "excerpt": "A simplified scheme under Sections 44AD, 44ADA, and 44AE allowing eligible small businesses and professionals to declare a prescribed percentage of tu",
+    "url": "/resources/glossary#presumptive-taxation"
+  },
+  {
+    "id": "glossary-term-063",
+    "type": "glossary",
+    "title": "QIB (Qualified Institutional Buyer)",
+    "excerpt": "Institutional investors such as mutual funds, insurance companies, FPIs, scheduled commercial banks, and pension funds that are eligible to participat",
+    "url": "/resources/glossary#qib-(qualified-institutional-buyer)"
+  },
+  {
+    "id": "glossary-term-064",
+    "type": "glossary",
+    "title": "QRMP Scheme",
+    "excerpt": "The Quarterly Return Monthly Payment scheme under GST for taxpayers with aggregate turnover up to Rs. 5 crore. Under QRMP, GSTR-1 and GSTR-3B are file",
+    "url": "/resources/glossary#qrmp-scheme"
+  },
+  {
+    "id": "glossary-term-065",
+    "type": "glossary",
+    "title": "RBI (Reserve Bank of India)",
+    "excerpt": "India's central bank responsible for monetary policy, currency issuance, and regulation of foreign exchange under FEMA. RBI issues circulars and maste",
+    "url": "/resources/glossary#rbi-(reserve-bank-of-india)"
+  },
+  {
+    "id": "glossary-term-066",
+    "type": "glossary",
+    "title": "RoC (Registrar of Companies)",
+    "excerpt": "The office under MCA responsible for registering companies and LLPs, maintaining the public register, and ensuring compliance with the Companies Act, ",
+    "url": "/resources/glossary#roc-(registrar-of-companies)"
+  },
+  {
+    "id": "glossary-term-067",
+    "type": "glossary",
+    "title": "RHP (Red Herring Prospectus)",
+    "excerpt": "The offer document filed with the Registrar of Companies after receiving SEBI observations on the DRHP. The RHP includes the price band for the IPO bu",
+    "url": "/resources/glossary#rhp-(red-herring-prospectus)"
+  },
+  {
+    "id": "glossary-term-068",
+    "type": "glossary",
+    "title": "Reverse Charge Mechanism (RCM)",
+    "excerpt": "A GST mechanism under Section 9(3) and 9(4) where the recipient of goods or services pays the tax instead of the supplier. RCM applies on specified ca",
+    "url": "/resources/glossary#reverse-charge-mechanism-(rcm)"
+  },
+  {
+    "id": "glossary-term-069",
+    "type": "glossary",
+    "title": "RNOR (Resident but Not Ordinarily Resident)",
+    "excerpt": "A residential status under Section 6 where a person is resident in India but has been NRI in 9 out of 10 preceding years or in India for 729 days or l",
+    "url": "/resources/glossary#rnor-(resident-but-not-ordinarily-resident)"
+  },
+  {
+    "id": "glossary-term-070",
+    "type": "glossary",
+    "title": "SEBI (Securities and Exchange Board of India)",
+    "excerpt": "The statutory regulator for the securities market in India, established under the SEBI Act, 1992. SEBI regulates IPOs through ICDR Regulations, listed",
+    "url": "/resources/glossary#sebi-(securities-and-exchange-board-of-india)"
+  },
+  {
+    "id": "glossary-term-071",
+    "type": "glossary",
+    "title": "SGST (State Goods and Services Tax)",
+    "excerpt": "The state component of GST levied on intra-state supply of goods and services under the respective State GST Acts. SGST is collected by the State Gove",
+    "url": "/resources/glossary#sgst-(state-goods-and-services-tax)"
+  },
+  {
+    "id": "glossary-term-072",
+    "type": "glossary",
+    "title": "Section 80C",
+    "excerpt": "A deduction provision under the Income Tax Act allowing taxpayers to claim up to Rs. 1,50,000 for investments in PPF, EPF, ELSS, NSC, 5-year FD, life ",
+    "url": "/resources/glossary#section-80c"
+  },
+  {
+    "id": "glossary-term-073",
+    "type": "glossary",
+    "title": "Self-Assessment Tax",
+    "excerpt": "The balance tax paid by the taxpayer before filing the ITR after adjusting TDS, TCS, advance tax, and MAT credit. It is paid using Challan 280 (now th",
+    "url": "/resources/glossary#self-assessment-tax"
+  },
+  {
+    "id": "glossary-term-074",
+    "type": "glossary",
+    "title": "STCG (Short-Term Capital Gains)",
+    "excerpt": "Capital gains arising from the transfer of a short-term capital asset (held for less than the specified period). STCG on listed equity shares (where S",
+    "url": "/resources/glossary#stcg-(short-term-capital-gains)"
+  },
+  {
+    "id": "glossary-term-075",
+    "type": "glossary",
+    "title": "STT (Securities Transaction Tax)",
+    "excerpt": "A tax levied on purchase and sale of securities listed on recognized stock exchanges in India. STT on equity delivery is 0.1% on both buy and sell sid",
+    "url": "/resources/glossary#stt-(securities-transaction-tax)"
+  },
+  {
+    "id": "glossary-term-076",
+    "type": "glossary",
+    "title": "Supply (GST)",
+    "excerpt": "The taxable event under GST, defined under Section 7 as all forms of supply of goods or services including sale, transfer, barter, exchange, license, ",
+    "url": "/resources/glossary#supply-(gst)"
+  },
+  {
+    "id": "glossary-term-077",
+    "type": "glossary",
+    "title": "TAN (Tax Deduction and Collection Account Number)",
+    "excerpt": "A 10-digit alphanumeric number required to be obtained by all persons responsible for deducting or collecting tax at source. TAN must be quoted in TDS",
+    "url": "/resources/glossary#tan-(tax-deduction-and-collection-account-number)"
+  },
+  {
+    "id": "glossary-term-078",
+    "type": "glossary",
+    "title": "TDS (Tax Deducted at Source)",
+    "excerpt": "A mechanism under the Income Tax Act where the payer deducts tax at prescribed rates from specified payments (salary, interest, rent, professional fee",
+    "url": "/resources/glossary#tds-(tax-deducted-at-source)"
+  },
+  {
+    "id": "glossary-term-079",
+    "type": "glossary",
+    "title": "TCS (Tax Collected at Source)",
+    "excerpt": "A mechanism under Section 206C where the seller collects tax from the buyer at specified rates on sale of certain goods (timber, scrap, minerals, moto",
+    "url": "/resources/glossary#tcs-(tax-collected-at-source)"
+  },
+  {
+    "id": "glossary-term-080",
+    "type": "glossary",
+    "title": "TIS (Taxpayer Information Summary)",
+    "excerpt": "A derived summary from the AIS showing aggregated values of financial transactions reported against a taxpayer's PAN. TIS categorizes transactions and",
+    "url": "/resources/glossary#tis-(taxpayer-information-summary)"
+  },
+  {
+    "id": "glossary-term-081",
+    "type": "glossary",
+    "title": "Tax Audit",
+    "excerpt": "An audit of accounts mandated under Section 44AB for businesses with turnover above Rs. 1 crore (Rs. 10 crore if 95%+ digital transactions) and profes",
+    "url": "/resources/glossary#tax-audit"
+  },
+  {
+    "id": "glossary-term-082",
+    "type": "glossary",
+    "title": "Transfer Pricing",
+    "excerpt": "Pricing of transactions between associated enterprises (related parties across borders) governed by Sections 92-92F of the Income Tax Act. Indian tran",
+    "url": "/resources/glossary#transfer-pricing"
+  },
+  {
+    "id": "glossary-term-083",
+    "type": "glossary",
+    "title": "TRC (Tax Residency Certificate)",
+    "excerpt": "A certificate issued by the tax authority of a country confirming the tax residency of a person in that country. Required to claim benefits under DTAA",
+    "url": "/resources/glossary#trc-(tax-residency-certificate)"
+  },
+  {
+    "id": "glossary-term-084",
+    "type": "glossary",
+    "title": "ULIP (Unit Linked Insurance Plan)",
+    "excerpt": "An insurance product that combines life insurance with investment. Premiums paid qualify for Section 80C deduction up to Rs. 1,50,000 under the old re",
+    "url": "/resources/glossary#ulip-(unit-linked-insurance-plan)"
+  },
+  {
+    "id": "glossary-term-085",
+    "type": "glossary",
+    "title": "Udyam Registration",
+    "excerpt": "The online registration system for MSMEs in India, replacing the earlier Udyog Aadhaar system. Registration is based on self-declaration of investment",
+    "url": "/resources/glossary#udyam-registration"
+  },
+  {
+    "id": "glossary-term-086",
+    "type": "glossary",
+    "title": "UTGST (Union Territory Goods and Services Tax)",
+    "excerpt": "GST levied on intra-UT supply of goods and services in Union Territories without a legislature (Andaman and Nicobar, Chandigarh, Dadra and Nagar Havel",
+    "url": "/resources/glossary#utgst-(union-territory-goods-and-services-tax)"
+  },
+  {
+    "id": "glossary-term-087",
+    "type": "glossary",
+    "title": "VDA (Virtual Digital Asset)",
+    "excerpt": "Defined under Section 2(47A) of the Income Tax Act to include cryptocurrency, NFTs, and any digital asset notified by the government. Gains from trans",
+    "url": "/resources/glossary#vda-(virtual-digital-asset)"
+  },
+  {
+    "id": "glossary-term-088",
+    "type": "glossary",
+    "title": "Voluntary Compliance Encouragement Scheme",
+    "excerpt": "Government schemes introduced periodically to encourage taxpayers to voluntarily declare undisclosed income or comply with pending obligations. Past s",
+    "url": "/resources/glossary#voluntary-compliance-encouragement-scheme"
+  },
+  {
+    "id": "glossary-term-089",
+    "type": "glossary",
+    "title": "Withholding Tax",
+    "excerpt": "Tax deducted at source from payments made to non-residents under Section 195, at rates prescribed under the Income Tax Act or the applicable DTAA, whi",
+    "url": "/resources/glossary#withholding-tax"
+  },
+  {
+    "id": "glossary-term-090",
+    "type": "glossary",
+    "title": "WDV (Written Down Value)",
+    "excerpt": "The method of depreciation used under the Income Tax Act where depreciation is calculated on the reducing balance of the asset block. WDV = Opening WD",
+    "url": "/resources/glossary#wdv-(written-down-value)"
+  },
+  {
+    "id": "glossary-term-091",
+    "type": "glossary",
+    "title": "Zero-Rated Supply",
+    "excerpt": "Under GST, exports of goods or services and supplies to SEZ are classified as zero-rated supplies under Section 16 of the IGST Act. The supplier can e",
+    "url": "/resources/glossary#zero-rated-supply"
+  },
+  {
+    "id": "glossary-term-092",
+    "type": "glossary",
+    "title": "Aadhaar-PAN Linking",
+    "excerpt": "Mandatory linking of Aadhaar number with PAN as per Section 139AA. PAN becomes inoperative if not linked with Aadhaar by the prescribed deadline. Link",
+    "url": "/resources/glossary#aadhaar-pan-linking"
+  },
+  {
+    "id": "glossary-term-093",
+    "type": "glossary",
+    "title": "Belated Return",
+    "excerpt": "An ITR filed after the due date but before 31st December of the assessment year under Section 139(4). A belated return attracts late filing fee under ",
+    "url": "/resources/glossary#belated-return"
+  },
+  {
+    "id": "glossary-term-094",
+    "type": "glossary",
+    "title": "CPC (Centralized Processing Centre)",
+    "excerpt": "The income tax CPC in Bengaluru processes all electronically filed ITRs, issues refunds, generates intimations under Section 143(1), and processes TDS",
+    "url": "/resources/glossary#cpc-(centralized-processing-centre)"
+  },
+  {
+    "id": "glossary-term-095",
+    "type": "glossary",
+    "title": "DPIIT (Department for Promotion of Industry and Internal Trade)",
+    "excerpt": "A department under the Ministry of Commerce and Industry that administers FDI policy in India. DPIIT issues the Consolidated FDI Policy and processes ",
+    "url": "/resources/glossary#dpiit-(department-for-promotion-of-industry-and-internal-trade)"
+  },
+  {
+    "id": "glossary-term-096",
+    "type": "glossary",
+    "title": "Equalisation Levy",
+    "excerpt": "A tax on digital transactions: 6% on online advertising services paid to non-resident tech companies (Section 165 of Finance Act, 2016). The 2% equali",
+    "url": "/resources/glossary#equalisation-levy"
+  },
+  {
+    "id": "glossary-term-097",
+    "type": "glossary",
+    "title": "FCNR Account (Foreign Currency Non-Resident Account)",
+    "excerpt": "A term deposit account maintained by NRIs in foreign currency (USD, GBP, EUR, JPY, CAD, AUD). FCNR deposits have a maturity of 1-5 years. Both princip",
+    "url": "/resources/glossary#fcnr-account-(foreign-currency-non-resident-account)"
+  },
+  {
+    "id": "glossary-term-098",
+    "type": "glossary",
+    "title": "GST Council",
+    "excerpt": "A constitutional body under Article 279A comprising the Union Finance Minister (Chair), Union Minister of State for Finance, and Finance Ministers of ",
+    "url": "/resources/glossary#gst-council"
+  },
+  {
+    "id": "glossary-term-099",
+    "type": "glossary",
+    "title": "ITAT (Income Tax Appellate Tribunal)",
+    "excerpt": "The second appellate authority for income tax disputes, after CIT(Appeals). ITAT is a quasi-judicial body that hears appeals from orders of CIT(A) and",
+    "url": "/resources/glossary#itat-(income-tax-appellate-tribunal)"
+  },
+  {
+    "id": "glossary-term-100",
+    "type": "glossary",
+    "title": "ICDR Regulations (SEBI Issue of Capital and Disclosure Requirements)",
+    "excerpt": "SEBI regulations governing the issuance of securities to the public, including IPOs, FPOs, rights issues, and preferential allotments. ICDR prescribes",
+    "url": "/resources/glossary#icdr-regulations-(sebi-issue-of-capital-and-disclosure-requirements)"
+  },
+  {
+    "id": "glossary-term-101",
+    "type": "glossary",
+    "title": "LODR Regulations (SEBI Listing Obligations and Disclosure Requirements)",
+    "excerpt": "SEBI regulations governing the obligations of listed companies and stock exchanges. LODR prescribes periodic filing requirements (quarterly results, c",
+    "url": "/resources/glossary#lodr-regulations-(sebi-listing-obligations-and-disclosure-requirements)"
+  },
+  {
+    "id": "glossary-term-102",
+    "type": "glossary",
+    "title": "Net Worth",
+    "excerpt": "The aggregate value of paid-up share capital plus free reserves minus accumulated losses, deferred expenditure, and miscellaneous expenditure. Under F",
+    "url": "/resources/glossary#net-worth"
+  },
+  {
+    "id": "glossary-term-103",
+    "type": "glossary",
+    "title": "SAC Code (Services Accounting Code)",
+    "excerpt": "A classification code used under GST to identify and categorize services for determining the applicable GST rate. SAC codes are 6-digit codes based on",
+    "url": "/resources/glossary#sac-code-(services-accounting-code)"
+  },
+  {
+    "id": "glossary-term-104",
+    "type": "glossary",
+    "title": "Schedule FA (Foreign Assets)",
+    "excerpt": "A schedule in the income tax return (ITR-2, ITR-3) where resident and ordinarily resident taxpayers must disclose details of all foreign assets and in",
+    "url": "/resources/glossary#schedule-fa-(foreign-assets)"
+  },
+  {
+    "id": "glossary-term-105",
+    "type": "glossary",
+    "title": "FC-GPR (Foreign Currency - Gross Provisional Return)",
+    "excerpt": "A form filed with RBI through the AD bank within 30 days of allotment of equity instruments to a non-resident under FDI. FC-GPR reports details of the",
+    "url": "/resources/glossary#fc-gpr-(foreign-currency---gross-provisional-return)"
+  },
+  {
+    "id": "glossary-term-106",
+    "type": "glossary",
+    "title": "SEZ (Special Economic Zone)",
+    "excerpt": "A designated area providing tax incentives and simplified regulatory framework for export-oriented businesses under the SEZ Act, 2005. SEZ units enjoy",
+    "url": "/resources/glossary#sez-(special-economic-zone)"
+  },
+  {
+    "id": "glossary-term-107",
+    "type": "glossary",
+    "title": "AMT (Alternate Minimum Tax)",
+    "excerpt": "A minimum tax of 18.5% on adjusted total income applicable to non-corporate taxpayers (individuals, HUFs, firms, LLPs, AOPs) claiming deductions under",
+    "url": "/resources/glossary#amt-(alternate-minimum-tax)"
+  },
+  {
+    "id": "glossary-term-108",
+    "type": "glossary",
+    "title": "Challan 280",
+    "excerpt": "The challan used for payment of advance tax, self-assessment tax, tax on regular assessment, and surcharge under the Income Tax Act. Payments are now ",
+    "url": "/resources/glossary#challan-280"
+  },
+  {
+    "id": "glossary-term-109",
+    "type": "glossary",
+    "title": "DSC (Digital Signature Certificate)",
+    "excerpt": "An electronic equivalent of a physical signature used for online filing of ITR, GST returns, MCA forms, and other statutory documents. Class 3 DSC is ",
+    "url": "/resources/glossary#dsc-(digital-signature-certificate)"
+  },
+  {
+    "id": "glossary-term-110",
+    "type": "glossary",
+    "title": "GSTR-2B",
+    "excerpt": "An auto-generated, static ITC statement available to recipients on the 14th of each month under GST. It is based on GSTR-1, GSTR-5, and GSTR-6 filed b",
+    "url": "/resources/glossary#gstr-2b"
+  },
+  {
+    "id": "glossary-term-111",
+    "type": "glossary",
+    "title": "Place of Supply",
+    "excerpt": "The location that determines whether a GST transaction is intra-state (CGST + SGST) or inter-state (IGST), governed by Sections 10-14 of the IGST Act.",
+    "url": "/resources/glossary#place-of-supply"
+  },
+  {
+    "id": "glossary-term-112",
+    "type": "glossary",
+    "title": "Time of Supply",
+    "excerpt": "The point at which GST liability arises, determined under Sections 12-14 of the CGST Act. For goods, it is the earlier of invoice date or receipt of p",
+    "url": "/resources/glossary#time-of-supply"
+  },
+  {
+    "id": "service-income-tax-advisory",
+    "type": "service",
+    "title": "Income Tax Advisory",
+    "excerpt": "Expert tax planning, ITR filing, tax notice handling and NRI taxation services.",
+    "url": "/services/income-tax-advisory"
+  },
+  {
+    "id": "service-audit-assurance",
+    "type": "service",
+    "title": "Audit & Assurance",
+    "excerpt": "Statutory audit, internal audit, tax audit and due diligence services.",
+    "url": "/services/audit-assurance"
+  },
+  {
+    "id": "service-gst-compliance",
+    "type": "service",
+    "title": "GST Compliance",
+    "excerpt": "GST registration, returns, annual filing, notices and compliance advisory.",
+    "url": "/services/gst-compliance"
+  },
+  {
+    "id": "service-global-accounting",
+    "type": "service",
+    "title": "Global Accounting",
+    "excerpt": "Outsourced bookkeeping and accounting for businesses in USA, UK and Australia.",
+    "url": "/services/global-accounting"
+  },
+  {
+    "id": "service-fema-compliance",
+    "type": "service",
+    "title": "FEMA Compliance",
+    "excerpt": "FDI, LRS, NRI banking, ODI and ECB compliance advisory.",
+    "url": "/services/fema-compliance"
+  },
+  {
+    "id": "service-ipo-consultancy",
+    "type": "service",
+    "title": "IPO Consultancy",
+    "excerpt": "End-to-end SME and mainboard IPO advisory including DRHP and SEBI compliance.",
+    "url": "/services/ipo-consultancy"
+  },
+  {
+    "id": "service-cfo-services",
+    "type": "service",
+    "title": "CFO Services",
+    "excerpt": "Virtual CFO support with MIS reporting, budgeting and financial planning.",
+    "url": "/services/cfo-services"
+  },
+  {
+    "id": "service-due-diligence",
+    "type": "service",
+    "title": "Due Diligence",
+    "excerpt": "Financial and tax due diligence for M&A transactions and investments.",
+    "url": "/services/due-diligence"
+  },
+  {
+    "id": "service-startup-advisory",
+    "type": "service",
+    "title": "Startup Advisory",
+    "excerpt": "Startup India recognition, ESOP structuring, funding compliance.",
+    "url": "/services/startup-advisory"
+  },
+  {
+    "id": "service-company-incorporation",
+    "type": "service",
+    "title": "Company Incorporation",
+    "excerpt": "Pvt Ltd, LLP, OPC, Section 8 company registration and ROC filing.",
+    "url": "/services/company-incorporation"
+  }
+]

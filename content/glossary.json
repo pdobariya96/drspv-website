@@ -1,0 +1,898 @@
+[
+  {
+    "id": "term-001",
+    "letter": "A",
+    "term": "AIS (Annual Information Statement)",
+    "definition": "A comprehensive statement available on the income tax e-filing portal that consolidates all financial transactions reported by banks, mutual funds, stock exchanges, and other institutions. It includes salary, interest, dividends, share transactions, property transactions, and more. Taxpayers should verify and provide feedback on AIS entries before filing ITR.",
+    "relatedTerms": ["Form 26AS", "TIS", "ITR"],
+    "relatedLinks": [{"label": "Income Tax Services", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-002",
+    "letter": "A",
+    "term": "Advance Tax",
+    "definition": "Tax paid in instalments during the financial year by taxpayers whose estimated tax liability exceeds Rs. 10,000. Due dates are 15th June (15%), 15th September (45%), 15th December (75%), and 15th March (100%). Non-payment or short payment attracts interest under Sections 234B and 234C.",
+    "relatedTerms": ["Self-Assessment Tax", "TDS", "Section 234B"],
+    "relatedLinks": [{"label": "Tax Planning", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-003",
+    "letter": "A",
+    "term": "AOP (Association of Persons)",
+    "definition": "A group of individuals or entities that come together for a common purpose to earn income. An AOP is a separate taxable entity under the Income Tax Act and is assessed to tax in its own capacity. It files ITR-5 and is taxed at maximum marginal rate or individual slab rates depending on member composition.",
+    "relatedTerms": ["BOI", "HUF", "Firm"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-004",
+    "letter": "A",
+    "term": "Assessment Year (AY)",
+    "definition": "The year following the financial year in which income is assessed and tax returns are filed. For income earned during FY 2024-25 (1st April 2024 to 31st March 2025), the assessment year is AY 2025-26. ITR is filed during the assessment year for income earned in the preceding financial year.",
+    "relatedTerms": ["Financial Year", "Previous Year", "ITR"],
+    "relatedLinks": [{"label": "ITR Filing", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-005",
+    "letter": "A",
+    "term": "Audit Report",
+    "definition": "A formal opinion issued by a Chartered Accountant on the financial statements of an entity. Tax audit report (Form 3CD) is filed under Section 44AB. Statutory audit is mandatory for companies under the Companies Act, 2013. The audit report verifies the accuracy and fairness of financial statements.",
+    "relatedTerms": ["Tax Audit", "Section 44AB", "Form 3CD"],
+    "relatedLinks": [{"label": "Audit Services", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-006",
+    "letter": "A",
+    "term": "AD Bank (Authorised Dealer Bank)",
+    "definition": "A bank authorised by the Reserve Bank of India to deal in foreign exchange under FEMA. AD Category I banks handle all current and capital account transactions. They process foreign remittances, issue Form 15CA/15CB certificates, and report FEMA-related transactions to RBI.",
+    "relatedTerms": ["FEMA", "LRS", "Form 15CA"],
+    "relatedLinks": [{"label": "FEMA Services", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-007",
+    "letter": "B",
+    "term": "Balance Sheet",
+    "definition": "A financial statement that shows the assets, liabilities, and equity of a business at a specific point in time. It follows the equation: Assets = Liabilities + Equity. Under the Companies Act 2013, Schedule III prescribes the format. It is a mandatory component of financial statements for audit and ITR filing purposes.",
+    "relatedTerms": ["Profit & Loss Account", "Financial Statements", "Schedule III"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-008",
+    "letter": "B",
+    "term": "BOI (Body of Individuals)",
+    "definition": "A group consisting only of individuals (not other entities like companies or firms) who join together for a common purpose to earn income. Similar to AOP but restricted to individuals. A BOI is assessed as a separate taxable entity and files ITR-5.",
+    "relatedTerms": ["AOP", "HUF", "ITR-5"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-009",
+    "letter": "B",
+    "term": "Book Profit",
+    "definition": "Net profit as shown in the profit and loss account prepared in accordance with Schedule III of the Companies Act, adjusted as per Section 115JB for MAT computation. Book profit is used to calculate Minimum Alternate Tax (MAT) at 15% for companies whose regular tax liability is lower than MAT.",
+    "relatedTerms": ["MAT", "Section 115JB", "Profit & Loss Account"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-010",
+    "letter": "B",
+    "term": "Business Income",
+    "definition": "Income earned from carrying on a business or profession, computed under the head 'Profits and Gains of Business or Profession' under Sections 28-44. Deductions are allowed for business expenses under Section 37. Depreciation under Section 32 and specific deductions under Sections 35-36 are also available.",
+    "relatedTerms": ["Section 44AD", "Tax Audit", "Depreciation"],
+    "relatedLinks": [{"label": "Business Tax Services", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-011",
+    "letter": "C",
+    "term": "Capital Gains",
+    "definition": "Profit arising from the transfer (sale, exchange, or compulsory acquisition) of a capital asset. Short-term capital gains apply if the asset is held for less than the specified period (12 months for listed shares, 24 months for immovable property, 36 months for other assets). Long-term capital gains enjoy concessional tax rates and indexation benefit (for assets acquired before 23 July 2024).",
+    "relatedTerms": ["LTCG", "STCG", "Section 54", "Indexation"],
+    "relatedLinks": [{"label": "Capital Gains Advisory", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-012",
+    "letter": "C",
+    "term": "CGST (Central Goods and Services Tax)",
+    "definition": "The central component of GST levied on intra-state supply of goods and services under the CGST Act, 2017. CGST is collected by the Central Government and is charged along with SGST/UTGST at equal rates. The combined rate equals the applicable GST rate (e.g., 9% CGST + 9% SGST = 18% GST).",
+    "relatedTerms": ["SGST", "IGST", "UTGST", "GST"],
+    "relatedLinks": [{"label": "GST Services", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-013",
+    "letter": "C",
+    "term": "CIT (Commissioner of Income Tax)",
+    "definition": "A senior officer in the Income Tax Department who oversees the administration of income tax in a designated jurisdiction. CIT(Appeals) is the first appellate authority for taxpayers disputing assessment orders. CIT(Exemption) grants registration to trusts and charitable institutions under Section 12A/12AB.",
+    "relatedTerms": ["ITAT", "Assessment Order", "Section 263"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-014",
+    "letter": "C",
+    "term": "Companies Act, 2013",
+    "definition": "The principal legislation governing incorporation, management, and dissolution of companies in India. It prescribes requirements for annual filings (AOC-4, MGT-7), board meetings, statutory audit, and financial disclosure. The Registrar of Companies (RoC) is the regulatory authority under this Act.",
+    "relatedTerms": ["RoC", "MCA", "Annual Return", "Statutory Audit"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-015",
+    "letter": "C",
+    "term": "Compounding (FEMA)",
+    "definition": "A process under Section 15 of FEMA that allows a person who has contravened FEMA provisions to apply for settlement by paying a compounding fee. RBI handles compounding of contraventions up to Rs. 100 crore. It is a voluntary admission of contravention and results in closure of the matter without prosecution.",
+    "relatedTerms": ["FEMA", "Enforcement Directorate", "RBI"],
+    "relatedLinks": [{"label": "FEMA Compliance", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-016",
+    "letter": "D",
+    "term": "DRHP (Draft Red Herring Prospectus)",
+    "definition": "The preliminary offer document filed by a company with SEBI before an IPO. It contains all material information about the company, its financials, risk factors, and objects of the issue, but does not include the final price or number of shares. SEBI reviews the DRHP and issues observations within 30 days (extendable).",
+    "relatedTerms": ["RHP", "Prospectus", "SEBI", "IPO"],
+    "relatedLinks": [{"label": "IPO Services", "url": "/services/ipo"}]
+  },
+  {
+    "id": "term-017",
+    "letter": "D",
+    "term": "DTAA (Double Taxation Avoidance Agreement)",
+    "definition": "A bilateral treaty between India and another country to prevent the same income from being taxed in both countries. India has DTAAs with over 90 countries. Benefits include reduced withholding tax rates on dividends, interest, royalties, and technical fees. Taxpayers must obtain a Tax Residency Certificate (TRC) to claim DTAA benefits.",
+    "relatedTerms": ["TRC", "Section 90", "Withholding Tax", "NRI"],
+    "relatedLinks": [{"label": "International Tax", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-018",
+    "letter": "D",
+    "term": "Depreciation",
+    "definition": "The systematic allocation of the cost of a tangible or intangible asset over its useful life. Under the Income Tax Act, depreciation is allowed under Section 32 on the Written Down Value (WDV) method at prescribed rates. Additional depreciation of 20% is available for new plant and machinery in the year of acquisition for manufacturing businesses.",
+    "relatedTerms": ["WDV", "Section 32", "Block of Assets"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-019",
+    "letter": "D",
+    "term": "DIN (Director Identification Number)",
+    "definition": "A unique identification number allotted to individuals appointed as directors of a company. Application is made through Form DIR-3 via the MCA portal. Every director must have a DIN before appointment. KYC update in Form DIR-3 KYC must be filed annually by 30th September.",
+    "relatedTerms": ["Companies Act", "MCA", "RoC"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-020",
+    "letter": "D",
+    "term": "Deemed Dividend",
+    "definition": "Under Section 2(22)(e), loans or advances given by a closely-held company to its shareholders holding 10% or more voting power are treated as deemed dividend to the extent of accumulated profits. From FY 2023-24, all dividends (actual and deemed) are taxable in the hands of shareholders at slab rates.",
+    "relatedTerms": ["Dividend", "Section 2(22)(e)", "Close Company"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-021",
+    "letter": "E",
+    "term": "ECB (External Commercial Borrowing)",
+    "definition": "Borrowings by Indian entities from foreign lenders in foreign currency under the RBI's ECB framework regulated by FEMA. ECB can be raised under the automatic route or approval route depending on the amount and end-use. The all-in-cost ceiling and minimum average maturity must comply with RBI guidelines.",
+    "relatedTerms": ["FEMA", "RBI", "AD Bank", "Foreign Currency Loan"],
+    "relatedLinks": [{"label": "FEMA Advisory", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-022",
+    "letter": "E",
+    "term": "ELSS (Equity Linked Savings Scheme)",
+    "definition": "A type of mutual fund that qualifies for deduction under Section 80C of the Income Tax Act. ELSS has a mandatory lock-in period of 3 years (shortest among 80C investments). Returns are subject to LTCG tax at 12.5% above Rs. 1.25 lakh. It offers both growth and IDCW options.",
+    "relatedTerms": ["Section 80C", "Mutual Fund", "LTCG"],
+    "relatedLinks": [{"label": "Tax Planning", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-023",
+    "letter": "E",
+    "term": "E-Invoice",
+    "definition": "An electronically generated invoice registered on the Invoice Registration Portal (IRP) under GST. Mandatory for businesses with aggregate turnover exceeding Rs. 5 crore from 1st August 2023. The IRP assigns a unique Invoice Reference Number (IRN) and digitally signs the invoice with a QR code.",
+    "relatedTerms": ["IRN", "GST", "GSTR-1", "QR Code"],
+    "relatedLinks": [{"label": "GST Compliance", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-024",
+    "letter": "E",
+    "term": "E-Way Bill",
+    "definition": "An electronic document generated on the e-Way Bill portal for movement of goods worth more than Rs. 50,000 under GST. It contains details of the consignment, supplier, recipient, and transporter. Part A is filled by the supplier and Part B by the transporter with vehicle details.",
+    "relatedTerms": ["GST", "GSTIN", "Transporter ID"],
+    "relatedLinks": [{"label": "GST Services", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-025",
+    "letter": "E",
+    "term": "Equity Shares",
+    "definition": "Shares representing ownership interest in a company, entitling holders to voting rights and dividends. Equity shares carry the highest risk but also the highest potential returns. For capital gains purposes, listed equity shares held for more than 12 months qualify as long-term capital assets.",
+    "relatedTerms": ["Capital Gains", "Dividend", "LTCG"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-026",
+    "letter": "F",
+    "term": "FEMA (Foreign Exchange Management Act, 1999)",
+    "definition": "The primary legislation governing foreign exchange transactions in India, replacing FERA. FEMA regulates current account transactions (trade, services), capital account transactions (investments, borrowings), and is administered by RBI. It covers FDI, ODI, ECB, LRS, NRI investments, and all cross-border remittances.",
+    "relatedTerms": ["RBI", "LRS", "FDI", "ODI", "ECB"],
+    "relatedLinks": [{"label": "FEMA Services", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-027",
+    "letter": "F",
+    "term": "Form 16",
+    "definition": "A TDS certificate issued by an employer to an employee under Section 203, containing details of salary paid, deductions allowed, and tax deducted at source during the financial year. Part A contains TDS details and Part B contains salary breakup and deductions. Employers must issue Form 16 by 15th June.",
+    "relatedTerms": ["TDS", "Salary", "Section 192", "Form 12BA"],
+    "relatedLinks": [{"label": "Salary Tax Filing", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-028",
+    "letter": "F",
+    "term": "Form 26AS",
+    "definition": "The Annual Tax Statement containing details of TDS/TCS credited to the taxpayer's PAN, advance tax and self-assessment tax paid, refunds issued, and high-value transactions reported under SFT. Available on the income tax e-filing portal and TRACES. It should be reconciled with AIS before filing ITR.",
+    "relatedTerms": ["AIS", "TDS", "TCS", "PAN"],
+    "relatedLinks": [{"label": "Tax Filing", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-029",
+    "letter": "F",
+    "term": "FPI (Foreign Portfolio Investor)",
+    "definition": "An entity registered with SEBI under the FPI Regulations that invests in Indian securities (equity, debt, derivatives) through the portfolio route. FPIs are categorized into Category I (sovereign, central banks) and Category II (regulated funds, endowments). FPI investments are subject to sector-specific limits and SEBI monitoring.",
+    "relatedTerms": ["SEBI", "FDI", "FEMA", "Custodian"],
+    "relatedLinks": [{"label": "FEMA Advisory", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-030",
+    "letter": "F",
+    "term": "FDI (Foreign Direct Investment)",
+    "definition": "Investment by a non-resident entity in the equity instruments of an Indian company under the automatic or government approval route, regulated by FEMA and DPIIT. FDI is permitted in most sectors with varying limits. Pricing must comply with FEMA 20(R) guidelines and reporting is done through FC-GPR, FC-TRS, and other FEMA forms.",
+    "relatedTerms": ["FEMA", "DPIIT", "FC-GPR", "Automatic Route"],
+    "relatedLinks": [{"label": "FDI Advisory", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-031",
+    "letter": "F",
+    "term": "Financial Year (FY)",
+    "definition": "The 12-month accounting period from 1st April to 31st March used for income computation and tax assessment in India. Also known as the 'previous year' under the Income Tax Act. FY 2025-26 runs from 1st April 2025 to 31st March 2026, and its corresponding assessment year is AY 2026-27.",
+    "relatedTerms": ["Assessment Year", "Previous Year"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-032",
+    "letter": "F",
+    "term": "Form 3CD",
+    "definition": "The tax audit report format prescribed under Section 44AB containing detailed information about the taxpayer's business operations, accounting policies, deductions claimed, and compliance status. It is prepared and signed by a qualified CA. Form 3CA/3CB is the audit report, while 3CD is the statement of particulars.",
+    "relatedTerms": ["Tax Audit", "Section 44AB", "Form 3CA"],
+    "relatedLinks": [{"label": "Tax Audit Services", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-033",
+    "letter": "G",
+    "term": "GST (Goods and Services Tax)",
+    "definition": "India's comprehensive indirect tax on supply of goods and services, implemented from 1st July 2017, replacing multiple central and state taxes. GST operates as a dual structure with CGST (central) and SGST (state) on intra-state supplies, and IGST on inter-state supplies. The GST Council recommends tax rates and policy changes.",
+    "relatedTerms": ["CGST", "SGST", "IGST", "GST Council", "ITC"],
+    "relatedLinks": [{"label": "GST Services", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-034",
+    "letter": "G",
+    "term": "GSTIN (Goods and Services Tax Identification Number)",
+    "definition": "A 15-digit unique identification number assigned to every registered GST taxpayer. The format is: 2 digits state code + 10 digits PAN + 1 digit entity number + 1 digit 'Z' (default) + 1 check digit. Each state registration gets a separate GSTIN. It must be displayed on invoices, signboard, and all GST filings.",
+    "relatedTerms": ["GST", "PAN", "GST Registration"],
+    "relatedLinks": [{"label": "GST Registration", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-035",
+    "letter": "G",
+    "term": "GSTR-1",
+    "definition": "A monthly or quarterly GST return containing details of all outward supplies (sales) including B2B invoices, B2C large invoices, exports, credit/debit notes, and advances. Due by 11th of the following month for monthly filers and 13th of the month following the quarter for QRMP filers.",
+    "relatedTerms": ["GSTR-3B", "GSTR-2B", "IFF", "GST"],
+    "relatedLinks": [{"label": "GST Filing", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-036",
+    "letter": "G",
+    "term": "GSTR-3B",
+    "definition": "A monthly or quarterly summary return for payment of GST liability. It contains consolidated details of outward and inward supplies, ITC claimed, and tax payable. Due by 20th of the following month for monthly filers. For quarterly filers under QRMP, it is due by 22nd or 24th depending on the state category.",
+    "relatedTerms": ["GSTR-1", "ITC", "GSTR-2B", "GST"],
+    "relatedLinks": [{"label": "GST Compliance", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-037",
+    "letter": "G",
+    "term": "GSTR-9",
+    "definition": "The annual return under GST to be filed by regular taxpayers with aggregate turnover exceeding Rs. 2 crore, by 31st December of the following year. It consolidates all monthly/quarterly returns filed during the year. GSTR-9C is the self-certified reconciliation statement for taxpayers with turnover above Rs. 5 crore.",
+    "relatedTerms": ["GSTR-9C", "Annual Return", "GST"],
+    "relatedLinks": [{"label": "GST Annual Filing", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-038",
+    "letter": "H",
+    "term": "HRA (House Rent Allowance)",
+    "definition": "An allowance paid by employers to employees to meet rental expenses. Exemption under Section 10(13A) is the minimum of: actual HRA received, 50% of basic salary (metro) or 40% (non-metro), or rent paid minus 10% of salary. Available only under the old tax regime. If HRA is not part of salary, Section 80GG provides alternate deduction.",
+    "relatedTerms": ["Section 10(13A)", "Section 80GG", "Salary"],
+    "relatedLinks": [{"label": "Tax Planning", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-039",
+    "letter": "H",
+    "term": "HUF (Hindu Undivided Family)",
+    "definition": "A separate taxable entity under Indian tax law consisting of a common ancestor and all lineal descendants along with their wives and unmarried daughters. HUF has its own PAN, can hold property, earn income, and claim deductions independently. It files ITR-2 or ITR-3 depending on income sources.",
+    "relatedTerms": ["Karta", "Coparcener", "PAN"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-040",
+    "letter": "H",
+    "term": "HSN Code (Harmonized System of Nomenclature)",
+    "definition": "An internationally standardized system of numbers used to classify traded products. Under GST, HSN codes are used to classify goods for determining the applicable tax rate. Businesses with turnover above Rs. 5 crore must mention 6-digit HSN codes on invoices; those between Rs. 1.5 crore and Rs. 5 crore use 4-digit codes.",
+    "relatedTerms": ["SAC Code", "GST Rate", "Invoice"],
+    "relatedLinks": [{"label": "GST Services", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-041",
+    "letter": "I",
+    "term": "IGST (Integrated Goods and Services Tax)",
+    "definition": "GST levied on inter-state supply of goods and services and on imports under the IGST Act, 2017. IGST is collected by the Central Government and subsequently settled between the Centre and destination state. The full IGST rate equals the sum of CGST and SGST rates.",
+    "relatedTerms": ["CGST", "SGST", "GST", "Inter-State Supply"],
+    "relatedLinks": [{"label": "GST Services", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-042",
+    "letter": "I",
+    "term": "ITR (Income Tax Return)",
+    "definition": "The annual return filed by taxpayers with the Income Tax Department declaring total income and tax liability for a financial year. Different ITR forms (ITR-1 through ITR-7) apply to different categories of taxpayers. ITR must be filed by the due date to avoid penalties, and can be revised under Section 139(5).",
+    "relatedTerms": ["Assessment Year", "Due Date", "Section 139"],
+    "relatedLinks": [{"label": "ITR Filing Services", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-043",
+    "letter": "I",
+    "term": "ITC (Input Tax Credit)",
+    "definition": "The credit of GST paid on inputs (raw materials, services, capital goods) that a registered taxpayer can claim against output GST liability. ITC is available only if the supplier has filed GSTR-1, the invoice appears in GSTR-2B, and the recipient has filed returns on time. Blocked credits are listed under Section 17(5).",
+    "relatedTerms": ["GSTR-2B", "Section 17(5)", "GST", "Output Tax"],
+    "relatedLinks": [{"label": "GST Advisory", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-044",
+    "letter": "I",
+    "term": "Ind-AS (Indian Accounting Standards)",
+    "definition": "A set of accounting standards converged with IFRS, applicable to listed companies, companies with net worth above Rs. 250 crore, and their holding/subsidiary/associate companies. Ind-AS prescribes recognition, measurement, presentation, and disclosure requirements for financial statements. Compliance is mandatory for IPO restated financials.",
+    "relatedTerms": ["IFRS", "Financial Statements", "ICAI"],
+    "relatedLinks": [{"label": "IPO Services", "url": "/services/ipo"}]
+  },
+  {
+    "id": "term-045",
+    "letter": "I",
+    "term": "Indexation",
+    "definition": "A method of adjusting the purchase price of a capital asset for inflation using the Cost Inflation Index (CII) notified by the government, to compute long-term capital gains. From FY 2024-25, indexation benefit has been removed for most assets, with LTCG taxed at a flat 12.5%. Indexation remains available for capital assets acquired before 23 July 2024 as a transitional measure.",
+    "relatedTerms": ["Capital Gains", "CII", "LTCG"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-046",
+    "letter": "I",
+    "term": "IPO (Initial Public Offering)",
+    "definition": "The first sale of shares by a private company to the public, regulated by SEBI under the ICDR Regulations. The process involves filing DRHP with SEBI, obtaining observations, filing RHP with RoC, book building or fixed price offer, allotment, and listing on stock exchanges (BSE/NSE).",
+    "relatedTerms": ["DRHP", "RHP", "SEBI", "ICDR Regulations"],
+    "relatedLinks": [{"label": "IPO Advisory", "url": "/services/ipo"}]
+  },
+  {
+    "id": "term-047",
+    "letter": "L",
+    "term": "LRS (Liberalised Remittance Scheme)",
+    "definition": "An RBI scheme allowing resident individuals to remit up to USD 2,50,000 per financial year for permissible current and capital account transactions including education, travel, gifts, investments, and property purchase abroad. TCS at 20% is applicable on remittances exceeding Rs. 7 lakh (5% for education via loan).",
+    "relatedTerms": ["FEMA", "TCS", "Form 15CA", "AD Bank"],
+    "relatedLinks": [{"label": "FEMA Advisory", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-048",
+    "letter": "L",
+    "term": "LLP (Limited Liability Partnership)",
+    "definition": "A business structure that combines the flexibility of a partnership with the limited liability protection of a company, governed by the LLP Act, 2008. LLPs are registered with MCA and file annual returns (Form 11) and Statement of Account (Form 8). Tax audit under Section 44AB applies if turnover exceeds the prescribed threshold.",
+    "relatedTerms": ["Partnership", "MCA", "Form 8", "Form 11"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-049",
+    "letter": "L",
+    "term": "LTCG (Long-Term Capital Gains)",
+    "definition": "Capital gains arising from the transfer of a long-term capital asset. From FY 2024-25, LTCG on listed equity shares and equity mutual funds is taxed at 12.5% above Rs. 1.25 lakh exemption. LTCG on other assets is taxed at 12.5% without indexation. Exemptions are available under Sections 54, 54EC, and 54F for reinvestment.",
+    "relatedTerms": ["STCG", "Capital Gains", "Section 54", "Section 54EC"],
+    "relatedLinks": [{"label": "Capital Gains Advisory", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-050",
+    "letter": "L",
+    "term": "LUT (Letter of Undertaking)",
+    "definition": "A declaration filed by an exporter on the GST portal in Form GST RFD-11, undertaking to export goods/services without payment of IGST. Filing LUT is annual and must be done before the first export of the financial year. If LUT is not filed, IGST must be paid on exports and claimed as refund later.",
+    "relatedTerms": ["Export", "IGST", "GST Refund", "Zero-Rated Supply"],
+    "relatedLinks": [{"label": "GST Export Services", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-051",
+    "letter": "M",
+    "term": "MAT (Minimum Alternate Tax)",
+    "definition": "A minimum tax of 15% on book profit applicable to companies whose regular tax liability is lower than MAT, computed under Section 115JB. MAT credit (excess of MAT over normal tax) can be carried forward for 15 years. From AY 2020-21, companies opting for the new regime under Section 115BAA are exempt from MAT.",
+    "relatedTerms": ["Book Profit", "Section 115JB", "Section 115BAA"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-052",
+    "letter": "M",
+    "term": "MCA (Ministry of Corporate Affairs)",
+    "definition": "The government ministry responsible for administration of the Companies Act, 2013 and LLP Act, 2008. MCA operates the MCA21 portal for company incorporation, annual filings, charge registration, and director-related filings. Key forms include SPICe+ (incorporation), AOC-4 (financials), and MGT-7 (annual return).",
+    "relatedTerms": ["RoC", "Companies Act", "DIN"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-053",
+    "letter": "M",
+    "term": "MSME (Micro, Small and Medium Enterprises)",
+    "definition": "Enterprises classified based on investment in plant and machinery and annual turnover under the MSMED Act, 2006. Micro: investment up to Rs. 1 crore and turnover up to Rs. 5 crore. Small: investment up to Rs. 10 crore and turnover up to Rs. 50 crore. Medium: investment up to Rs. 50 crore and turnover up to Rs. 250 crore. Registration is through Udyam portal.",
+    "relatedTerms": ["Udyam Registration", "MSMED Act"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-054",
+    "letter": "N",
+    "term": "NRI (Non-Resident Indian)",
+    "definition": "An Indian citizen or person of Indian origin who is not a resident of India for income tax purposes. Under Section 6, a person is NRI if they are in India for less than 182 days during the financial year (or 120 days if Indian income exceeds Rs. 15 lakh). NRIs are taxed only on income earned or received in India.",
+    "relatedTerms": ["RNOR", "Resident", "Section 6", "NRE", "NRO"],
+    "relatedLinks": [{"label": "NRI Tax Services", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-055",
+    "letter": "N",
+    "term": "NRO Account (Non-Resident Ordinary Account)",
+    "definition": "A bank account maintained by NRIs in India for depositing income earned in India such as rent, dividends, and pension. NRO accounts are denominated in Indian rupees, and interest is taxable in India. Repatriation from NRO is permitted up to USD 1 million per financial year after payment of applicable taxes.",
+    "relatedTerms": ["NRE Account", "NRI", "FEMA", "Repatriation"],
+    "relatedLinks": [{"label": "NRI Services", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-056",
+    "letter": "N",
+    "term": "NRE Account (Non-Resident External Account)",
+    "definition": "A bank account for NRIs to deposit foreign earnings in India. NRE accounts are maintained in Indian rupees, and both the principal and interest are freely repatriable and fully exempt from Indian income tax. Funds can be transferred from NRE to NRO but not vice versa (except under specific conditions).",
+    "relatedTerms": ["NRO Account", "NRI", "FCNR Account", "Repatriation"],
+    "relatedLinks": [{"label": "NRI Banking Advisory", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-057",
+    "letter": "O",
+    "term": "ODI (Overseas Direct Investment)",
+    "definition": "Investment by an Indian resident in the equity of a foreign entity, regulated by FEMA ODI Regulations, 2022. Indian entities can invest up to 400% of their net worth. Form ODI must be filed with the AD bank. Annual Performance Report (APR) and annual return on foreign liabilities and assets are mandatory compliance requirements.",
+    "relatedTerms": ["FEMA", "APR", "AD Bank", "Net Worth"],
+    "relatedLinks": [{"label": "ODI Advisory", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-058",
+    "letter": "O",
+    "term": "OCI (Overseas Citizen of India)",
+    "definition": "A status granted to foreign nationals of Indian origin or spouses of Indian citizens, providing them with multiple entry, multi-purpose lifelong visa to India. For FEMA purposes, OCIs are treated similarly to NRIs for property transactions and certain investments. However, they do not have voting rights or government employment eligibility.",
+    "relatedTerms": ["NRI", "PIO", "FEMA"],
+    "relatedLinks": [{"label": "NRI/OCI Services", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-059",
+    "letter": "P",
+    "term": "PAN (Permanent Account Number)",
+    "definition": "A 10-character alphanumeric identifier issued by the Income Tax Department to all taxpayers in India. PAN is mandatory for filing ITR, opening bank accounts, purchasing immovable property above Rs. 10 lakh, and financial transactions above prescribed limits. Quoting PAN is required on TDS/TCS certificates and GST registration.",
+    "relatedTerms": ["TAN", "Aadhaar", "GSTIN"],
+    "relatedLinks": [{"label": "Tax Services", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-060",
+    "letter": "P",
+    "term": "PFMS (Public Financial Management System)",
+    "definition": "A web-based application of the Government of India that tracks fund flow to implementing agencies for government schemes. For taxpayers, PFMS is relevant in tracking income tax refunds processed through the system. Refund status can be checked through the income tax portal or NSDL/PFMS portals.",
+    "relatedTerms": ["Income Tax Refund", "CPC"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-061",
+    "letter": "P",
+    "term": "Previous Year",
+    "definition": "The financial year (1st April to 31st March) in which income is earned. Under the Income Tax Act, income of the previous year is taxed in the immediately following assessment year. For example, income earned in PY 2024-25 (FY 2024-25) is assessed in AY 2025-26.",
+    "relatedTerms": ["Assessment Year", "Financial Year"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-062",
+    "letter": "P",
+    "term": "Presumptive Taxation",
+    "definition": "A simplified scheme under Sections 44AD, 44ADA, and 44AE allowing eligible small businesses and professionals to declare a prescribed percentage of turnover as income without maintaining detailed books. Section 44AD prescribes 6% (digital) and 8% (cash) for businesses up to Rs. 3 crore turnover, and Section 44ADA prescribes 50% for professionals up to Rs. 75 lakh receipts.",
+    "relatedTerms": ["Section 44AD", "Section 44ADA", "Tax Audit"],
+    "relatedLinks": [{"label": "Business Tax", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-063",
+    "letter": "Q",
+    "term": "QIB (Qualified Institutional Buyer)",
+    "definition": "Institutional investors such as mutual funds, insurance companies, FPIs, scheduled commercial banks, and pension funds that are eligible to participate in the QIB category of an IPO. At least 75% of a book-built mainboard IPO is reserved for QIBs. Allocation follows proportionate allotment method.",
+    "relatedTerms": ["IPO", "Book Building", "SEBI", "FPI"],
+    "relatedLinks": [{"label": "IPO Services", "url": "/services/ipo"}]
+  },
+  {
+    "id": "term-064",
+    "letter": "Q",
+    "term": "QRMP Scheme",
+    "definition": "The Quarterly Return Monthly Payment scheme under GST for taxpayers with aggregate turnover up to Rs. 5 crore. Under QRMP, GSTR-1 and GSTR-3B are filed quarterly, but tax is paid monthly using the fixed sum or self-assessment method. Invoice Furnishing Facility (IFF) allows uploading B2B invoices in the first two months of the quarter.",
+    "relatedTerms": ["GSTR-1", "GSTR-3B", "IFF", "GST"],
+    "relatedLinks": [{"label": "GST Filing", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-065",
+    "letter": "R",
+    "term": "RBI (Reserve Bank of India)",
+    "definition": "India's central bank responsible for monetary policy, currency issuance, and regulation of foreign exchange under FEMA. RBI issues circulars and master directions governing ECB, FDI, ODI, LRS, NRI accounts, and all cross-border capital and current account transactions.",
+    "relatedTerms": ["FEMA", "AD Bank", "LRS", "ECB"],
+    "relatedLinks": [{"label": "FEMA Services", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-066",
+    "letter": "R",
+    "term": "RoC (Registrar of Companies)",
+    "definition": "The office under MCA responsible for registering companies and LLPs, maintaining the public register, and ensuring compliance with the Companies Act, 2013. RoC handles incorporation, annual filings, charge registration, name changes, and strike-off proceedings. Each state/UT has a designated RoC office.",
+    "relatedTerms": ["MCA", "Companies Act", "Annual Return"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-067",
+    "letter": "R",
+    "term": "RHP (Red Herring Prospectus)",
+    "definition": "The offer document filed with the Registrar of Companies after receiving SEBI observations on the DRHP. The RHP includes the price band for the IPO but not the exact price. It is issued to potential investors before the opening of the public issue. The final prospectus is filed after the issue price is determined.",
+    "relatedTerms": ["DRHP", "Prospectus", "SEBI", "IPO"],
+    "relatedLinks": [{"label": "IPO Services", "url": "/services/ipo"}]
+  },
+  {
+    "id": "term-068",
+    "letter": "R",
+    "term": "Reverse Charge Mechanism (RCM)",
+    "definition": "A GST mechanism under Section 9(3) and 9(4) where the recipient of goods or services pays the tax instead of the supplier. RCM applies on specified categories like legal services from advocates, GTA services, sponsorship, imports, and certain purchases from unregistered persons. RCM tax paid is eligible for ITC.",
+    "relatedTerms": ["GST", "ITC", "Section 9(3)"],
+    "relatedLinks": [{"label": "GST Advisory", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-069",
+    "letter": "R",
+    "term": "RNOR (Resident but Not Ordinarily Resident)",
+    "definition": "A residential status under Section 6 where a person is resident in India but has been NRI in 9 out of 10 preceding years or in India for 729 days or less in the preceding 7 years. RNOR status provides a transitional benefit where foreign income (not derived from India) is not taxable in India.",
+    "relatedTerms": ["NRI", "Resident", "Section 6"],
+    "relatedLinks": [{"label": "NRI Tax Services", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-070",
+    "letter": "S",
+    "term": "SEBI (Securities and Exchange Board of India)",
+    "definition": "The statutory regulator for the securities market in India, established under the SEBI Act, 1992. SEBI regulates IPOs through ICDR Regulations, listed company compliance through LODR Regulations, mutual funds, FPIs, stock exchanges, and intermediaries. It aims to protect investor interests and develop the securities market.",
+    "relatedTerms": ["IPO", "ICDR", "LODR", "FPI"],
+    "relatedLinks": [{"label": "IPO Services", "url": "/services/ipo"}]
+  },
+  {
+    "id": "term-071",
+    "letter": "S",
+    "term": "SGST (State Goods and Services Tax)",
+    "definition": "The state component of GST levied on intra-state supply of goods and services under the respective State GST Acts. SGST is collected by the State Government and is charged along with CGST at equal rates. For Union Territories without legislature, UTGST applies instead of SGST.",
+    "relatedTerms": ["CGST", "IGST", "UTGST", "GST"],
+    "relatedLinks": [{"label": "GST Services", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-072",
+    "letter": "S",
+    "term": "Section 80C",
+    "definition": "A deduction provision under the Income Tax Act allowing taxpayers to claim up to Rs. 1,50,000 for investments in PPF, EPF, ELSS, NSC, 5-year FD, life insurance premium, tuition fees, SCSS, Sukanya Samriddhi, and home loan principal repayment. Available only under the old tax regime.",
+    "relatedTerms": ["ELSS", "PPF", "Tax Deduction", "Old Regime"],
+    "relatedLinks": [{"label": "Tax Planning", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-073",
+    "letter": "S",
+    "term": "Self-Assessment Tax",
+    "definition": "The balance tax paid by the taxpayer before filing the ITR after adjusting TDS, TCS, advance tax, and MAT credit. It is paid using Challan 280 (now through the income tax portal's e-Pay Tax facility). Self-assessment tax must be paid before filing ITR; otherwise, the return is treated as defective.",
+    "relatedTerms": ["Advance Tax", "TDS", "Challan 280"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-074",
+    "letter": "S",
+    "term": "STCG (Short-Term Capital Gains)",
+    "definition": "Capital gains arising from the transfer of a short-term capital asset (held for less than the specified period). STCG on listed equity shares (where STT is paid) is taxed at 20% from FY 2024-25. STCG on other assets is added to total income and taxed at applicable slab rates.",
+    "relatedTerms": ["LTCG", "Capital Gains", "STT"],
+    "relatedLinks": [{"label": "Capital Gains Advisory", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-075",
+    "letter": "S",
+    "term": "STT (Securities Transaction Tax)",
+    "definition": "A tax levied on purchase and sale of securities listed on recognized stock exchanges in India. STT on equity delivery is 0.1% on both buy and sell side. For F&O, STT is 0.02% on sell side for futures and 0.1% on sell side for options. Payment of STT is a prerequisite for claiming concessional LTCG/STCG rates on listed equity.",
+    "relatedTerms": ["Capital Gains", "LTCG", "STCG"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-076",
+    "letter": "S",
+    "term": "Supply (GST)",
+    "definition": "The taxable event under GST, defined under Section 7 as all forms of supply of goods or services including sale, transfer, barter, exchange, license, rental, lease, or disposal, made for consideration in the course or furtherance of business. Schedule I lists activities treated as supply even without consideration.",
+    "relatedTerms": ["GST", "Place of Supply", "Time of Supply"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-077",
+    "letter": "T",
+    "term": "TAN (Tax Deduction and Collection Account Number)",
+    "definition": "A 10-digit alphanumeric number required to be obtained by all persons responsible for deducting or collecting tax at source. TAN must be quoted in TDS/TCS returns, challans, and certificates. Application is made through Form 49B. Non-quoting of TAN attracts a penalty of Rs. 10,000.",
+    "relatedTerms": ["TDS", "TCS", "PAN", "Form 26Q"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-078",
+    "letter": "T",
+    "term": "TDS (Tax Deducted at Source)",
+    "definition": "A mechanism under the Income Tax Act where the payer deducts tax at prescribed rates from specified payments (salary, interest, rent, professional fees, etc.) and deposits it with the government. TDS returns must be filed quarterly (Form 24Q for salary, 26Q for non-salary, 27Q for NRI payments). The deductee gets credit for TDS in Form 26AS.",
+    "relatedTerms": ["TCS", "TAN", "Form 26Q", "Form 26AS"],
+    "relatedLinks": [{"label": "TDS Services", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-079",
+    "letter": "T",
+    "term": "TCS (Tax Collected at Source)",
+    "definition": "A mechanism under Section 206C where the seller collects tax from the buyer at specified rates on sale of certain goods (timber, scrap, minerals, motor vehicles above Rs. 10 lakh) and foreign remittances under LRS. TCS on LRS remittances is 20% above Rs. 7 lakh (5% for education loans). TCS returns are filed in Form 27EQ.",
+    "relatedTerms": ["TDS", "LRS", "Section 206C", "Form 27EQ"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-080",
+    "letter": "T",
+    "term": "TIS (Taxpayer Information Summary)",
+    "definition": "A derived summary from the AIS showing aggregated values of financial transactions reported against a taxpayer's PAN. TIS categorizes transactions and shows processed values after considering taxpayer feedback on AIS. It is used for pre-filling ITR data and helps in tax computation.",
+    "relatedTerms": ["AIS", "Form 26AS", "ITR"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-081",
+    "letter": "T",
+    "term": "Tax Audit",
+    "definition": "An audit of accounts mandated under Section 44AB for businesses with turnover above Rs. 1 crore (Rs. 10 crore if 95%+ digital transactions) and professionals with gross receipts above Rs. 50 lakh. The audit report in Form 3CA/3CB and 3CD must be filed by 30th September by a qualified CA.",
+    "relatedTerms": ["Section 44AB", "Form 3CD", "Due Date"],
+    "relatedLinks": [{"label": "Audit Services", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-082",
+    "letter": "T",
+    "term": "Transfer Pricing",
+    "definition": "Pricing of transactions between associated enterprises (related parties across borders) governed by Sections 92-92F of the Income Tax Act. Indian transfer pricing regulations require that international transactions be at arm's length price. A Transfer Pricing Report in Form 3CEB must be filed by the specified date with the tax audit report.",
+    "relatedTerms": ["ALP", "Form 3CEB", "Associated Enterprise"],
+    "relatedLinks": [{"label": "International Tax", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-083",
+    "letter": "T",
+    "term": "TRC (Tax Residency Certificate)",
+    "definition": "A certificate issued by the tax authority of a country confirming the tax residency of a person in that country. Required to claim benefits under DTAA. In India, TRC is obtained by filing Form 10FA on the income tax portal. NRIs need TRC from their country of residence to claim lower withholding rates under DTAA.",
+    "relatedTerms": ["DTAA", "NRI", "Withholding Tax"],
+    "relatedLinks": [{"label": "International Tax", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-084",
+    "letter": "U",
+    "term": "ULIP (Unit Linked Insurance Plan)",
+    "definition": "An insurance product that combines life insurance with investment. Premiums paid qualify for Section 80C deduction up to Rs. 1,50,000 under the old regime. From FY 2021-22, maturity proceeds of ULIPs with annual premium exceeding Rs. 2.5 lakh are taxable as capital gains under Section 112A.",
+    "relatedTerms": ["Section 80C", "Life Insurance", "Capital Gains"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-085",
+    "letter": "U",
+    "term": "Udyam Registration",
+    "definition": "The online registration system for MSMEs in India, replacing the earlier Udyog Aadhaar system. Registration is based on self-declaration of investment and turnover on the Udyam portal (udyamregistration.gov.in). It is linked to Aadhaar, PAN, and GSTIN. Udyam registration is mandatory for availing government MSME benefits and priority sector lending.",
+    "relatedTerms": ["MSME", "Aadhaar", "GSTIN"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-086",
+    "letter": "U",
+    "term": "UTGST (Union Territory Goods and Services Tax)",
+    "definition": "GST levied on intra-UT supply of goods and services in Union Territories without a legislature (Andaman and Nicobar, Chandigarh, Dadra and Nagar Haveli and Daman and Diu, Lakshadweep, Ladakh). UTGST is charged along with CGST at equal rates, similar to how SGST works for states.",
+    "relatedTerms": ["CGST", "SGST", "IGST", "GST"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-087",
+    "letter": "V",
+    "term": "VDA (Virtual Digital Asset)",
+    "definition": "Defined under Section 2(47A) of the Income Tax Act to include cryptocurrency, NFTs, and any digital asset notified by the government. Gains from transfer of VDAs are taxed at 30% under Section 115BBH. TDS at 1% applies under Section 194S. No deduction (except cost of acquisition) or set-off of losses is permitted.",
+    "relatedTerms": ["Cryptocurrency", "Section 115BBH", "Section 194S"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-088",
+    "letter": "V",
+    "term": "Voluntary Compliance Encouragement Scheme",
+    "definition": "Government schemes introduced periodically to encourage taxpayers to voluntarily declare undisclosed income or comply with pending obligations. Past schemes include VCES (Service Tax), IDS 2016 (Income Tax), and Sabka Vishwas Scheme (indirect taxes). These schemes offer reduced penalties and immunity from prosecution for voluntary declarations.",
+    "relatedTerms": ["Amnesty Scheme", "Undisclosed Income"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-089",
+    "letter": "W",
+    "term": "Withholding Tax",
+    "definition": "Tax deducted at source from payments made to non-residents under Section 195, at rates prescribed under the Income Tax Act or the applicable DTAA, whichever is more beneficial. Common withholding tax rates include 10% for royalties and technical fees (under most DTAAs), and 20% for other payments. Form 15CA/15CB is required for such remittances.",
+    "relatedTerms": ["TDS", "DTAA", "Section 195", "Form 15CB"],
+    "relatedLinks": [{"label": "International Tax", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-090",
+    "letter": "W",
+    "term": "WDV (Written Down Value)",
+    "definition": "The method of depreciation used under the Income Tax Act where depreciation is calculated on the reducing balance of the asset block. WDV = Opening WDV + Additions during the year - Disposals during the year - Depreciation. If an asset is acquired in the second half of the year, depreciation is restricted to 50% of the normal rate.",
+    "relatedTerms": ["Depreciation", "Section 32", "Block of Assets"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-091",
+    "letter": "Z",
+    "term": "Zero-Rated Supply",
+    "definition": "Under GST, exports of goods or services and supplies to SEZ are classified as zero-rated supplies under Section 16 of the IGST Act. The supplier can either export without IGST payment under LUT or pay IGST and claim refund. Full ITC is available on inputs used for making zero-rated supplies.",
+    "relatedTerms": ["Export", "LUT", "SEZ", "IGST Refund"],
+    "relatedLinks": [{"label": "GST Export Services", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-092",
+    "letter": "A",
+    "term": "Aadhaar-PAN Linking",
+    "definition": "Mandatory linking of Aadhaar number with PAN as per Section 139AA. PAN becomes inoperative if not linked with Aadhaar by the prescribed deadline. Linking can be done on the income tax e-filing portal. A fee of Rs. 1,000 applies for delayed linking. Certain exemptions exist for NRIs and persons above 80 years.",
+    "relatedTerms": ["PAN", "Aadhaar", "Section 139AA"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-093",
+    "letter": "B",
+    "term": "Belated Return",
+    "definition": "An ITR filed after the due date but before 31st December of the assessment year under Section 139(4). A belated return attracts late filing fee under Section 234F (up to Rs. 5,000) and interest under Section 234A. The taxpayer loses the right to carry forward losses (except house property loss) and cannot revise the return after certain restrictions.",
+    "relatedTerms": ["Due Date", "Section 234F", "Revised Return"],
+    "relatedLinks": [{"label": "ITR Filing", "url": "/services/income-tax-advisory"}]
+  },
+  {
+    "id": "term-094",
+    "letter": "C",
+    "term": "CPC (Centralized Processing Centre)",
+    "definition": "The income tax CPC in Bengaluru processes all electronically filed ITRs, issues refunds, generates intimations under Section 143(1), and processes TDS returns. CPC handles bulk processing of returns without human interface. Taxpayers receive communications from CPC via email and on the e-filing portal.",
+    "relatedTerms": ["Section 143(1)", "ITR", "Refund"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-095",
+    "letter": "D",
+    "term": "DPIIT (Department for Promotion of Industry and Internal Trade)",
+    "definition": "A department under the Ministry of Commerce and Industry that administers FDI policy in India. DPIIT issues the Consolidated FDI Policy and processes FDI applications under the government approval route through the National Single Window System. It also administers the Startup India initiative.",
+    "relatedTerms": ["FDI", "FEMA", "Startup India"],
+    "relatedLinks": [{"label": "FDI Advisory", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-096",
+    "letter": "E",
+    "term": "Equalisation Levy",
+    "definition": "A tax on digital transactions: 6% on online advertising services paid to non-resident tech companies (Section 165 of Finance Act, 2016). The 2% equalisation levy on e-commerce supply of goods/services was withdrawn from 1st August 2024. The levy ensures taxation of digital economy transactions that may otherwise escape Indian taxation.",
+    "relatedTerms": ["Digital Tax", "Non-Resident", "Section 165"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-097",
+    "letter": "F",
+    "term": "FCNR Account (Foreign Currency Non-Resident Account)",
+    "definition": "A term deposit account maintained by NRIs in foreign currency (USD, GBP, EUR, JPY, CAD, AUD). FCNR deposits have a maturity of 1-5 years. Both principal and interest are freely repatriable and exempt from Indian income tax. The exchange risk is borne by the bank.",
+    "relatedTerms": ["NRE Account", "NRO Account", "NRI"],
+    "relatedLinks": [{"label": "NRI Services", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-098",
+    "letter": "G",
+    "term": "GST Council",
+    "definition": "A constitutional body under Article 279A comprising the Union Finance Minister (Chair), Union Minister of State for Finance, and Finance Ministers of all states and UTs. The GST Council recommends GST rates, exemptions, thresholds, model laws, and dispute resolution mechanisms. Decisions are taken by three-fourths majority.",
+    "relatedTerms": ["GST", "Article 279A", "GST Rate"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-099",
+    "letter": "I",
+    "term": "ITAT (Income Tax Appellate Tribunal)",
+    "definition": "The second appellate authority for income tax disputes, after CIT(Appeals). ITAT is a quasi-judicial body that hears appeals from orders of CIT(A) and Principal CIT. Its orders can be appealed to the High Court only on substantial questions of law. ITAT has benches across major cities in India.",
+    "relatedTerms": ["CIT(A)", "Assessment Order", "High Court"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-100",
+    "letter": "I",
+    "term": "ICDR Regulations (SEBI Issue of Capital and Disclosure Requirements)",
+    "definition": "SEBI regulations governing the issuance of securities to the public, including IPOs, FPOs, rights issues, and preferential allotments. ICDR prescribes eligibility norms, disclosure requirements in the offer document, pricing, allotment, and listing timeline. Updated regularly to align with market developments.",
+    "relatedTerms": ["SEBI", "IPO", "DRHP", "Book Building"],
+    "relatedLinks": [{"label": "IPO Advisory", "url": "/services/ipo"}]
+  },
+  {
+    "id": "term-101",
+    "letter": "L",
+    "term": "LODR Regulations (SEBI Listing Obligations and Disclosure Requirements)",
+    "definition": "SEBI regulations governing the obligations of listed companies and stock exchanges. LODR prescribes periodic filing requirements (quarterly results, corporate governance reports), disclosure of material events, board composition requirements (independent directors), and related party transaction approvals.",
+    "relatedTerms": ["SEBI", "Listed Company", "Corporate Governance"],
+    "relatedLinks": [{"label": "Post-IPO Compliance", "url": "/services/ipo"}]
+  },
+  {
+    "id": "term-102",
+    "letter": "N",
+    "term": "Net Worth",
+    "definition": "The aggregate value of paid-up share capital plus free reserves minus accumulated losses, deferred expenditure, and miscellaneous expenditure. Under FEMA, net worth is used to determine ODI limits (400% of net worth). Under Companies Act, net worth determines audit thresholds and filing requirements.",
+    "relatedTerms": ["Share Capital", "Reserves", "ODI"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-103",
+    "letter": "S",
+    "term": "SAC Code (Services Accounting Code)",
+    "definition": "A classification code used under GST to identify and categorize services for determining the applicable GST rate. SAC codes are 6-digit codes based on the United Nations Central Product Classification. They must be mentioned on tax invoices for supply of services along with the applicable GST rate.",
+    "relatedTerms": ["HSN Code", "GST Rate", "Tax Invoice"],
+    "relatedLinks": [{"label": "GST Services", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-104",
+    "letter": "S",
+    "term": "Schedule FA (Foreign Assets)",
+    "definition": "A schedule in the income tax return (ITR-2, ITR-3) where resident and ordinarily resident taxpayers must disclose details of all foreign assets and income. This includes foreign bank accounts, financial interests, immovable property, accounts with signing authority, trusts, and custodial accounts held abroad.",
+    "relatedTerms": ["ITR", "NRI", "Black Money Act"],
+    "relatedLinks": [{"label": "Foreign Asset Reporting", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-105",
+    "letter": "F",
+    "term": "FC-GPR (Foreign Currency - Gross Provisional Return)",
+    "definition": "A form filed with RBI through the AD bank within 30 days of allotment of equity instruments to a non-resident under FDI. FC-GPR reports details of the investment including investor details, pricing, and valuation. It is filed on the FIRMS (Foreign Investment Reporting and Management System) portal.",
+    "relatedTerms": ["FDI", "FEMA", "AD Bank", "FIRMS Portal"],
+    "relatedLinks": [{"label": "FDI Compliance", "url": "/services/fema"}]
+  },
+  {
+    "id": "term-106",
+    "letter": "S",
+    "term": "SEZ (Special Economic Zone)",
+    "definition": "A designated area providing tax incentives and simplified regulatory framework for export-oriented businesses under the SEZ Act, 2005. SEZ units enjoy GST zero-rated supply benefits, income tax deductions under Section 10AA, and customs duty exemptions. Supplies to SEZ from DTA are treated as zero-rated under GST.",
+    "relatedTerms": ["Zero-Rated Supply", "Section 10AA", "DTA"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-107",
+    "letter": "A",
+    "term": "AMT (Alternate Minimum Tax)",
+    "definition": "A minimum tax of 18.5% on adjusted total income applicable to non-corporate taxpayers (individuals, HUFs, firms, LLPs, AOPs) claiming deductions under Sections 10AA, 35AD, or Chapter VI-A (80-IA, 80-IB, etc.) under Section 115JC. AMT credit can be carried forward for 15 years.",
+    "relatedTerms": ["MAT", "Section 115JC", "Adjusted Total Income"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-108",
+    "letter": "C",
+    "term": "Challan 280",
+    "definition": "The challan used for payment of advance tax, self-assessment tax, tax on regular assessment, and surcharge under the Income Tax Act. Payments are now made electronically through the income tax portal's e-Pay Tax facility using net banking, UPI, debit card, or over-the-counter at authorized banks.",
+    "relatedTerms": ["Advance Tax", "Self-Assessment Tax", "CIN"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-109",
+    "letter": "D",
+    "term": "DSC (Digital Signature Certificate)",
+    "definition": "An electronic equivalent of a physical signature used for online filing of ITR, GST returns, MCA forms, and other statutory documents. Class 3 DSC is required for company directors and auditors for MCA filings. DSC is issued by Certifying Authorities licensed by the Controller of Certifying Authorities.",
+    "relatedTerms": ["E-Filing", "MCA", "Companies Act"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-110",
+    "letter": "G",
+    "term": "GSTR-2B",
+    "definition": "An auto-generated, static ITC statement available to recipients on the 14th of each month under GST. It is based on GSTR-1, GSTR-5, and GSTR-6 filed by suppliers. Unlike the dynamic GSTR-2A, GSTR-2B is the definitive basis for claiming ITC in GSTR-3B and should be reconciled with purchase records.",
+    "relatedTerms": ["GSTR-2A", "ITC", "GSTR-3B"],
+    "relatedLinks": [{"label": "GST Services", "url": "/services/gst"}]
+  },
+  {
+    "id": "term-111",
+    "letter": "P",
+    "term": "Place of Supply",
+    "definition": "The location that determines whether a GST transaction is intra-state (CGST + SGST) or inter-state (IGST), governed by Sections 10-14 of the IGST Act. For goods, it is generally the location of delivery. For services, it varies based on the nature of service (B2B vs B2C, immovable property, events, etc.).",
+    "relatedTerms": ["IGST", "CGST", "SGST", "Inter-State Supply"],
+    "relatedLinks": []
+  },
+  {
+    "id": "term-112",
+    "letter": "T",
+    "term": "Time of Supply",
+    "definition": "The point at which GST liability arises, determined under Sections 12-14 of the CGST Act. For goods, it is the earlier of invoice date or receipt of payment. For services, it is the earlier of invoice date (if within 30 days of service) or receipt of payment. For reverse charge, it is the earlier of payment date or 60 days from invoice.",
+    "relatedTerms": ["GST", "Tax Invoice", "Reverse Charge"],
+    "relatedLinks": []
+  }
+]

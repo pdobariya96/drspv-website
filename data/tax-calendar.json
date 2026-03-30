@@ -1,0 +1,765 @@
+[
+  {
+    "date": "2025-04-07",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - March 2025",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2025-04-11",
+    "act": "GST",
+    "name": "GSTR-1 (QRMP) - Jan-Mar 2025",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2025-04-13",
+    "act": "GST",
+    "name": "GSTR-5 - March 2025",
+    "appliesTo": "Non-resident taxable persons",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2025-04-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - March 2025",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2025-04-22",
+    "act": "GST",
+    "name": "GSTR-3B (QRMP) - Jan-Mar 2025",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2025-04-30",
+    "act": "Income Tax",
+    "name": "Form 121 (No TDS Declaration) - Q4 Upload",
+    "appliesTo": "Banks and financial institutions",
+    "penalty": "Penalty under Income Tax Act, 2025"
+  },
+  {
+    "date": "2025-05-07",
+    "act": "TDS",
+    "name": "TDS Payment - April 2025",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2025-05-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - April 2025",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2025-05-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - April 2025",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2025-05-31",
+    "act": "TDS",
+    "name": "TDS/TCS Return Filing (Form 138/140/144/143) - Q4 FY 2024-25",
+    "appliesTo": "All TDS/TCS deductors and collectors",
+    "penalty": "Rs 200/day under Chapter XIX-B (max TDS amount)"
+  },
+  {
+    "date": "2025-06-07",
+    "act": "TDS",
+    "name": "TDS Payment - May 2025",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2025-06-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - May 2025",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2025-06-15",
+    "act": "Income Tax",
+    "name": "Advance Tax - Q1 (15%)",
+    "appliesTo": "All assessees with tax liability > Rs 10,000",
+    "penalty": "Interest u/s 424 & 425"
+  },
+  {
+    "date": "2025-06-15",
+    "act": "Income Tax",
+    "name": "Form 130 (Salary TDS Certificate) - FY 2024-25",
+    "appliesTo": "All employers who deducted TDS on salary",
+    "penalty": "Penalty for non-issuance under Income Tax Act, 2025"
+  },
+  {
+    "date": "2025-06-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - May 2025",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2025-07-07",
+    "act": "TDS",
+    "name": "TDS Payment - June 2025",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2025-07-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - June 2025",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2025-07-13",
+    "act": "GST",
+    "name": "GSTR-1 (QRMP) - Apr-Jun 2025",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2025-07-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - June 2025",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2025-07-22",
+    "act": "GST",
+    "name": "GSTR-3B (QRMP) - Apr-Jun 2025",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2025-07-31",
+    "act": "Income Tax",
+    "name": "ITR Filing - Individuals (non-audit) u/s 263(1)",
+    "appliesTo": "Individuals, HUF (not requiring audit)",
+    "penalty": "Rs 5,000 u/s 428 (Rs 1,000 if income ≤ Rs 5L) + interest u/s 423"
+  },
+  {
+    "date": "2025-07-31",
+    "act": "TDS",
+    "name": "TDS/TCS Return Filing (Form 138/140/144/143) - Q1 FY 2025-26",
+    "appliesTo": "All TDS/TCS deductors and collectors",
+    "penalty": "Rs 200/day under Chapter XIX-B (max TDS amount)"
+  },
+  {
+    "date": "2025-09-15",
+    "act": "Income Tax",
+    "name": "Advance Tax - Q2 (45%)",
+    "appliesTo": "All assessees with tax liability > Rs 10,000",
+    "penalty": "Interest u/s 424 & 425"
+  },
+  {
+    "date": "2025-09-30",
+    "act": "Income Tax",
+    "name": "Tax Audit Report (Form 26 Parts A/B/C/D) - FY 2024-25",
+    "appliesTo": "Businesses/professionals requiring audit u/s 63",
+    "penalty": "Penalty under Section 63 provisions"
+  },
+  {
+    "date": "2025-09-30",
+    "act": "Companies Act",
+    "name": "AGM for FY 2024-25",
+    "appliesTo": "All companies",
+    "penalty": "Rs 1 lakh + Rs 5,000/day of default"
+  },
+  {
+    "date": "2025-09-30",
+    "act": "GST",
+    "name": "GSTR-9 Annual Return - FY 2024-25",
+    "appliesTo": "All registered taxpayers",
+    "penalty": "Rs 200/day (max 0.5% of turnover)"
+  },
+  {
+    "date": "2025-10-31",
+    "act": "Income Tax",
+    "name": "ITR Filing - Audit Cases u/s 263(1) Table Sl. No. 3",
+    "appliesTo": "Companies and persons requiring audit u/s 63",
+    "penalty": "Rs 5,000 u/s 428 + interest u/s 423"
+  },
+  {
+    "date": "2025-10-31",
+    "act": "TDS",
+    "name": "TDS/TCS Return Filing (Form 138/140/144/143) - Q2 FY 2025-26",
+    "appliesTo": "All TDS/TCS deductors and collectors",
+    "penalty": "Rs 200/day under Chapter XIX-B (max TDS amount)"
+  },
+  {
+    "date": "2025-10-31",
+    "act": "Companies Act",
+    "name": "Annual Return (Form MGT-7)",
+    "appliesTo": "All companies",
+    "penalty": "Rs 100/day of default"
+  },
+  {
+    "date": "2025-11-30",
+    "act": "Income Tax",
+    "name": "ITR Filing - Transfer Pricing u/s 263(1) Table Sl. No. 1",
+    "appliesTo": "Companies with international transactions",
+    "penalty": "Rs 5,000 u/s 428 + interest u/s 423"
+  },
+  {
+    "date": "2025-12-15",
+    "act": "Income Tax",
+    "name": "Advance Tax - Q3 (75%)",
+    "appliesTo": "All assessees with tax liability > Rs 10,000",
+    "penalty": "Interest u/s 424 & 425"
+  },
+  {
+    "date": "2025-12-31",
+    "act": "Income Tax",
+    "name": "Belated/Revised ITR - AY 2025-26",
+    "appliesTo": "Taxpayers who missed original due date",
+    "penalty": "Rs 5,000 u/s 428 (Rs 1,000 if income ≤ Rs 5L)"
+  },
+  {
+    "date": "2025-12-31",
+    "act": "GST",
+    "name": "GSTR-9C Reconciliation - FY 2024-25",
+    "appliesTo": "Taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Late fee as applicable"
+  },
+  {
+    "date": "2026-01-31",
+    "act": "TDS",
+    "name": "TDS/TCS Return Filing (Form 138/140/144/143) - Q3 FY 2025-26",
+    "appliesTo": "All TDS/TCS deductors and collectors",
+    "penalty": "Rs 200/day under Chapter XIX-B (max TDS amount)"
+  },
+  {
+    "date": "2026-03-15",
+    "act": "Income Tax",
+    "name": "Advance Tax - Q4 (100%)",
+    "appliesTo": "All assessees with tax liability > Rs 10,000",
+    "penalty": "Interest u/s 424 & 425"
+  },
+  {
+    "date": "2026-03-31",
+    "act": "Income Tax",
+    "name": "Last date for Tax-saving investments (Sec 123/126)",
+    "appliesTo": "All individual taxpayers",
+    "penalty": "Loss of deduction benefits"
+  },
+  {
+    "date": "2026-03-31",
+    "act": "Income Tax",
+    "name": "Updated ITR (ITR-UN) - AY 2023-24",
+    "appliesTo": "Taxpayers updating return for AY 2023-24",
+    "penalty": "Additional tax of 50-60% of aggregate tax and interest"
+  },
+  {
+    "date": "2026-03-31",
+    "act": "GST",
+    "name": "LUT Filing (Form RFD-11) for FY 2026-27",
+    "appliesTo": "Exporters and SEZ suppliers",
+    "penalty": "Export without LUT requires IGST payment"
+  },
+  {
+    "date": "2026-03-31",
+    "act": "Companies Act",
+    "name": "DIR-3 KYC for Directors",
+    "appliesTo": "All DIN holders",
+    "penalty": "Rs 5,000 for delayed filing"
+  },
+  {
+    "date": "2026-04-07",
+    "act": "TDS",
+    "name": "TDS Payment - March 2026",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2026-04-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - March 2026",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-04-13",
+    "act": "GST",
+    "name": "GSTR-1 (QRMP) - Jan-Mar 2026",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-04-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - March 2026",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-04-22",
+    "act": "GST",
+    "name": "GSTR-3B (QRMP) - Jan-Mar 2026",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-04-30",
+    "act": "Income Tax",
+    "name": "Updated ITR (ITR-UN) - AY 2023-24 (extended 48-month window)",
+    "appliesTo": "Taxpayers updating return for AY 2023-24",
+    "penalty": "Additional tax of 60% of aggregate tax and interest"
+  },
+  {
+    "date": "2026-04-30",
+    "act": "Income Tax",
+    "name": "Form 121 (No TDS Declaration) - Q4 Upload",
+    "appliesTo": "Banks and financial institutions",
+    "penalty": "Penalty under Income Tax Act, 2025"
+  },
+  {
+    "date": "2026-04-30",
+    "act": "GST",
+    "name": "LUT Filing (Form RFD-11) for FY 2026-27",
+    "appliesTo": "Exporters and SEZ suppliers",
+    "penalty": "Export without LUT requires IGST payment"
+  },
+  {
+    "date": "2026-04-30",
+    "act": "GST",
+    "name": "GSTR-4 Annual Return (Composition) - FY 2025-26",
+    "appliesTo": "Composition Scheme taxpayers",
+    "penalty": "Rs 50/day (Rs 20 if nil), capped at Rs 2,000"
+  },
+  {
+    "date": "2026-05-07",
+    "act": "TDS",
+    "name": "TDS Payment - April 2026",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2026-05-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - April 2026",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-05-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - April 2026",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-05-31",
+    "act": "TDS",
+    "name": "TDS/TCS Return Filing (Form 138/140/144/143) - Q4 FY 2025-26",
+    "appliesTo": "All TDS/TCS deductors and collectors",
+    "penalty": "Rs 200/day under Chapter XIX-B (max TDS amount)"
+  },
+  {
+    "date": "2026-05-31",
+    "act": "Income Tax",
+    "name": "Statement of Financial Transactions (Form 165) - FY 2025-26",
+    "appliesTo": "Specified reporting entities (banks, mutual funds, registrars, etc.)",
+    "penalty": "Penalty for non-filing under Income Tax Act, 2025"
+  },
+  {
+    "date": "2026-06-07",
+    "act": "TDS",
+    "name": "TDS Payment - May 2026",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2026-06-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - May 2026",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-06-15",
+    "act": "Income Tax",
+    "name": "Advance Tax - Q1 (15%) FY 2026-27",
+    "appliesTo": "All assessees with tax liability > Rs 10,000",
+    "penalty": "Interest u/s 424 & 425"
+  },
+  {
+    "date": "2026-06-15",
+    "act": "Income Tax",
+    "name": "Form 130 (Salary TDS Certificate) - FY 2025-26",
+    "appliesTo": "All employers who deducted TDS on salary",
+    "penalty": "Penalty for non-issuance under Income Tax Act, 2025"
+  },
+  {
+    "date": "2026-06-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - May 2026",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-07-07",
+    "act": "TDS",
+    "name": "TDS Payment - June 2026",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2026-07-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - June 2026",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-07-13",
+    "act": "GST",
+    "name": "GSTR-1 (QRMP) - Apr-Jun 2026",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-07-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - June 2026",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-07-22",
+    "act": "GST",
+    "name": "GSTR-3B (QRMP) - Apr-Jun 2026",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-07-31",
+    "act": "Income Tax",
+    "name": "ITR Filing - Individuals (non-audit) AY 2026-27 u/s 263(1)",
+    "appliesTo": "Individuals, HUF (not requiring audit)",
+    "penalty": "Rs 5,000 u/s 428 (Rs 1,000 if income ≤ Rs 5L) + interest u/s 423"
+  },
+  {
+    "date": "2026-07-31",
+    "act": "TDS",
+    "name": "TDS/TCS Return Filing (Form 138/140/144/143) - Q1 FY 2026-27",
+    "appliesTo": "All TDS/TCS deductors and collectors",
+    "penalty": "Rs 200/day under Chapter XIX-B (max TDS amount)"
+  },
+  {
+    "date": "2026-08-07",
+    "act": "TDS",
+    "name": "TDS Payment - July 2026",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2026-08-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - July 2026",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-08-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - July 2026",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-09-07",
+    "act": "TDS",
+    "name": "TDS Payment - August 2026",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2026-09-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - August 2026",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-09-15",
+    "act": "Income Tax",
+    "name": "Advance Tax - Q2 (45%) FY 2026-27",
+    "appliesTo": "All assessees with tax liability > Rs 10,000",
+    "penalty": "Interest u/s 424 & 425"
+  },
+  {
+    "date": "2026-09-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - August 2026",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-09-30",
+    "act": "Income Tax",
+    "name": "Tax Audit Report (Form 26 Parts A/B/C/D) - FY 2025-26",
+    "appliesTo": "Businesses/professionals requiring audit u/s 63",
+    "penalty": "Penalty under Section 63 provisions"
+  },
+  {
+    "date": "2026-09-30",
+    "act": "Companies Act",
+    "name": "AGM for FY 2025-26",
+    "appliesTo": "All companies",
+    "penalty": "Rs 1 lakh + Rs 5,000/day of default"
+  },
+  {
+    "date": "2026-09-30",
+    "act": "GST",
+    "name": "GSTR-9 Annual Return - FY 2025-26",
+    "appliesTo": "All registered taxpayers",
+    "penalty": "Rs 200/day (max 0.5% of turnover)"
+  },
+  {
+    "date": "2026-10-07",
+    "act": "TDS",
+    "name": "TDS Payment - September 2026",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2026-10-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - September 2026",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-10-13",
+    "act": "GST",
+    "name": "GSTR-1 (QRMP) - Jul-Sep 2026",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-10-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - September 2026",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-10-22",
+    "act": "GST",
+    "name": "GSTR-3B (QRMP) - Jul-Sep 2026",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-10-31",
+    "act": "Income Tax",
+    "name": "ITR Filing - Audit Cases AY 2026-27 u/s 263(1) Table Sl. No. 3",
+    "appliesTo": "Companies and persons requiring audit u/s 63",
+    "penalty": "Rs 5,000 u/s 428 + interest u/s 423"
+  },
+  {
+    "date": "2026-10-31",
+    "act": "Companies Act",
+    "name": "Annual Return (Form MGT-7) FY 2025-26",
+    "appliesTo": "All companies",
+    "penalty": "Rs 100/day of default"
+  },
+  {
+    "date": "2026-10-31",
+    "act": "TDS",
+    "name": "TDS/TCS Return Filing (Form 138/140/144/143) - Q2 FY 2026-27",
+    "appliesTo": "All TDS/TCS deductors and collectors",
+    "penalty": "Rs 200/day under Chapter XIX-B (max TDS amount)"
+  },
+  {
+    "date": "2026-11-07",
+    "act": "TDS",
+    "name": "TDS Payment - October 2026",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2026-11-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - October 2026",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-11-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - October 2026",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-11-30",
+    "act": "Income Tax",
+    "name": "ITR Filing - Transfer Pricing AY 2026-27 u/s 263(1) Table Sl. No. 1",
+    "appliesTo": "Companies with international transactions",
+    "penalty": "Rs 5,000 u/s 428 + interest u/s 423"
+  },
+  {
+    "date": "2026-12-07",
+    "act": "TDS",
+    "name": "TDS Payment - November 2026",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2026-12-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - November 2026",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2026-12-15",
+    "act": "Income Tax",
+    "name": "Advance Tax - Q3 (75%) FY 2026-27",
+    "appliesTo": "All assessees with tax liability > Rs 10,000",
+    "penalty": "Interest u/s 424 & 425"
+  },
+  {
+    "date": "2026-12-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - November 2026",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2026-12-31",
+    "act": "Income Tax",
+    "name": "Belated/Revised ITR - AY 2026-27",
+    "appliesTo": "Taxpayers who missed original due date",
+    "penalty": "Rs 5,000 u/s 428 (Rs 1,000 if income ≤ Rs 5L) + interest u/s 423"
+  },
+  {
+    "date": "2026-12-31",
+    "act": "GST",
+    "name": "GSTR-9C Reconciliation - FY 2025-26",
+    "appliesTo": "Taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Late fee as applicable"
+  },
+  {
+    "date": "2027-01-07",
+    "act": "TDS",
+    "name": "TDS Payment - December 2026",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2027-01-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - December 2026",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2027-01-13",
+    "act": "GST",
+    "name": "GSTR-1 (QRMP) - Oct-Dec 2026",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2027-01-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - December 2026",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2027-01-22",
+    "act": "GST",
+    "name": "GSTR-3B (QRMP) - Oct-Dec 2026",
+    "appliesTo": "Taxpayers under QRMP scheme",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2027-01-31",
+    "act": "TDS",
+    "name": "TDS/TCS Return Filing (Form 138/140/144/143) - Q3 FY 2026-27",
+    "appliesTo": "All TDS/TCS deductors and collectors",
+    "penalty": "Rs 200/day under Chapter XIX-B (max TDS amount)"
+  },
+  {
+    "date": "2027-02-07",
+    "act": "TDS",
+    "name": "TDS Payment - January 2027",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2027-02-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - January 2027",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2027-02-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - January 2027",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2027-03-07",
+    "act": "TDS",
+    "name": "TDS Payment - February 2027",
+    "appliesTo": "All TDS deductors",
+    "penalty": "1.5% per month interest u/s 398(3)"
+  },
+  {
+    "date": "2027-03-11",
+    "act": "GST",
+    "name": "GSTR-1 (Monthly) - February 2027",
+    "appliesTo": "Registered taxpayers with turnover > Rs 5 Cr",
+    "penalty": "Rs 50/day (Rs 20 if nil return)"
+  },
+  {
+    "date": "2027-03-15",
+    "act": "Income Tax",
+    "name": "Advance Tax - Q4 (100%) FY 2026-27",
+    "appliesTo": "All assessees with tax liability > Rs 10,000",
+    "penalty": "Interest u/s 424 & 425"
+  },
+  {
+    "date": "2027-03-20",
+    "act": "GST",
+    "name": "GSTR-3B (Monthly) - February 2027",
+    "appliesTo": "All registered taxpayers (monthly)",
+    "penalty": "Rs 50/day + 18% interest on tax due"
+  },
+  {
+    "date": "2027-03-31",
+    "act": "Income Tax",
+    "name": "Last date for Tax-saving investments (Sec 123/126) FY 2026-27",
+    "appliesTo": "All individual taxpayers",
+    "penalty": "Loss of deduction benefits"
+  },
+  {
+    "date": "2027-03-31",
+    "act": "Income Tax",
+    "name": "Updated ITR (ITR-UN) - AY 2024-25 (48-month window)",
+    "appliesTo": "Taxpayers updating return for AY 2024-25",
+    "penalty": "Additional tax: 25-70% tiered based on filing delay"
+  },
+  {
+    "date": "2027-03-31",
+    "act": "Companies Act",
+    "name": "DIR-3 KYC for Directors",
+    "appliesTo": "All DIN holders",
+    "penalty": "Rs 5,000 for delayed filing"
+  }
+]

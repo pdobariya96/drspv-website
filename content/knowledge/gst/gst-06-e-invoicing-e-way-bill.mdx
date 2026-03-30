@@ -1,0 +1,126 @@
+---
+title: "E-Invoicing & E-Way Bill: Requirements, Rules & Compliance"
+slug: "gst-e-invoicing-e-way-bill"
+pillar: "gst"
+chapter: 6
+totalChapters: 8
+description: "Comprehensive guide to GST e-invoicing under Rule 48(4), e-way bill requirements under Rule 138, turnover thresholds, exemptions, and practical compliance strategies."
+date: "2026-03-01"
+author: "CA Vrajkishor Changani"
+readTime: "7 min"
+keywords: ["e-invoicing", "e-way bill", "IRN", "IRP", "Rule 48(4)", "Rule 138", "QR code", "NIC portal", "EWB"]
+---
+
+## Key Takeaways
+
+- **E-invoicing** is mandatory for taxpayers with aggregate turnover exceeding **Rs. 5 crore** (w.e.f. 01-08-2023) under Rule 48(4) of CGST Rules.
+- Every e-invoice receives a unique **Invoice Reference Number (IRN)** and QR code from the Invoice Registration Portal (IRP) managed by NIC.
+- **E-way bills** are required for movement of goods valued above **Rs. 50,000** under Rule 138, generated on the EWB portal.
+- E-invoice data **auto-populates** GSTR-1 and Part-A of the e-way bill, reducing duplicate data entry.
+- Non-compliance attracts penalties under Section 122 and the goods in transit may be detained under Section 129.
+
+<div className="amendment-banner">
+**Amendment Alert:** From 01-08-2023, the e-invoicing threshold was reduced to Rs. 5 crore aggregate turnover (from Rs. 10 crore). The Government is expected to further reduce this to Rs. 1 crore in the near future as per the GST Council's roadmap.
+</div>
+
+## E-Invoicing Under Rule 48(4)
+
+### What is E-Invoicing?
+E-invoicing is not invoice generation on a government portal. It is a system where the taxpayer generates an invoice on their own software and **reports it to the IRP (Invoice Registration Portal)** in a prescribed JSON format. The IRP validates the invoice, assigns an IRN, digitally signs it, and returns the signed invoice with a QR code.
+
+### Who Must Comply?
+
+| Effective Date | Turnover Threshold |
+|----------------|-------------------|
+| 01-10-2020 | Rs. 500 crore |
+| 01-01-2021 | Rs. 100 crore |
+| 01-04-2021 | Rs. 50 crore |
+| 01-04-2022 | Rs. 20 crore |
+| 01-10-2022 | Rs. 10 crore |
+| 01-08-2023 | **Rs. 5 crore** |
+
+### Exempted Categories
+- SEZ units (not SEZ developers)
+- Insurers, banking companies, financial institutions, NBFCs
+- GTA (Goods Transport Agency)
+- Passenger transport services
+- Admission to exhibition of cinematograph films
+
+### Key Technical Requirements
+- Invoice must be reported within **30 days** of the invoice date (for taxpayers with turnover above Rs. 100 crore)
+- IRN is a 64-character hash generated using supplier GSTIN, invoice number, and financial year
+- Cancellation of e-invoice is permitted within **24 hours** on the IRP; thereafter, only credit notes can be issued
+
+## E-Way Bill Under Rule 138
+
+### When is an E-Way Bill Required?
+An e-way bill must be generated **before** the commencement of movement of goods if the consignment value exceeds **Rs. 50,000**. This applies to:
+
+- Supply of goods (including inter-state and intra-state)
+- Reasons other than supply (e.g., job work, return of goods)
+- Inward supply from unregistered persons
+
+### Validity of E-Way Bills
+
+| Distance | Validity (Normal cargo) | Validity (Over-dimensional cargo) |
+|----------|------------------------|----------------------------------|
+| Up to 200 km | 1 day | 1 day |
+| Every additional 200 km | 1 additional day | 1 additional day |
+
+**Part A** contains invoice details (auto-populated from e-invoice if applicable). **Part B** contains vehicle/transporter details and must be updated before movement begins.
+
+### Exemptions from E-Way Bill
+- Goods transported by non-motorised conveyance
+- Goods specified in **Annexure to Rule 138(14)** (e.g., LPG, kerosene, currency, used personal/household effects)
+- Goods moved within **10 km radius** for job work (subject to conditions)
+
+## Worked Example -- E-Way Bill Scenario
+
+**Scenario:** A registered manufacturer in Pune ships machinery worth Rs. 8,50,000 to a buyer in Bangalore (distance: 850 km).
+
+| Step | Action |
+|------|--------|
+| **1. E-Invoice** | Generate invoice on ERP, report to IRP, obtain IRN and QR code |
+| **2. E-Way Bill Part A** | Auto-populated from e-invoice data (supplier GSTIN, buyer GSTIN, HSN, value, tax) |
+| **3. E-Way Bill Part B** | Enter vehicle number and transporter ID |
+| **4. Validity** | 850 km = 5 days validity (200 km base + 4 additional slabs of 200 km) |
+| **5. Documents in transit** | Carry invoice copy with IRN/QR, e-way bill print or e-way bill number |
+
+If the vehicle breaks down, the transporter must **extend validity** on the EWB portal before expiry and update the vehicle number for the new vehicle.
+
+## Landmark Judgement
+
+**Case:** *Satyam Shivam Papers Pvt. Ltd. v. Assistant Commissioner, State Tax*
+**Court:** Allahabad High Court
+**Year:** 2022
+**Ruling:** The Court held that mere technical defects in e-way bills (such as typographical errors in vehicle number or minor HSN code discrepancies) **cannot be a ground for detention** of goods under Section 129 when the genuineness of the transaction is not in doubt and the tax has been duly paid.
+**Impact:** Provided significant relief to transporters and businesses by distinguishing between substantive violations (intent to evade) and procedural/technical errors in e-way bill compliance.
+
+## Expert Tip
+
+> Integrate your e-invoicing API directly with your ERP/accounting software to eliminate manual JSON uploads. For businesses near the Rs. 5 crore threshold, our CAs recommend implementing e-invoicing proactively -- it improves data accuracy, auto-populates GSTR-1, and reduces reconciliation effort significantly. The transition is easier when done voluntarily rather than under deadline pressure.
+
+## Section Interconnect
+
+- **Previous:** [Chapter 5 -- GST Audit & Assessment](/knowledge/gst/gst-audit-assessment) covers how e-invoice data feeds into the audit trail.
+- **Next:** [Chapter 7 -- Composition Scheme](/knowledge/gst/gst-composition-scheme) discusses a simplified scheme where e-invoicing does not apply.
+- **Related:** [Chapter 4 -- GST Returns](/knowledge/gst/gst-returns-gstr1-3b-9) explains how e-invoice data auto-populates GSTR-1.
+
+## Frequently Asked Questions
+
+**Q1: Does e-invoicing mean the government generates my invoice?**
+No. You generate the invoice on your own billing software in the prescribed format, then report it to the IRP (Invoice Registration Portal). The IRP validates it, assigns a unique IRN, and returns the digitally signed invoice with a QR code. The content of the invoice remains yours.
+
+**Q2: Can I modify an e-invoice after it is generated?**
+You cannot modify a reported e-invoice. You can cancel it within 24 hours on the IRP portal. After 24 hours, the only remedy is to issue a credit note against the original invoice and generate a fresh e-invoice if needed.
+
+**Q3: What penalty applies if goods are moved without a valid e-way bill?**
+Under Section 129, the goods and conveyance may be detained. Release requires payment of **200% of the tax payable** (applicable tax + penalty equal to 100% of tax) or furnishing security equivalent to the same. Additionally, a penalty under Section 122(1)(xiv) of up to Rs. 10,000 or the tax sought to be evaded may apply.
+
+---
+
+*Disclaimer: This article is for educational purposes only and does not constitute legal or professional advice. GST laws are subject to frequent amendments. Readers should consult qualified CAs or tax professionals before acting on any information provided here.*
+
+<div className="whatsapp-cta">
+**Need help with e-invoicing setup or e-way bill compliance?** Our CAs assist with API integration and compliance planning. [Chat with us on WhatsApp](https://wa.me/919819889879?text=Hi%2C%20I%20need%20help%20with%20e-invoicing) today.
+</div>

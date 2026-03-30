@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://drspv.in
+
+# Sitemaps
+Sitemap: https://drspv.in/sitemap.xml

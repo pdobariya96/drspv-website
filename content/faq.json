@@ -1,0 +1,450 @@
+[
+  {
+    "id": "faq-01",
+    "category": "income-tax",
+    "question": "What is the due date for filing ITR for individuals (non-audit cases)?",
+    "answer": "The due date for filing Income Tax Return for individuals who are not required to get their accounts audited is 31st July of the assessment year. For FY 2024-25 (AY 2025-26), the deadline is 31st July 2025. Late filing attracts a penalty of up to Rs. 5,000 under Section 234F.",
+    "relatedLinks": [{"label": "ITR Filing Services", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20ITR%20filing%20for%20AY%202025-26"
+  },
+  {
+    "id": "faq-02",
+    "category": "income-tax",
+    "question": "What are the advance tax due dates and thresholds?",
+    "answer": "If your total tax liability exceeds Rs. 10,000 in a financial year, you must pay advance tax in four instalments: 15% by 15th June, 45% by 15th September, 75% by 15th December, and 100% by 15th March. Senior citizens without business income are exempt from advance tax.",
+    "relatedLinks": [{"label": "Advance Tax Planning", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20calculating%20advance%20tax%20for%20FY%202025-26"
+  },
+  {
+    "id": "faq-03",
+    "category": "income-tax",
+    "question": "What is the difference between the old and new tax regime?",
+    "answer": "The new tax regime (default from FY 2023-24) offers lower slab rates but eliminates most deductions like 80C, 80D, HRA, and LTA. The old regime allows all deductions and exemptions but has higher base rates. Taxpayers can choose the most beneficial regime each year while filing ITR (salaried) or once for business income.",
+    "relatedLinks": [{"label": "Tax Regime Comparison Guide", "url": "/downloads"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20compare%20old%20vs%20new%20tax%20regime%20for%20my%20income"
+  },
+  {
+    "id": "faq-04",
+    "category": "income-tax",
+    "question": "How do I respond to an income tax notice under Section 143(1)?",
+    "answer": "A Section 143(1) intimation is an automated comparison of your filed return with the department's records. If there is a demand, verify the discrepancies on the e-filing portal under 'e-Proceedings'. You can file a rectification request under Section 154 if the demand is incorrect, or pay the differential tax if valid. Response is typically required within 30 days.",
+    "relatedLinks": [{"label": "Tax Notice Response Guide", "url": "/downloads"}, {"label": "Notice Handling Services", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20received%20a%20Section%20143(1)%20income%20tax%20notice.%20Need%20help."
+  },
+  {
+    "id": "faq-05",
+    "category": "income-tax",
+    "question": "What deductions are available under Section 80C?",
+    "answer": "Section 80C allows a maximum deduction of Rs. 1,50,000 per year for investments in PPF, EPF, ELSS, NSC, 5-year FD, life insurance premium, tuition fees, SCSS, Sukanya Samriddhi, and home loan principal repayment. This deduction is available only under the old tax regime.",
+    "relatedLinks": [{"label": "Tax Planning Services", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20Section%2080C%20tax%20planning"
+  },
+  {
+    "id": "faq-06",
+    "category": "income-tax",
+    "question": "What is Form 26AS and how do I check it?",
+    "answer": "Form 26AS is your Annual Tax Statement showing TDS/TCS deducted, advance tax paid, self-assessment tax, and high-value transactions reported by third parties. You can access it via the income tax e-filing portal (incometax.gov.in) under 'e-File > View Form 26AS' or through TRACES. Always reconcile it before filing your ITR.",
+    "relatedLinks": [{"label": "ITR Filing Services", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20checking%20my%20Form%2026AS"
+  },
+  {
+    "id": "faq-07",
+    "category": "income-tax",
+    "question": "What is the Annual Information Statement (AIS)?",
+    "answer": "AIS is a comprehensive statement available on the income tax portal that shows all financial transactions reported by banks, mutual funds, registrars, and other entities. It includes savings interest, dividends, share transactions, property purchases, and more. Taxpayers should verify and provide feedback on any incorrect entries before filing ITR.",
+    "relatedLinks": [{"label": "Tax Filing Services", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20understanding%20my%20AIS%20statement"
+  },
+  {
+    "id": "faq-08",
+    "category": "income-tax",
+    "question": "How are capital gains on shares and mutual funds taxed?",
+    "answer": "Listed equity shares held for more than 12 months attract LTCG tax at 12.5% (above Rs. 1.25 lakh exemption) from FY 2024-25. STCG on listed equity is taxed at 20%. Debt mutual fund gains are taxed at slab rates irrespective of holding period. STT must be paid for LTCG benefit on listed shares.",
+    "relatedLinks": [{"label": "Capital Gains Advisory", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20capital%20gains%20tax%20on%20shares%20and%20mutual%20funds"
+  },
+  {
+    "id": "faq-09",
+    "category": "income-tax",
+    "question": "When should I file a revised return and what is the deadline?",
+    "answer": "A revised return under Section 139(5) can be filed if you discover any omission or error in your original return. The deadline is 31st December of the assessment year or before completion of assessment, whichever is earlier. For AY 2025-26, you can revise until 31st December 2025. There is no limit on the number of revisions.",
+    "relatedLinks": [{"label": "ITR Filing Services", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20to%20revise%20my%20income%20tax%20return"
+  },
+  {
+    "id": "faq-10",
+    "category": "income-tax",
+    "question": "What is TDS on salary and how is Form 16 issued?",
+    "answer": "Employers deduct TDS on salary under Section 192 based on estimated annual income and declared investments. Form 16 is the TDS certificate issued by the employer by 15th June each year, containing details of salary paid, deductions allowed, and tax deducted. It is essential for filing ITR-1 or ITR-2.",
+    "relatedLinks": [{"label": "Salary Tax Filing", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20Form%2016%20and%20salary%20tax%20filing"
+  },
+  {
+    "id": "faq-11",
+    "category": "income-tax",
+    "question": "What is the tax treatment for rental income?",
+    "answer": "Rental income is taxed under 'Income from House Property'. You can claim a standard deduction of 30% on Net Annual Value and deduct home loan interest (up to Rs. 2 lakh for self-occupied, unlimited for let-out). Municipal taxes actually paid are also deductible. If the property is jointly owned, each co-owner reports their share separately.",
+    "relatedLinks": [{"label": "Property Tax Advisory", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20rental%20income%20tax%20filing"
+  },
+  {
+    "id": "faq-12",
+    "category": "income-tax",
+    "question": "Which ITR form should I use for filing?",
+    "answer": "ITR-1 (Sahaj) is for salaried individuals with income up to Rs. 50 lakh. ITR-2 is for individuals with capital gains or foreign assets. ITR-3 is for business/profession income. ITR-4 (Sugam) is for presumptive income under Sections 44AD/44ADA. ITR-5 is for LLPs and firms, and ITR-6 for companies. Our CAs can help determine the correct form for your situation.",
+    "relatedLinks": [{"label": "ITR Filing Services", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20choosing%20the%20right%20ITR%20form"
+  },
+  {
+    "id": "faq-13",
+    "category": "income-tax",
+    "question": "What is Section 44AD presumptive taxation for businesses?",
+    "answer": "Section 44AD allows eligible businesses with turnover up to Rs. 3 crore (if 95% digital receipts) to declare 6% of digital turnover and 8% of cash turnover as presumptive income, without maintaining detailed books. Professionals can use Section 44ADA for gross receipts up to Rs. 75 lakh. This simplifies compliance significantly for small businesses.",
+    "relatedLinks": [{"label": "Business Tax Filing", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20know%20about%20presumptive%20taxation%20under%20Section%2044AD"
+  },
+  {
+    "id": "faq-14",
+    "category": "income-tax",
+    "question": "How do I claim HRA exemption if I pay rent?",
+    "answer": "HRA exemption under Section 10(13A) is the minimum of: actual HRA received, 50% of salary (metro) or 40% (non-metro), or rent paid minus 10% of salary. If rent exceeds Rs. 1 lakh per year, the landlord's PAN is mandatory. If you do not receive HRA, you can claim deduction under Section 80GG up to Rs. 5,000/month.",
+    "relatedLinks": [{"label": "Salary Tax Planning", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20calculating%20HRA%20exemption"
+  },
+  {
+    "id": "faq-15",
+    "category": "income-tax",
+    "question": "What are the penalties for late filing of ITR?",
+    "answer": "Under Section 234F, a late filing fee of Rs. 5,000 applies if ITR is filed after the due date but before 31st December. The fee is Rs. 1,000 if total income is below Rs. 5 lakh. Additionally, interest under Section 234A at 1% per month is charged on unpaid tax from the due date. You also lose the ability to carry forward certain losses.",
+    "relatedLinks": [{"label": "ITR Filing Services", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20missed%20the%20ITR%20deadline.%20Need%20help%20filing%20belated%20return."
+  },
+  {
+    "id": "faq-16",
+    "category": "income-tax",
+    "question": "How is income from cryptocurrency and digital assets taxed in India?",
+    "answer": "From FY 2022-23, gains from transfer of Virtual Digital Assets (VDAs) including cryptocurrency are taxed at a flat 30% under Section 115BBH, with no deduction allowed except cost of acquisition. TDS at 1% is applicable under Section 194S on transfers exceeding Rs. 50,000 (Rs. 10,000 for specified persons). Losses cannot be set off against any other income.",
+    "relatedLinks": [{"label": "Crypto Tax Advisory", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20crypto%20income%20tax%20filing"
+  },
+  {
+    "id": "faq-17",
+    "category": "income-tax",
+    "question": "What is the tax audit requirement under Section 44AB?",
+    "answer": "Tax audit under Section 44AB is mandatory if business turnover exceeds Rs. 1 crore (Rs. 10 crore if 95%+ transactions are digital) or professional gross receipts exceed Rs. 50 lakh. The audit report in Form 3CD must be filed by 30th September. Non-compliance attracts a penalty of 0.5% of turnover or Rs. 1.5 lakh, whichever is lower.",
+    "relatedLinks": [{"label": "Tax Audit Services", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20tax%20audit%20services%20under%20Section%2044AB"
+  },
+  {
+    "id": "faq-18",
+    "category": "income-tax",
+    "question": "Can I claim deduction for health insurance premium?",
+    "answer": "Under Section 80D, you can claim deduction of up to Rs. 25,000 for health insurance premium for self, spouse, and children. An additional Rs. 25,000 (Rs. 50,000 for senior citizens) is available for parents' insurance. Preventive health check-up of Rs. 5,000 is included within this limit. This is available only under the old tax regime.",
+    "relatedLinks": [{"label": "Tax Planning Services", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20claim%20Section%2080D%20deduction%20for%20health%20insurance"
+  },
+  {
+    "id": "faq-19",
+    "category": "gst",
+    "question": "Who is required to register for GST?",
+    "answer": "GST registration is mandatory if aggregate turnover exceeds Rs. 40 lakh (Rs. 20 lakh for special category states) for goods, or Rs. 20 lakh (Rs. 10 lakh for special category states) for services. It is also mandatory for inter-state suppliers, e-commerce operators, casual taxable persons, and those making taxable supplies via e-commerce platforms, regardless of turnover.",
+    "relatedLinks": [{"label": "GST Registration Services", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20GST%20registration"
+  },
+  {
+    "id": "faq-20",
+    "category": "gst",
+    "question": "What is the due date for filing GSTR-3B?",
+    "answer": "GSTR-3B is a monthly summary return due by the 20th of the following month for taxpayers with turnover above Rs. 5 crore. For taxpayers with turnover up to Rs. 5 crore, it can be filed quarterly under the QRMP scheme (due by 22nd or 24th of the month following the quarter, depending on the state). Late filing attracts interest at 18% on tax liability and a late fee.",
+    "relatedLinks": [{"label": "GST Filing Services", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20filing%20GSTR-3B"
+  },
+  {
+    "id": "faq-21",
+    "category": "gst",
+    "question": "What is Input Tax Credit (ITC) and how do I claim it?",
+    "answer": "ITC allows you to reduce the GST paid on inputs from your output GST liability. To claim ITC, the supplier must have filed their GSTR-1 and the invoice must reflect in your GSTR-2B. You must possess a valid tax invoice, have received the goods/services, and file your returns on time. ITC is blocked on certain items like motor vehicles (with exceptions), food and beverages, and personal consumption.",
+    "relatedLinks": [{"label": "GST Advisory", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20ITC%20claim%20and%20reconciliation"
+  },
+  {
+    "id": "faq-22",
+    "category": "gst",
+    "question": "What is GSTR-9 and when is it due?",
+    "answer": "GSTR-9 is the annual return under GST, summarizing all monthly/quarterly returns filed during the year. It is mandatory for all regular taxpayers with aggregate turnover exceeding Rs. 2 crore. The due date is 31st December of the following financial year. GSTR-9C (reconciliation statement) is a self-certified reconciliation for turnover above Rs. 5 crore.",
+    "relatedLinks": [{"label": "GST Annual Return Filing", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20filing%20GSTR-9%20annual%20return"
+  },
+  {
+    "id": "faq-23",
+    "category": "gst",
+    "question": "What is the Composition Scheme under GST?",
+    "answer": "The Composition Scheme is available for businesses with turnover up to Rs. 1.5 crore (Rs. 75 lakh for special category states). Tax is paid at a flat rate: 1% for manufacturers, 1% for traders, and 5% for restaurants. Composition dealers file quarterly returns in CMP-08 and an annual return in GSTR-4. They cannot collect tax from customers or claim ITC.",
+    "relatedLinks": [{"label": "GST Advisory", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20know%20about%20GST%20Composition%20Scheme"
+  },
+  {
+    "id": "faq-24",
+    "category": "gst",
+    "question": "How do I file GSTR-1 and what are the deadlines?",
+    "answer": "GSTR-1 contains details of all outward supplies (sales) made during the period. For monthly filers (turnover above Rs. 5 crore), it is due by the 11th of the following month. For quarterly filers under QRMP scheme, it is due by the 13th of the month following the quarter. Invoice Furnishing Facility (IFF) is available for quarterly filers to upload B2B invoices monthly.",
+    "relatedLinks": [{"label": "GST Filing Services", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20filing%20GSTR-1"
+  },
+  {
+    "id": "faq-25",
+    "category": "gst",
+    "question": "What is an e-Invoice under GST and who needs to generate it?",
+    "answer": "E-invoicing is mandatory for businesses with aggregate turnover exceeding Rs. 5 crore from 1st August 2023. The Invoice Registration Portal (IRP) generates a unique Invoice Reference Number (IRN) and QR code for each B2B invoice. E-invoices auto-populate GSTR-1 and e-way bills, reducing reconciliation issues. Non-compliance can result in penalties and ITC denial to recipients.",
+    "relatedLinks": [{"label": "GST Compliance", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20e-invoicing%20under%20GST"
+  },
+  {
+    "id": "faq-26",
+    "category": "gst",
+    "question": "What is GSTR-2B and how is it different from GSTR-2A?",
+    "answer": "GSTR-2B is a static, auto-generated ITC statement available on the 14th of each month, based on suppliers' GSTR-1 and GSTR-5 filings. Unlike GSTR-2A, which changes dynamically as suppliers file, GSTR-2B is fixed for a given period and is the basis for ITC claims in GSTR-3B. Taxpayers should reconcile GSTR-2B with their purchase records before filing.",
+    "relatedLinks": [{"label": "GST ITC Services", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20GSTR-2B%20reconciliation"
+  },
+  {
+    "id": "faq-27",
+    "category": "gst",
+    "question": "What is GST on export of goods and services?",
+    "answer": "Exports are treated as zero-rated supplies under GST. Exporters can either export under a Letter of Undertaking (LUT) without paying IGST, or pay IGST and claim refund later. LUT in Form GST RFD-11 is filed annually on the GST portal. Refund of accumulated ITC on inputs used for exports can be claimed in Form GST RFD-01.",
+    "relatedLinks": [{"label": "Export GST Advisory", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20GST%20on%20exports%20and%20LUT%20filing"
+  },
+  {
+    "id": "faq-28",
+    "category": "gst",
+    "question": "How is reverse charge mechanism (RCM) applied under GST?",
+    "answer": "Under RCM, the recipient pays GST instead of the supplier. RCM applies on specified goods/services listed under Section 9(3) such as legal services, GTA services, and sponsorship. It also applies when a registered person purchases from an unregistered person for specified categories. RCM tax paid is eligible for ITC if conditions are met.",
+    "relatedLinks": [{"label": "GST Advisory", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20understanding%20reverse%20charge%20under%20GST"
+  },
+  {
+    "id": "faq-29",
+    "category": "gst",
+    "question": "What is an e-Way Bill and when is it required?",
+    "answer": "An e-Way Bill must be generated on the e-Way Bill portal for movement of goods exceeding Rs. 50,000 in value. Part A contains supply details and Part B contains vehicle/transporter details. It is valid for 1 day per 200 km for regular cargo. Non-generation attracts a penalty equal to the tax evaded or Rs. 10,000, whichever is higher.",
+    "relatedLinks": [{"label": "GST Compliance", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20e-Way%20Bill%20generation"
+  },
+  {
+    "id": "faq-30",
+    "category": "gst",
+    "question": "Can GST registration be cancelled and what is the process?",
+    "answer": "GST registration can be cancelled voluntarily if business is discontinued or turnover falls below threshold, by filing Form GST REG-16. The officer may also cancel suo motu for non-compliance. A final return in GSTR-10 must be filed within 3 months of cancellation. Revocation of cancelled registration can be applied for in Form GST REG-21 within 90 days.",
+    "relatedLinks": [{"label": "GST Services", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20GST%20registration%20cancellation"
+  },
+  {
+    "id": "faq-31",
+    "category": "gst",
+    "question": "What happens if I miss the GST return filing deadline?",
+    "answer": "Late filing of GST returns attracts a late fee of Rs. 50 per day (Rs. 20 for nil returns) for GSTR-1 and GSTR-3B, capped at Rs. 5,000 to Rs. 10,000 depending on the return. Interest at 18% per annum is charged on the net tax liability from the due date. Continuous non-filing for 6 months can lead to suo motu cancellation of GSTIN.",
+    "relatedLinks": [{"label": "GST Compliance", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20have%20pending%20GST%20returns%20to%20file.%20Need%20help."
+  },
+  {
+    "id": "faq-32",
+    "category": "gst",
+    "question": "What is TDS and TCS under GST?",
+    "answer": "GST TDS at 2% (1% CGST + 1% SGST) is deducted by government bodies and specified entities on payments exceeding Rs. 2.5 lakh for supply of goods or services under Section 51. GST TCS at 1% is collected by e-commerce operators on net taxable supplies made through their platform under Section 52. Both are reflected in the recipient's Electronic Cash Ledger.",
+    "relatedLinks": [{"label": "GST Advisory", "url": "/services/gst"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20GST%20TDS%20and%20TCS%20provisions"
+  },
+  {
+    "id": "faq-33",
+    "category": "ipo",
+    "question": "What are the eligibility criteria for an IPO in India?",
+    "answer": "Under SEBI ICDR Regulations, a company must have net tangible assets of at least Rs. 3 crore in each of the preceding 3 years, average pre-tax operating profit of Rs. 15 crore in at least 3 of the preceding 5 years, and net worth of at least Rs. 1 crore in each of the 3 preceding years. Alternatively, the issue can be through the book-building route with 75% to QIBs.",
+    "relatedLinks": [{"label": "IPO Advisory Services", "url": "/services/ipo"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20know%20if%20my%20company%20is%20eligible%20for%20an%20IPO"
+  },
+  {
+    "id": "faq-34",
+    "category": "ipo",
+    "question": "What is a DRHP and how is it different from RHP?",
+    "answer": "The Draft Red Herring Prospectus (DRHP) is filed with SEBI for review and does not contain the final price or number of shares. After SEBI observations and addressing comments, the Red Herring Prospectus (RHP) is filed with RoC with the price band. The final prospectus is filed after pricing with exact allocation details within 2 days of the basis of allotment.",
+    "relatedLinks": [{"label": "IPO Documentation Services", "url": "/services/ipo"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20preparing%20DRHP%20for%20my%20company"
+  },
+  {
+    "id": "faq-35",
+    "category": "ipo",
+    "question": "How long does the IPO process take from start to listing?",
+    "answer": "The typical IPO timeline is 8-12 months. This includes 2-3 months for due diligence and DRHP preparation, 30 days for SEBI review (extendable), 2-3 months for addressing SEBI observations, 3-10 days for the public offer period, and T+3 days for listing. Our qualified CAs work closely with merchant bankers to streamline the financial documentation process.",
+    "relatedLinks": [{"label": "IPO Services", "url": "/services/ipo"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20understand%20the%20IPO%20timeline%20for%20my%20company"
+  },
+  {
+    "id": "faq-36",
+    "category": "ipo",
+    "question": "What financial statements are required for an IPO?",
+    "answer": "SEBI requires restated Ind-AS financial statements for the preceding 3-5 financial years, audited by qualified CAs. This includes Balance Sheet, Profit & Loss statement, Cash Flow statement, Statement of Changes in Equity, and detailed notes. A stub period statement is needed if the offer document is filed more than 6 months after the last audited financials.",
+    "relatedLinks": [{"label": "IPO Audit Services", "url": "/services/ipo"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20IPO%20financial%20statement%20preparation"
+  },
+  {
+    "id": "faq-37",
+    "category": "ipo",
+    "question": "What is the role of a Chartered Accountant in an IPO?",
+    "answer": "Qualified CAs play a critical role in IPO readiness: preparing restated financial statements under Ind-AS, issuing the auditor's report on restated financials, providing tax benefit statements, certifying compliance with accounting standards, assisting with financial due diligence, and ensuring SEBI ICDR regulatory compliance. Our CAs have experience across multiple successful IPOs.",
+    "relatedLinks": [{"label": "IPO Advisory", "url": "/services/ipo"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20a%20CA%20for%20IPO%20readiness%20and%20audit"
+  },
+  {
+    "id": "faq-38",
+    "category": "ipo",
+    "question": "What is the lock-in period for promoter shares after an IPO?",
+    "answer": "Under SEBI ICDR Regulations, promoters must lock-in at least 18 months of their post-issue shareholding contributing to minimum promoter contribution (20% of post-issue capital). The remaining promoter holding is locked-in for 6 months. Pre-IPO investors holding more than 5% must lock-in for 6 months from the date of allotment.",
+    "relatedLinks": [{"label": "IPO Compliance", "url": "/services/ipo"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20to%20understand%20promoter%20lock-in%20requirements%20for%20IPO"
+  },
+  {
+    "id": "faq-39",
+    "category": "ipo",
+    "question": "What is an SME IPO and how is it different from a mainboard IPO?",
+    "answer": "SME IPOs are listed on BSE SME or NSE Emerge platforms. The minimum application size is Rs. 1 lakh (vs Rs. 15,000 for mainboard). Post-issue paid-up capital must be between Rs. 1 crore and Rs. 25 crore. Merchant bankers act as market makers for 3 years. The company migrates to the mainboard once post-issue capital exceeds Rs. 25 crore and meets mainboard criteria.",
+    "relatedLinks": [{"label": "SME IPO Services", "url": "/services/ipo"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20am%20interested%20in%20SME%20IPO%20for%20my%20company"
+  },
+  {
+    "id": "faq-40",
+    "category": "ipo",
+    "question": "What are the ongoing compliance requirements after an IPO?",
+    "answer": "Post-listing, companies must comply with SEBI LODR Regulations including quarterly financial results, annual reports, corporate governance requirements, and disclosure of material events. Board composition must include independent directors (one-third for listed companies). Audit committee, nomination committee, and stakeholder relationship committee are mandatory.",
+    "relatedLinks": [{"label": "Post-IPO Compliance", "url": "/services/ipo"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20post-listing%20compliance%20requirements"
+  },
+  {
+    "id": "faq-41",
+    "category": "ipo",
+    "question": "What is ESOP restructuring before an IPO?",
+    "answer": "Companies often restructure Employee Stock Option Plans before an IPO to align with SEBI guidelines. This includes ensuring ESOP pools are within acceptable dilution limits (typically 5-10%), converting outstanding ESOPs to shares before filing DRHP, complying with SEBI SBEB Regulations, and accounting for ESOP expenses under Ind-AS 102 in restated financials.",
+    "relatedLinks": [{"label": "IPO Readiness", "url": "/services/ipo"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20ESOP%20restructuring%20before%20IPO"
+  },
+  {
+    "id": "faq-42",
+    "category": "ipo",
+    "question": "What is the minimum public offer and oversubscription in an IPO?",
+    "answer": "For mainboard IPOs, the minimum public offer must be at least 10% of post-issue capital (25% for issue size below Rs. 4,000 crore). Oversubscription in QIB category is common and allocation follows proportionate allotment. Retail category must constitute at least 35% of the net offer (10% for mainboard with QIB quota). Oversubscription is a positive market signal.",
+    "relatedLinks": [{"label": "IPO Services", "url": "/services/ipo"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20to%20understand%20IPO%20offer%20structure%20and%20allocation"
+  },
+  {
+    "id": "faq-43",
+    "category": "fema",
+    "question": "What is the Liberalised Remittance Scheme (LRS) and what is the current limit?",
+    "answer": "Under LRS, all resident individuals can remit up to USD 2,50,000 per financial year for permissible current and capital account transactions such as education, travel, medical treatment, gifts, investments in shares, and property abroad. TCS at 20% is applicable on remittances exceeding Rs. 7 lakh (5% for education loans). Form 15CA/15CB may be required for specified payments.",
+    "relatedLinks": [{"label": "FEMA Advisory", "url": "/services/fema"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20foreign%20remittance%20under%20LRS"
+  },
+  {
+    "id": "faq-44",
+    "category": "fema",
+    "question": "What are the FEMA compliance requirements for NRIs?",
+    "answer": "NRIs must maintain NRE/NRO accounts for Indian earnings and remittances. NRE accounts are freely repatriable and tax-exempt, while NRO accounts are taxable with repatriation up to USD 1 million per year. NRIs must report foreign assets in Schedule FA of their ITR if they become residents. FEMA also governs NRI investments in Indian immovable property, shares, and businesses.",
+    "relatedLinks": [{"label": "NRI Tax Services", "url": "/services/fema"}, {"label": "NRI Tax Guide", "url": "/downloads"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20am%20an%20NRI%20and%20need%20help%20with%20FEMA%20compliance"
+  },
+  {
+    "id": "faq-45",
+    "category": "fema",
+    "question": "What is Form 15CA and 15CB?",
+    "answer": "Form 15CA is an online declaration by the remitter filed on the income tax portal for any foreign remittance. Form 15CB is a certificate from a qualified CA certifying the nature of remittance, applicable DTAA rate, and TDS compliance, required for payments exceeding Rs. 5 lakh in a financial year. Both must be filed before the bank processes the remittance.",
+    "relatedLinks": [{"label": "Foreign Remittance Services", "url": "/services/fema"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20Form%2015CA%20and%2015CB%20certificate%20for%20foreign%20payment"
+  },
+  {
+    "id": "faq-46",
+    "category": "fema",
+    "question": "What are the rules for Foreign Direct Investment (FDI) in India?",
+    "answer": "FDI is permitted in most sectors under the automatic route, while some sectors like defence, telecom, and insurance require government approval above specified thresholds. Prohibited sectors include lottery, gambling, and chit funds. FDI in LLPs is permitted only under the government route. Pricing guidelines under FEMA 20(R) must be followed, and FC-GPR form must be filed with RBI within 30 days of allotment.",
+    "relatedLinks": [{"label": "FDI Advisory", "url": "/services/fema"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20FDI%20compliance%20in%20India"
+  },
+  {
+    "id": "faq-47",
+    "category": "fema",
+    "question": "What is ODI (Overseas Direct Investment) and what are the compliance requirements?",
+    "answer": "Under FEMA ODI Regulations 2022, Indian residents can invest abroad in a foreign entity up to 400% of their net worth. Form ODI Part I must be filed with the AD bank before remittance. Annual Performance Report (APR) must be filed by 31st December each year for each overseas entity. Disinvestment proceeds must be repatriated within 90 days.",
+    "relatedLinks": [{"label": "ODI Advisory", "url": "/services/fema"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20Overseas%20Direct%20Investment%20compliance"
+  },
+  {
+    "id": "faq-48",
+    "category": "fema",
+    "question": "What is ECB (External Commercial Borrowing) under FEMA?",
+    "answer": "ECB allows Indian entities to borrow from foreign sources under the RBI's ECB framework. Track I covers medium-term borrowings (3-5 years) and Track II covers long-term (5-10 years). All-in-cost ceiling is benchmark rate + 500 bps. ECB proceeds cannot be used for real estate (except affordable housing), capital markets, or general corporate purposes (with exceptions). Form ECB must be filed monthly with RBI.",
+    "relatedLinks": [{"label": "ECB Advisory", "url": "/services/fema"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20External%20Commercial%20Borrowing%20compliance"
+  },
+  {
+    "id": "faq-49",
+    "category": "fema",
+    "question": "Can NRIs buy property in India under FEMA?",
+    "answer": "NRIs and OCIs can purchase residential and commercial property in India without RBI approval, but cannot buy agricultural land, plantation property, or farmhouse. Payment must be from NRE/NRO/FCNR accounts or inward remittance. Sale proceeds of property held for more than 2 years can be repatriated through NRE account (maximum 2 properties, up to USD 1 million per financial year).",
+    "relatedLinks": [{"label": "NRI Property Advisory", "url": "/services/fema"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20am%20NRI%20and%20want%20to%20buy%20property%20in%20India.%20Need%20FEMA%20guidance."
+  },
+  {
+    "id": "faq-50",
+    "category": "fema",
+    "question": "What are the penalties for FEMA non-compliance?",
+    "answer": "FEMA violations can attract a penalty up to three times the sum involved, or Rs. 2 lakh where the amount is not quantifiable, under Section 13. For continuing contraventions, an additional Rs. 5,000 per day applies. The Enforcement Directorate (ED) is the enforcement authority. Compounding of offences is available under Section 15 through RBI for contraventions up to Rs. 100 crore.",
+    "relatedLinks": [{"label": "FEMA Compliance", "url": "/services/fema"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20help%20with%20FEMA%20compliance%20and%20penalty%20matters"
+  },
+  {
+    "id": "faq-51",
+    "category": "general",
+    "question": "What services does DRSPV & Associates offer?",
+    "answer": "DRSPV & Associates is a full-service Chartered Accountancy firm offering income tax planning and filing, GST registration and compliance, IPO readiness and financial due diligence, FEMA and foreign exchange advisory, audit and assurance, company incorporation, and business advisory. Our qualified CAs serve individuals, startups, SMEs, and listed companies across India.",
+    "relatedLinks": [{"label": "Our Services", "url": "/services"}, {"label": "Contact Us", "url": "/contact"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20know%20about%20DRSPV%20services"
+  },
+  {
+    "id": "faq-52",
+    "category": "general",
+    "question": "How do I engage DRSPV & Associates for tax filing?",
+    "answer": "You can reach out via WhatsApp, email, or our website contact form. After an initial consultation (free for individuals), our CAs will assess your requirements and share a transparent fee quote. Document collection is done securely online, and you receive regular updates throughout the filing process. Most individual ITRs are completed within 3-5 working days.",
+    "relatedLinks": [{"label": "Contact Us", "url": "/contact"}, {"label": "Book Consultation", "url": "/contact"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20engage%20DRSPV%20for%20tax%20filing"
+  },
+  {
+    "id": "faq-53",
+    "category": "general",
+    "question": "Do you offer services for NRIs and overseas clients?",
+    "answer": "Yes, we serve NRIs and overseas clients across all time zones. Our services include NRI tax filing in India, DTAA benefit claims, FEMA compliance, repatriation assistance, and foreign asset reporting. We conduct consultations via video call and use secure digital document sharing. Our CAs are well-versed in cross-border tax complexities.",
+    "relatedLinks": [{"label": "NRI Services", "url": "/services/fema"}, {"label": "NRI Tax Guide", "url": "/downloads"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20am%20an%20NRI%20and%20need%20tax%20services%20in%20India"
+  },
+  {
+    "id": "faq-54",
+    "category": "general",
+    "question": "What documents do I need for income tax return filing?",
+    "answer": "For salaried individuals: Form 16, bank statements, investment proofs (80C, 80D), home loan certificate, rent receipts, and AIS/26AS. For business owners: profit and loss account, balance sheet, bank statements, GST returns, and TDS certificates. For capital gains: broker statements and demat holding reports. Our CAs provide a customized checklist based on your income sources.",
+    "relatedLinks": [{"label": "ITR Checklist Download", "url": "/downloads"}, {"label": "ITR Filing Services", "url": "/services/income-tax-advisory"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20need%20the%20document%20checklist%20for%20ITR%20filing"
+  },
+  {
+    "id": "faq-55",
+    "category": "general",
+    "question": "Do you handle tax notices and assessments?",
+    "answer": "Yes, our CAs handle all types of income tax notices including Section 143(1) intimations, Section 143(2) scrutiny notices, Section 148 reassessment notices, and CPC demand notices. We prepare responses, attend virtual hearings, file rectification requests, and represent clients before the CIT(Appeals) and ITAT if required.",
+    "relatedLinks": [{"label": "Tax Notice Services", "url": "/services/income-tax-advisory"}, {"label": "Notice Response Guide", "url": "/downloads"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20received%20a%20tax%20notice%20and%20need%20professional%20help"
+  },
+  {
+    "id": "faq-56",
+    "category": "general",
+    "question": "What are your fees for CA services?",
+    "answer": "Our fees vary based on the complexity and scope of work. Individual ITR filing starts from Rs. 1,500. Business tax filing, GST compliance, and audit engagements are quoted based on turnover and transaction volume. We provide transparent, upfront pricing with no hidden charges. Contact us for a customized quotation based on your requirements.",
+    "relatedLinks": [{"label": "Contact Us", "url": "/contact"}],
+    "whatsappCTA": "https://wa.me/911234567890?text=Hi%2C%20I%20want%20to%20know%20about%20your%20fees%20for%20CA%20services"
+  }
+]
