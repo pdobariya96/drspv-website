@@ -690,6 +690,147 @@ Our valuation methodologies include Discounted Cash Flow (DCF), Comparable Compa
     relatedKB: [],
     keywords: ["IBBI registered valuer", "business valuation India", "share valuation CA", "IBC valuation services", "fair market value assessment"],
   },
+  "debt-funding-advisory": {
+    title: "Debt Funding Advisory",
+    slug: "debt-funding-advisory",
+    color: "#F97316",
+    metaTitle: "Debt Funding Advisory Services — CMA Data, Term Loans & NCDs",
+    metaDesc:
+      "End-to-end debt funding advisory from DRSPV & Associates. CMA data preparation, term loan and working capital facilitation, NCD structuring, and bank/NBFC liaison for MSMEs and businesses.",
+    description: `Raising debt capital is often the most critical and time-sensitive challenge for growing businesses. Whether you need working capital to manage day-to-day operations, a term loan to expand your plant, or structured debt through Non-Convertible Debentures (NCDs), the process involves complex documentation, financial projections, and negotiations with multiple financial institutions.
+
+At DRSPV & Associates, we provide end-to-end debt funding advisory to help businesses access the right credit at the right terms. Our team has extensive experience working with public sector banks, private sector banks, NBFCs, and specialised financial institutions to arrange and structure debt facilities.
+
+Our process begins with a thorough assessment of your credit profile, existing debt structure, and funding requirements. We then prepare all required documentation including Credit Monitoring Arrangement (CMA) data, project reports, techno-economic feasibility reports, and information memorandums. Our CMA data preparation is rigorous and banker-ready, presenting your financials in a manner that clearly demonstrates debt serviceability.
+
+For working capital requirements, we assist with Cash Credit (CC) limits, Overdraft (OD) facilities, Letter of Credit (LC), and Bank Guarantee (BG) arrangements. For capital expenditure, we structure term loans with appropriate moratorium periods and repayment schedules matched to your cash flow projections. We also advise on NCD issuances for companies looking to raise funds from the debt capital markets.
+
+Throughout the process, we maintain active liaison with relationship managers and credit departments at banks and NBFCs, respond to queries, and ensure timely sanction and disbursement. Our deep understanding of bank credit appraisal processes means we anticipate and address potential objections before they delay your funding.`,
+    whoNeeds: [
+      "MSMEs seeking working capital or term loan from banks",
+      "Manufacturers expanding capacity needing project finance",
+      "Traders requiring LC/BG and credit limit enhancement",
+      "Real estate developers needing construction finance",
+      "Companies looking to issue NCDs for structured debt",
+    ],
+    steps: [
+      { title: "Credit Assessment", desc: "Evaluate your current financial position, existing debt, credit score, and funding needs to determine the optimal debt structure and lender mix." },
+      { title: "Documentation", desc: "Prepare CMA data, project reports, financial projections, information memorandum, and all supporting documents required by lenders." },
+      { title: "Lender Identification", desc: "Identify and approach the most suitable banks, NBFCs, or financial institutions based on your profile, sector, and funding requirement." },
+      { title: "Negotiation & Sanction", desc: "Present your case to lenders, respond to queries, negotiate terms including interest rate, tenure, and collateral, and secure sanction." },
+      { title: "Disbursement & Compliance", desc: "Coordinate documentation for disbursement and set up ongoing compliance including stock statements, QIS reports, and annual renewals." },
+    ],
+    faq: [
+      {
+        q: "What is CMA data and why is it important?",
+        a: "CMA (Credit Monitoring Arrangement) data is a standardised financial analysis format required by banks for credit appraisal. It presents historical financials, current year estimates, and projected financials over the loan tenure. Well-prepared CMA data is crucial as it demonstrates your business's ability to service the proposed debt and directly influences the bank's credit decision.",
+      },
+      {
+        q: "How long does it typically take to get a bank loan sanctioned?",
+        a: "The timeline varies by lender and loan type. For working capital limits at PSU banks, the process typically takes 45-90 days from submission of complete documents. Private banks and NBFCs can be faster at 15-30 days. Our team proactively manages the process to minimise delays through regular follow-up and prompt response to bank queries.",
+      },
+      {
+        q: "What is the difference between a term loan and working capital facility?",
+        a: "A term loan is used for capital expenditure (plant, machinery, land, building) and is repaid over a fixed period in instalments. Working capital facilities (Cash Credit, Overdraft) are revolving credit lines used for day-to-day operations like raw material purchase and are typically renewed annually. Both have different documentation requirements and assessment criteria.",
+      },
+    ],
+    relatedKB: [],
+    keywords: ["debt funding advisory India", "CMA data preparation", "working capital loan MSME", "term loan bank facilitation", "NCD debenture structuring"],
+  },
+  "project-finance": {
+    title: "Project Finance",
+    slug: "project-finance",
+    color: "#14B8A6",
+    metaTitle: "Project Finance Services — DPR, Feasibility & Lender Syndication",
+    metaDesc:
+      "Structured project finance solutions from DRSPV & Associates. Detailed Project Report (DPR) preparation, techno-economic feasibility analysis, and syndication with banks and DFIs for industrial and infrastructure projects.",
+    description: `Large-scale capital projects — whether industrial expansion, infrastructure development, or greenfield ventures — require specialised financing structures that go beyond standard bank loans. Project finance involves arranging debt and equity on the basis of the project's future cash flows rather than the promoter's balance sheet alone, making it essential to present a compelling, credible financial case to lenders and investors.
+
+DRSPV & Associates offers comprehensive project finance advisory covering the full spectrum from initial feasibility assessment to financial closure. Our team has experience across sectors including manufacturing, renewable energy, real estate, logistics, and infrastructure.
+
+At the heart of every project finance transaction is the Detailed Project Report (DPR) — a comprehensive document that covers technical specifications, market analysis, cost estimates, implementation schedule, and detailed financial projections. Our DPRs are prepared to lender standards and are specifically structured to address the credit concerns of term lenders and Development Finance Institutions (DFIs) such as SIDBI, NaBFID, and state industrial development corporations.
+
+We prepare rigorous techno-economic feasibility studies that assess the technical viability, market demand, competitive landscape, and financial returns of the proposed project. Our financial models incorporate sensitivity analysis across key variables to demonstrate project resilience under stress scenarios. This proactive approach to risk identification and mitigation significantly improves lender confidence.
+
+For large projects requiring debt syndication, we coordinate with multiple banks and financial institutions to structure a consortium arrangement, prepare term sheets, and manage the entire process through to financial closure. We also advise on government incentives, subsidies, and interest subvention schemes available for eligible projects.`,
+    whoNeeds: [
+      "Industrial units planning capacity expansion or new plants",
+      "Renewable energy project developers",
+      "Real estate developers with large township or commercial projects",
+      "Infrastructure project promoters",
+      "Greenfield ventures requiring lender-ready DPR",
+    ],
+    steps: [
+      { title: "Concept & Feasibility", desc: "Assess the technical and financial feasibility of the project. Conduct market analysis, cost estimation, and preliminary return analysis to determine viability." },
+      { title: "DPR Preparation", desc: "Prepare a comprehensive Detailed Project Report covering technical specifications, implementation schedule, cost of project, means of finance, and financial projections." },
+      { title: "Financial Modelling", desc: "Build a detailed financial model with revenue projections, operating cost analysis, debt service coverage ratios (DSCR), IRR, and sensitivity analysis." },
+      { title: "Lender Syndication", desc: "Identify and approach suitable lenders (banks, DFIs, NBFCs). Prepare and present the project proposal and coordinate the syndication process." },
+      { title: "Financial Closure", desc: "Negotiate loan terms, coordinate due diligence by lenders, complete condition precedents, and achieve financial closure for project implementation." },
+    ],
+    faq: [
+      {
+        q: "What is a Detailed Project Report (DPR)?",
+        a: "A DPR is a comprehensive document that presents the complete technical and financial case for a project. It includes a project overview, promoter background, technical feasibility, market analysis, cost of project and means of finance, implementation schedule, and projected financial statements. It is the primary document lenders use to appraise project finance requests.",
+      },
+      {
+        q: "What is DSCR and why do lenders focus on it?",
+        a: "Debt Service Coverage Ratio (DSCR) measures a project's ability to service its debt from operating cash flows. It is calculated as Net Cash Accrual divided by Total Debt Service (principal + interest). Lenders typically require a minimum average DSCR of 1.25x to 1.50x over the loan tenure. A higher DSCR indicates lower credit risk and can result in better loan terms.",
+      },
+      {
+        q: "Can you help with government subsidies for new projects?",
+        a: "Yes. We identify and advise on central and state government incentives available for your project including capital subsidies, interest subvention schemes, power tariff concessions, and land allotment benefits. For Gujarat-based projects, we are well-versed with the Gujarat Industrial Policy and MSME schemes available through iNDEXTb and the Industries Commissioner's office.",
+      },
+    ],
+    relatedKB: [],
+    keywords: ["project finance India", "DPR preparation", "feasibility report CA", "lender syndication India", "financial modelling project"],
+  },
+  "loan-subsidy-advisory": {
+    title: "Loan & Subsidy Advisory",
+    slug: "loan-subsidy-advisory",
+    color: "#84CC16",
+    metaTitle: "Loan & Subsidy Advisory — PMEGP, CMEGP, CGTMSE & Gujarat MSME Schemes",
+    metaDesc:
+      "Expert loan and subsidy advisory from DRSPV & Associates. PMEGP, CMEGP, and Gujarat state MSME subsidy applications, CGTMSE collateral-free loan facilitation, and interest subsidy claims.",
+    description: `India's central and state governments offer a wide array of loan schemes and financial subsidies specifically designed to support MSMEs, new entrepreneurs, and industrial units. However, navigating these schemes — understanding eligibility, preparing applications, and following up with multiple government departments — is complex and time-consuming. Many eligible businesses miss out on significant financial benefits simply because they are unaware of available schemes or face challenges in the application process.
+
+DRSPV & Associates offers specialised loan and subsidy advisory services to help businesses identify and access the government support they are entitled to. Our practice focuses on three key areas: central government loan schemes (PMEGP, CMEGP), state-level subsidies under Gujarat's industrial and MSME policy, and credit guarantee schemes like CGTMSE that enable collateral-free borrowing.
+
+Under the Prime Minister's Employment Generation Programme (PMEGP) and the Chief Minister's Employment Generation Programme (CMEGP), eligible entrepreneurs can receive capital subsidies of 15-35% of project cost. We assist with project identification, preparation of project reports, online application filing, bank liaison, and follow-up with KVIC/DIC for margin money release.
+
+For established MSMEs in Gujarat, we identify and claim benefits under the Gujarat government's various subsidy schemes including capital investment subsidy, interest subsidy, power tariff assistance, and technology upgradation grants available under the Vibrant Gujarat MSME Policy. We prepare subsidy claims, ensure documentation compliance, and follow up with the Industries Commissioner's office and implementing agencies.
+
+For businesses that lack adequate collateral for bank loans, we facilitate CGTMSE (Credit Guarantee Fund Trust for Micro and Small Enterprises) coverage, which enables banks to lend without collateral security up to specified limits. This is particularly valuable for service sector MSMEs and new entrepreneurs who cannot offer physical assets as security.`,
+    whoNeeds: [
+      "New entrepreneurs seeking PMEGP or CMEGP subsidy",
+      "MSMEs eligible for Gujarat state industrial subsidies",
+      "Small businesses needing collateral-free loans under CGTMSE",
+      "Industrial units claiming interest or capital subsidy",
+      "Women and SC/ST entrepreneurs eligible for enhanced subsidy rates",
+    ],
+    steps: [
+      { title: "Scheme Identification", desc: "Assess your business profile, location, sector, and investment size to identify all applicable central and state government loan and subsidy schemes." },
+      { title: "Eligibility Verification", desc: "Verify eligibility criteria, scheme guidelines, and available benefit quantum. Advise on project sizing and structure to maximise subsidy entitlement." },
+      { title: "Application Preparation", desc: "Prepare project reports, DPR, financial projections, and all required documents. File applications on the relevant government portals (PMEGP, CMEGP, iNDEXTb)." },
+      { title: "Bank Coordination", desc: "Coordinate with the lending bank for loan sanction, margin money arrangements, and CGTMSE/subsidy claim submission within stipulated timelines." },
+      { title: "Follow-up & Disbursement", desc: "Track application status, respond to government queries, and follow up with KVIC, DIC, Industries Commissioner, or bank for timely release of subsidy/loan." },
+    ],
+    faq: [
+      {
+        q: "What is PMEGP and who is eligible?",
+        a: "PMEGP (Prime Minister's Employment Generation Programme) is a credit-linked subsidy scheme administered by KVIC (Khadi and Village Industries Commission). It provides capital subsidy of 15-35% of project cost (up to Rs. 50 lakhs for manufacturing and Rs. 20 lakhs for service) to new entrepreneurs setting up micro enterprises. Eligibility includes individuals above 18 years with at least Class VIII education for projects above Rs. 10 lakhs in manufacturing.",
+      },
+      {
+        q: "What subsidies are available for MSMEs in Gujarat?",
+        a: "Gujarat offers several MSME incentives including capital investment subsidy (5-10% of fixed capital investment), interest subsidy (5-7% on term loans), power tariff assistance, EPF contribution assistance, and technology upgradation grants. The specific benefits depend on the district (high-incentive vs. industrially developed areas), enterprise category (micro/small/medium), and type of activity (manufacturing vs. service).",
+      },
+      {
+        q: "How does CGTMSE help in getting a collateral-free loan?",
+        a: "CGTMSE provides a credit guarantee to banks for loans extended to MSMEs without collateral security. The trust covers up to 75-85% of the loan amount (higher for women entrepreneurs, NE region, and SC/ST). Banks pay an annual guarantee fee to CGTMSE and in return can lend without asking for collateral. Eligible businesses can borrow up to Rs. 5 crores under the scheme.",
+      },
+    ],
+    relatedKB: [],
+    keywords: ["PMEGP application Gujarat", "CMEGP subsidy advisory", "CGTMSE collateral-free loan", "Gujarat MSME subsidy scheme", "interest subsidy MSME India"],
+  },
 };
 
 /* ═══════════════════════════════════════════════════════════════════

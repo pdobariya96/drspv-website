@@ -204,6 +204,51 @@ const services = [
     whoFor: "Companies, Investors, NCLT Cases, M&A Transactions",
     color: "#EC4899",
   },
+  {
+    number: "13",
+    title: "Debt Funding Advisory",
+    slug: "debt-funding-advisory",
+    description:
+      "End-to-end assistance for raising debt capital — from term loans and working capital limits to NCDs and debentures. We prepare CMA data, project reports, and liaise with banks, NBFCs and financial institutions on your behalf.",
+    bullets: [
+      "CMA data preparation & project reports",
+      "Working capital & term loan facilitation",
+      "NCD / debenture structuring",
+      "Bank & NBFC relationship management",
+    ],
+    whoFor: "MSMEs, Manufacturers, Traders, Real Estate Developers",
+    color: "#F97316",
+  },
+  {
+    number: "14",
+    title: "Project Finance",
+    slug: "project-finance",
+    description:
+      "Structured financing solutions for capital-intensive projects including industrial expansion, infrastructure, and greenfield ventures. We prepare detailed feasibility reports and DPR to secure lender approval.",
+    bullets: [
+      "Detailed Project Report (DPR) preparation",
+      "Feasibility & techno-economic analysis",
+      "Syndication with banks & DFIs",
+      "Financial modelling & cash flow projections",
+    ],
+    whoFor: "Industrial Units, Infrastructure Projects, Greenfield Ventures",
+    color: "#14B8A6",
+  },
+  {
+    number: "15",
+    title: "Loan & Subsidy Advisory",
+    slug: "loan-subsidy-advisory",
+    description:
+      "Expert guidance on government loan schemes and state/central subsidies for MSMEs. We identify the right schemes, prepare applications, and follow up with authorities to maximise benefits under PMEGP, CMEGP, and Gujarat industrial policy.",
+    bullets: [
+      "PMEGP / CMEGP application support",
+      "Gujarat state MSME subsidy claims",
+      "CGTMSE & collateral-free loan facilitation",
+      "Interest subsidy & capital subsidy applications",
+    ],
+    whoFor: "New Entrepreneurs, MSMEs, Industrial Units in Gujarat",
+    color: "#84CC16",
+  },
 ];
 
 const whyCards = [
@@ -259,7 +304,7 @@ export default function ServicesPage() {
 
           <p className="mx-auto mt-6 max-w-2xl text-base text-muted sm:text-lg leading-relaxed">
             From income tax planning to IPO readiness, our qualified Chartered Accountants
-            deliver precise, timely, and business-focused solutions across 12 practice areas.
+            deliver precise, timely, and business-focused solutions across 15 practice areas.
           </p>
         </div>
       </section>
