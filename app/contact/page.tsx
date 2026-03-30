@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://drspv.in/contact" },
 };
 
-const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "911234567890";
+const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "917777970565";
 const PH = process.env.NEXT_PUBLIC_PHONE || WA;
 
 const contactMethods = [
@@ -35,7 +35,7 @@ const contactMethods = [
   {
     icon: Phone,
     title: "Call Us",
-    subtitle: "+91 12345 67890 — Mon to Sat, 9 AM - 9 PM",
+    subtitle: "+91 77779 70565 — Mon to Sat, 9 AM - 9 PM",
     href: `tel:+${PH}`,
     external: false,
     accent: "bg-it-blue/10 text-it-blue",
@@ -67,7 +67,7 @@ const infoCards = [
   {
     icon: Phone,
     label: "Phone / WhatsApp",
-    value: "+91 12345 67890",
+    value: "+91 77779 70565",
   },
   {
     icon: Mail,

@@ -2,7 +2,7 @@
 
 import { MessageCircle, Phone } from "lucide-react";
 
-const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "911234567890";
+const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "917777970565";
 const PH = process.env.NEXT_PUBLIC_PHONE || WA;
 
 interface CTAStripProps {

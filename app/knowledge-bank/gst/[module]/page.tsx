@@ -63,7 +63,7 @@ const mdxComponents = {
   ),
 };
 
-const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "911234567890";
+const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "917777970565";
 
 export default async function GSTModulePage({ params }: PageProps) {
   const { module: mod } = await params;

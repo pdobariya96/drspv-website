@@ -55,7 +55,7 @@ export default function ContactForm() {
       `Message: ${data.message}`,
     ].join("\n");
     window.open(
-      `https://wa.me/911234567890?text=${encodeURIComponent(text)}`,
+      `https://wa.me/917777970565?text=${encodeURIComponent(text)}`,
       "_blank"
     );
     setSubmitted(true);

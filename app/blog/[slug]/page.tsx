@@ -95,7 +95,7 @@ const mdxComponents = {
   ),
 };
 
-const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "911234567890";
+const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "917777970565";
 
 const categoryColors: Record<string, string> = {
   "Income Tax": "text-it-blue bg-it-blue/10 border-it-blue/20",

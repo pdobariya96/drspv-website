@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { MessageCircle } from "lucide-react";
 
-const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "911234567890";
+const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "917777970565";
 
 type Act = "GST" | "IT" | "Companies Act" | "TDS";
 

@@ -15,7 +15,7 @@ interface FAQ {
   answer: string;
 }
 
-const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "911234567890";
+const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "917777970565";
 
 export default function FAQClient({ faqs }: { faqs: FAQ[] }) {
   const [search, setSearch] = useState("");
