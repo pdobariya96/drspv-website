@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
   { label: "I Need Help", href: "/i-need-help-with" },
+  { label: "Knowledge Bank", href: "/knowledge-bank" },
   { label: "Blog", href: "/blog" },
   { label: "Resources", href: "/resources" },
   { label: "About", href: "/about" },
