@@ -77,7 +77,7 @@ const infoCards = [
   {
     icon: Globe,
     label: "International Enquiries",
-    value: "global@drspv.in",
+    value: "info@drspv.in",
   },
 ];
 

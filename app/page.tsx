@@ -48,6 +48,33 @@ export default function HomePage() {
       <div className="section-divider" />
       <OfficesGrid />
       <div className="section-divider" />
+
+      {/* Local SEO — Rajkot */}
+      <section className="py-14 px-6 bg-bg-2">
+        <div className="max-w-4xl mx-auto">
+          <div className="mb-6">
+            <span className="text-[10px] uppercase tracking-[2px] text-gold font-medium">Rajkot · Gujarat · India</span>
+            <h2 className="text-[22px] sm:text-[26px] font-semibold text-text mt-1 tracking-tight">
+              Your Trusted CA Firm in Rajkot
+            </h2>
+          </div>
+          <div className="space-y-4 text-[14px] sm:text-[15px] text-muted leading-relaxed">
+            <p>
+              Searching for a reliable <strong className="text-text font-medium">CA in Rajkot</strong>? DRSPV &amp; Associates is a full-service <strong className="text-text font-medium">chartered accountant in Rajkot</strong> trusted by 500+ businesses, MSMEs, and individuals across Gujarat. From tax planning to IPO readiness, we deliver precise, timely compliance across 15 practice areas — all handled by qualified CAs, not juniors.
+            </p>
+            <p>
+              As a leading <strong className="text-text font-medium">income tax consultant in Rajkot</strong>, we handle ITR filing, assessment notices, advance tax, and HNI tax planning. Our team is also a preferred <strong className="text-text font-medium">GST consultant in Rajkot</strong> — managing registrations, GSTR filings, e-invoicing, refund claims, and GST demand responses for traders, manufacturers, and service providers across Gujarat.
+            </p>
+            <p>
+              Need <strong className="text-text font-medium">company registration in Rajkot</strong>? We incorporate private limited companies, LLPs, OPCs, and Section 8 entities — handling DSC, DIN, MOA/AOA drafting, and post-registration compliance in one smooth process. We are also a trusted <strong className="text-text font-medium">MSME loan consultant in Rajkot</strong>, assisting businesses with PMEGP, CMEGP, CGTMSE collateral-free loans, and Gujarat state subsidy applications.
+            </p>
+            <p>
+              For a thorough <strong className="text-text font-medium">tax audit in Rajkot</strong> under Section 44AB, our ICAI-qualified CAs deliver independent, deadline-compliant reports. Whether you are an MSME, a manufacturer in GIDC, a trader on Rajkot&apos;s 150 Ft. Ring Road, or a startup scaling across Gujarat — DRSPV &amp; Associates is the <strong className="text-text font-medium">best CA firm in Rajkot</strong> to have in your corner.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div className="section-divider" />
       <WhatsAppCTA />
     </>
   );

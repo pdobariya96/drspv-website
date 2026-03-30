@@ -26,7 +26,7 @@ const COMPANY = [
 ];
 
 const SOCIALS = [
-  { icon: Mail, href: "mailto:contact@drspv.in", label: "Email" },
+  { icon: Mail, href: "mailto:info@drspv.in", label: "Email" },
 ];
 
 export default function Footer() {

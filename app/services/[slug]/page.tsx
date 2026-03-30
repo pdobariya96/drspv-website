@@ -23,12 +23,21 @@ interface RelatedKB {
   href: string;
 }
 
+interface ServiceStat {
+  value: string;
+  label: string;
+}
+
 interface ServiceData {
   title: string;
   slug: string;
   metaTitle: string;
   metaDesc: string;
   color: string;
+  tagline: string;
+  stats: ServiceStat[];
+  whatWeCover: string[];
+  keyDeliverables: string[];
   description: string;
   whoNeeds: string[];
   steps: ServiceStep[];
@@ -41,6 +50,24 @@ const servicesData: Record<string, ServiceData> = {
   "income-tax-advisory": {
     title: "Income Tax Advisory",
     slug: "income-tax-advisory",
+    tagline: "Strategic tax planning and compliance for individuals, HNIs, and businesses — preventive, not reactive.",
+    stats: [
+      { value: "Est. 2023", label: "Founded" },
+      { value: "500+", label: "Clients Served" },
+      { value: "48hr", label: "Response Guarantee" },
+    ],
+    whatWeCover: [
+      "Tax planning & ITR filing for individuals, HNIs, and businesses",
+      "Advance tax computation and payment scheduling",
+      "TDS / TCS compliance — filing, defaults, and lower deduction certificates",
+      "Section 80C / 80D / 80G investment planning and deduction optimisation",
+      "Capital gains structuring — property, shares, mutual funds",
+      "Transfer pricing documentation for related-party transactions",
+      "Assessment, scrutiny, and appeal representation before CIT(A) and ITAT",
+      "NRI residential status, DTAA benefits, and repatriation planning",
+      "Income Tax notice handling and response drafting",
+    ],
+    keyDeliverables: ["Tax Plan Report", "ITR Filed", "TDS Returns", "Notice Reply", "Appeal Brief", "Advance Tax Challan"],
     metaTitle: "Income Tax Advisory Services",
     metaDesc:
       "Expert income tax advisory services from DRSPV & Associates. Strategic tax planning, ITR filing, assessment support, and appeal representation for individuals and businesses across India.",
@@ -97,6 +124,23 @@ Every engagement includes a dedicated CA, regular compliance calendar updates, a
   "audit-assurance": {
     title: "Audit & Assurance",
     slug: "audit-assurance",
+    tagline: "Independent, rigorous audits that build stakeholder confidence and strengthen your governance frameworks.",
+    stats: [
+      { value: "Est. 2023", label: "Founded" },
+      { value: "100%", label: "Compliance Rate" },
+      { value: "48hr", label: "Response Guarantee" },
+    ],
+    whatWeCover: [
+      "Statutory audit under the Companies Act 2013",
+      "Tax audit under Section 44AB of the Income Tax Act",
+      "Internal audit — risk-based planning, process controls, and findings report",
+      "Concurrent audit and stock audit for banks and NBFCs",
+      "GST audit and GSTR-9C reconciliation statement",
+      "CARO 2020 reporting for applicable companies",
+      "Management letter with actionable governance recommendations",
+      "Special purpose and transaction-specific audit engagements",
+    ],
+    keyDeliverables: ["Audit Report", "Form 3CA-3CD", "CARO Report", "GSTR-9C", "Internal Audit Report", "Management Letter"],
     metaTitle: "Audit & Assurance Services",
     metaDesc:
       "Professional statutory audit, tax audit, internal audit, and assurance services by DRSPV & Associates. ICAI-registered CA firm with experience across industries.",
@@ -152,6 +196,23 @@ We also undertake concurrent audits for banks and NBFCs, stock audits for lender
   "gst-compliance": {
     title: "GST Compliance",
     slug: "gst-compliance",
+    tagline: "End-to-end GST compliance — from registration to annual returns, refund claims, and litigation support.",
+    stats: [
+      { value: "Est. 2023", label: "Founded" },
+      { value: "500+", label: "Clients Served" },
+      { value: "All States", label: "Coverage" },
+    ],
+    whatWeCover: [
+      "GST registration, migration, and cancellation",
+      "Monthly / quarterly GSTR-1, GSTR-3B, and GSTR-2B reconciliation",
+      "E-invoicing setup and e-way bill compliance",
+      "Annual return (GSTR-9) and reconciliation statement (GSTR-9C)",
+      "GST refund claims — exports, inverted duty structure, excess payment",
+      "Input tax credit (ITC) maximisation and reconciliation",
+      "GST notice, demand, and show-cause reply drafting",
+      "GST audit and appellate proceedings support",
+    ],
+    keyDeliverables: ["GSTR-1 Filed", "GSTR-3B Filed", "GSTR-9 / 9C", "Refund Application", "Notice Reply", "ITC Register"],
     metaTitle: "GST Compliance & Advisory Services",
     metaDesc:
       "Complete GST compliance services from DRSPV & Associates including registration, return filing, e-invoicing, refunds, audit, and litigation support across India.",
@@ -208,6 +269,23 @@ When disputes arise, our team provides end-to-end litigation support including d
   "global-accounting": {
     title: "Global Accounting",
     slug: "global-accounting",
+    tagline: "Outsourced bookkeeping and accounting for US, UK, and Australian businesses — in your timezone, on your software.",
+    stats: [
+      { value: "4", label: "Countries Served" },
+      { value: "Est. 2023", label: "Founded" },
+      { value: "48hr", label: "Turnaround" },
+    ],
+    whatWeCover: [
+      "Bookkeeping on QuickBooks, Xero, MYOB, and Sage",
+      "Monthly financial statements — P&L, Balance Sheet, Cash Flow",
+      "US GAAP / IFRS / AASB compliant reporting",
+      "Accounts receivable, payable, and bank reconciliation",
+      "Payroll processing and compliance reporting",
+      "Management reporting dashboards and KPI tracking",
+      "Year-end close and tax-ready financials for CPAs",
+      "Dedicated team working in client timezone",
+    ],
+    keyDeliverables: ["Monthly P&L", "Balance Sheet", "Cash Flow Report", "Payroll Reports", "Bank Reconciliation", "Management Dashboard"],
     metaTitle: "Global Accounting & Outsourced Bookkeeping",
     metaDesc:
       "Outsourced bookkeeping and accounting services for US, UK, and Australian businesses. DRSPV & Associates delivers QuickBooks, Xero, and MYOB services with dedicated teams.",
@@ -263,6 +341,23 @@ Data security is paramount in our global operations. We use encrypted file trans
   "fema-compliance": {
     title: "FEMA Compliance",
     slug: "fema-compliance",
+    tagline: "Expert advisory on foreign exchange regulations, RBI filings, and cross-border transactions for NRIs and businesses.",
+    stats: [
+      { value: "Est. 2023", label: "Founded" },
+      { value: "NRI +", label: "Foreign Clients" },
+      { value: "48hr", label: "Response Guarantee" },
+    ],
+    whatWeCover: [
+      "FDI compliance — FC-GPR, FC-TRS filings with RBI",
+      "ODI (Overseas Direct Investment) filing and advisory",
+      "ECB (External Commercial Borrowings) returns and compliance",
+      "FEMA advisory for NRIs — property purchase, sale, and repatriation",
+      "LRS (Liberalised Remittance Scheme) compliance",
+      "Compounding applications for FEMA contraventions",
+      "Joint venture and subsidiary structuring for cross-border businesses",
+      "DTAA benefit advisory and foreign income taxation",
+    ],
+    keyDeliverables: ["FC-GPR Filing", "ECB Return", "Compounding Application", "LRS Advisory Note", "NRI Compliance Report", "ODI Filing"],
     metaTitle: "FEMA Compliance & Advisory Services",
     metaDesc:
       "Expert FEMA advisory from DRSPV & Associates covering FDI/ODI compliance, ECB reporting, NRI transactions, and RBI filings for cross-border investments and remittances.",
@@ -320,6 +415,23 @@ When FEMA contraventions are detected, we assist with voluntary disclosure, comp
   "ipo-consultancy": {
     title: "IPO Consultancy",
     slug: "ipo-consultancy",
+    tagline: "From IPO readiness to DRHP review and post-listing compliance — end-to-end support for your public listing journey.",
+    stats: [
+      { value: "10+", label: "IPOs Handled" },
+      { value: "Est. 2023", label: "Founded" },
+      { value: "BSE / NSE", label: "Exchange Expertise" },
+    ],
+    whatWeCover: [
+      "IPO readiness assessment and gap analysis",
+      "Restated financial statements — 3 to 5 year restatement",
+      "DRHP and RHP review for SEBI / exchange compliance",
+      "SEBI ICDR regulations and SME exchange requirements",
+      "Financial due diligence for listing",
+      "Merchant banker and legal counsel coordination",
+      "ESOP compliance for pre-IPO and post-IPO stages",
+      "Post-listing compliance — quarterly results, insider trading, related party disclosures",
+    ],
+    keyDeliverables: ["Restated Financials", "IPO Readiness Report", "DRHP Review Notes", "SEBI Compliance Checklist", "Post-Listing Calendar"],
     metaTitle: "IPO Consultancy & Listing Advisory",
     metaDesc:
       "End-to-end IPO consultancy from DRSPV & Associates for BSE SME, NSE Emerge, and main board listings. Restated financials, DRHP review, and post-listing compliance.",
@@ -375,6 +487,23 @@ Post-listing, our support continues with ongoing compliance including quarterly 
   "cfo-services": {
     title: "Virtual CFO Services",
     slug: "cfo-services",
+    tagline: "CFO-level financial leadership for startups and MSMEs — MIS, cash flow, fundraising, and board-ready reporting.",
+    stats: [
+      { value: "Est. 2023", label: "Founded" },
+      { value: "500+", label: "Clients Served" },
+      { value: "48hr", label: "Response Guarantee" },
+    ],
+    whatWeCover: [
+      "Monthly MIS reports — P&L, cash flow, working capital, and KPI dashboards",
+      "Cash flow forecasting and working capital optimisation",
+      "Budget preparation and monthly budget vs actuals analysis",
+      "Fundraising support — investor decks, financial models, data room preparation",
+      "Board meeting agenda, financial presentation, and minutes",
+      "Compliance calendar management and statutory deadline tracking",
+      "Cost optimisation and margin improvement advisory",
+      "IPO / acquisition readiness — financial reporting cleanup and governance setup",
+    ],
+    keyDeliverables: ["Monthly MIS", "Cash Flow Forecast", "Board Pack", "Budget Report", "Investor Deck", "Compliance Calendar"],
     metaTitle: "Virtual CFO Services",
     metaDesc:
       "On-demand Virtual CFO services from DRSPV & Associates. MIS reporting, cash flow management, fundraising support, and strategic financial advisory for startups and MSMEs.",
@@ -432,6 +561,23 @@ We also assist companies preparing for an IPO or strategic acquisition by streng
   "due-diligence": {
     title: "Due Diligence",
     slug: "due-diligence",
+    tagline: "Clear, actionable due diligence reports that protect your interests in M&A transactions and PE/VC investments.",
+    stats: [
+      { value: "Est. 2023", label: "Founded" },
+      { value: "M&A Ready", label: "Scope" },
+      { value: "48hr", label: "Response Guarantee" },
+    ],
+    whatWeCover: [
+      "Financial due diligence — P&L quality, working capital, and EBITDA analysis",
+      "Tax due diligence — historical exposure, contingent liabilities, and compliance gaps",
+      "Compliance health check across Companies Act, GST, Income Tax, and FEMA",
+      "Related party transaction review and arms-length assessment",
+      "Debt and liability assessment — secured, unsecured, and contingent",
+      "Working capital normalisation and trend analysis",
+      "Deal structuring and valuation support",
+      "Vendor due diligence report for sellers preparing for exit",
+    ],
+    keyDeliverables: ["DD Report", "Tax Exposure Summary", "Compliance Matrix", "Working Capital Analysis", "Management Presentation"],
     metaTitle: "Financial & Tax Due Diligence Services",
     metaDesc:
       "Comprehensive financial and tax due diligence from DRSPV & Associates for M&A transactions, PE/VC investments, and business acquisitions across India.",
@@ -489,6 +635,23 @@ Our due diligence engagements are executed with strict confidentiality protocols
   "startup-advisory": {
     title: "Startup Advisory",
     slug: "startup-advisory",
+    tagline: "From DPIIT registration to ESOP structuring — founder-friendly advisory to build your startup on a solid compliance foundation.",
+    stats: [
+      { value: "Est. 2023", label: "Founded" },
+      { value: "DPIIT", label: "Registration Expert" },
+      { value: "48hr", label: "Response Guarantee" },
+    ],
+    whatWeCover: [
+      "Entity selection — Pvt Ltd, LLP, OPC comparison and incorporation",
+      "DPIIT / Startup India recognition and 80-IAC tax holiday application",
+      "ESOP plan design — pool sizing, vesting schedules, and tax structuring",
+      "Angel tax advisory — valuation report, DPIIT exemption, and notice response",
+      "Shareholder agreements, term sheet review, and founder equity structuring",
+      "Seed and Series A fundraising — financial models and investor data room",
+      "Compliance calendar — ROC filings, board meetings, AGM, and TDS",
+      "Group restructuring and inter-company transaction advisory",
+    ],
+    keyDeliverables: ["Incorporation Certificate", "DPIIT Letter", "ESOP Plan Document", "Valuation Report", "Compliance Calendar", "Financial Model"],
     metaTitle: "Startup Advisory & Compliance Services",
     metaDesc:
       "End-to-end startup advisory from DRSPV & Associates. Entity selection, Startup India registration, ESOP structuring, angel tax advisory, and compliance for founders.",
@@ -547,6 +710,23 @@ Beyond these core areas, we provide ongoing advisory on founder remuneration str
   "company-incorporation": {
     title: "Company Incorporation",
     slug: "company-incorporation",
+    tagline: "Private Limited, LLP, OPC, or Section 8 — fast, compliant incorporation with a complete post-registration compliance setup.",
+    stats: [
+      { value: "7–10", label: "Days to Incorporate" },
+      { value: "Est. 2023", label: "Founded" },
+      { value: "All Types", label: "Entity Coverage" },
+    ],
+    whatWeCover: [
+      "Private Limited Company — DSC, DIN, name reservation, SPICe+ filing",
+      "One Person Company (OPC) — formation, nominee setup, and conversion advisory",
+      "Limited Liability Partnership (LLP) — FiLLiP filing and LLP Agreement drafting",
+      "Section 8 (not-for-profit) company registration",
+      "NRI / foreign national director and shareholder incorporation with FEMA compliance",
+      "MOA and AOA drafting tailored to your business model",
+      "Post-incorporation: PAN, TAN, GST registration, first board meeting",
+      "Share certificates, statutory registers, and compliance calendar setup",
+    ],
+    keyDeliverables: ["Certificate of Incorporation", "MOA & AOA", "PAN & TAN", "DIN & DSC", "Share Certificates", "Compliance Calendar"],
     metaTitle: "Company Incorporation & Registration Services",
     metaDesc:
       "Quick and compliant company, LLP, and OPC registration with DRSPV & Associates. DSC, DIN, name reservation, MOA/AOA drafting, and post-incorporation compliance.",
@@ -604,6 +784,23 @@ Post-incorporation, we set up the complete compliance framework including statut
   "information-system-audit": {
     title: "Information System Audit (DISA)",
     slug: "information-system-audit",
+    tagline: "DISA-certified IS audits covering IT general controls, ERP application controls, and RBI-mandated cybersecurity assessments.",
+    stats: [
+      { value: "DISA", label: "ICAI Certified" },
+      { value: "Est. 2023", label: "Founded" },
+      { value: "RBI Ready", label: "Bank Audit" },
+    ],
+    whatWeCover: [
+      "IT General Controls (ITGC) — access management, change management, IT operations",
+      "Application controls review for ERP systems (SAP, Tally Prime, Oracle)",
+      "RBI-mandated IS audit for scheduled banks, cooperative banks, and NBFCs",
+      "Cybersecurity framework assessment and vulnerability reporting",
+      "Data analytics using CAATs — anomaly detection and access pattern review",
+      "Segregation of duties (SoD) conflict analysis",
+      "SOC 1 / SOC 2 readiness gap assessment",
+      "IS audit report in RBI-prescribed format with remediation recommendations",
+    ],
+    keyDeliverables: ["IS Audit Report", "ITGC Assessment", "App Controls Report", "Cybersecurity Report", "CAATs Analysis", "Remediation Roadmap"],
     color: "#8B5CF6",
     metaTitle: "Information System Audit (DISA) Services",
     metaDesc:
@@ -649,6 +846,23 @@ We also perform data analytics-based audits using CAATs (Computer Assisted Audit
   "valuation-services": {
     title: "Valuation Services (IBBI Registered)",
     slug: "valuation-services",
+    tagline: "IBBI-registered valuers providing defensible, regulation-compliant valuations for M&A transactions, IBC proceedings, and Income Tax purposes.",
+    stats: [
+      { value: "IBBI", label: "Registered Valuers" },
+      { value: "Est. 2023", label: "Founded" },
+      { value: "Ind AS", label: "Compliant Reports" },
+    ],
+    whatWeCover: [
+      "Business valuation for M&A — DCF, comparable company, and earnings-based approaches",
+      "Share valuation under Companies Act 2013 (Section 247)",
+      "IBC valuation — fair value and liquidation value for resolution proceedings",
+      "Income Tax fair market value for shares and securities (angel tax / gift)",
+      "Transfer pricing valuation for related-party transactions",
+      "Intangible asset valuation — brand, patents, customer relationships",
+      "Scheme of arrangement and merger / demerger swap ratio determination",
+      "ESOP valuation — Black-Scholes and option pricing models",
+    ],
+    keyDeliverables: ["Valuation Report", "IBBI Certificate", "Sensitivity Analysis", "Comparable Analysis", "Fair Value Opinion", "Board Presentation"],
     color: "#EC4899",
     metaTitle: "Valuation Services - IBBI Registered Valuers",
     metaDesc:
@@ -693,6 +907,23 @@ Our valuation methodologies include Discounted Cash Flow (DCF), Comparable Compa
   "debt-funding-advisory": {
     title: "Debt Funding Advisory",
     slug: "debt-funding-advisory",
+    tagline: "Banker-ready CMA data, project reports, and active lender liaison — to get your term loan or working capital sanctioned faster.",
+    stats: [
+      { value: "Est. 2023", label: "Founded" },
+      { value: "Banks + NBFCs", label: "Lender Network" },
+      { value: "48hr", label: "Response Guarantee" },
+    ],
+    whatWeCover: [
+      "CMA (Credit Monitoring Arrangement) data preparation — historical and projected",
+      "Working capital assessment — CC, OD, LC, and BG facility structuring",
+      "Term loan structuring — repayment schedule matched to project cash flows",
+      "Information memorandum and project report preparation for lenders",
+      "Bank / NBFC identification and proposal submission",
+      "Credit query response and lender negotiation support",
+      "NCD (Non-Convertible Debenture) structuring for debt capital markets",
+      "Ongoing compliance — stock statements, QIS reports, and annual renewals",
+    ],
+    keyDeliverables: ["CMA Data", "Project Report", "Information Memorandum", "Repayment Schedule", "Sanction Follow-up", "Compliance Calendar"],
     color: "#F97316",
     metaTitle: "Debt Funding Advisory Services — CMA Data, Term Loans & NCDs",
     metaDesc:
@@ -740,6 +971,23 @@ Throughout the process, we maintain active liaison with relationship managers an
   "project-finance": {
     title: "Project Finance",
     slug: "project-finance",
+    tagline: "Lender-ready DPRs, financial models with DSCR analysis, and syndication support to achieve financial closure for large capital projects.",
+    stats: [
+      { value: "Est. 2023", label: "Founded" },
+      { value: "DFI Ready", label: "SIDBI / NaBFID" },
+      { value: "1.25x+", label: "Target DSCR" },
+    ],
+    whatWeCover: [
+      "Detailed Project Report (DPR) — technical specs, cost estimates, and financial projections",
+      "Techno-economic feasibility study and market demand analysis",
+      "Financial modelling — DSCR, IRR, payback period, and sensitivity analysis",
+      "Means of finance structuring — debt-equity mix and subsidy integration",
+      "Lender syndication — bank consortium arrangement and term sheet negotiation",
+      "DFI liaison — SIDBI, NaBFID, and state industrial finance corporations",
+      "Government subsidy and incentive identification for eligible projects",
+      "Financial closure coordination — condition precedents and disbursement support",
+    ],
+    keyDeliverables: ["Detailed Project Report", "Financial Model", "Feasibility Report", "Syndication Package", "Term Sheet", "Subsidy Advisory Note"],
     color: "#14B8A6",
     metaTitle: "Project Finance Services — DPR, Feasibility & Lender Syndication",
     metaDesc:
@@ -787,6 +1035,23 @@ For large projects requiring debt syndication, we coordinate with multiple banks
   "loan-subsidy-advisory": {
     title: "Loan & Subsidy Advisory",
     slug: "loan-subsidy-advisory",
+    tagline: "PMEGP, CMEGP, Gujarat MSME subsidies, and CGTMSE — helping eligible businesses claim every rupee of government support.",
+    stats: [
+      { value: "35%", label: "Max PMEGP Subsidy" },
+      { value: "Est. 2023", label: "Founded" },
+      { value: "Gujarat", label: "State Specialist" },
+    ],
+    whatWeCover: [
+      "PMEGP application — project report, KVIC/DIC coordination, and margin money release",
+      "CMEGP (Chief Minister's Employment Generation Programme) advisory",
+      "Gujarat state subsidy claims — capital investment, interest, and power tariff subsidy",
+      "CGTMSE collateral-free loan facilitation (up to ₹5 crore)",
+      "Vibrant Gujarat MSME Policy — scheme identification and eligibility verification",
+      "iNDEXTb portal applications and Industries Commissioner follow-up",
+      "Women / SC / ST entrepreneur enhanced subsidy structuring",
+      "Interest subvention scheme claims and documentation",
+    ],
+    keyDeliverables: ["Project Report", "PMEGP Application", "Subsidy Claim Form", "CGTMSE Coverage Letter", "Eligibility Advisory Note", "Disbursement Tracking"],
     color: "#84CC16",
     metaTitle: "Loan & Subsidy Advisory — PMEGP, CMEGP, CGTMSE & Gujarat MSME Schemes",
     metaDesc:
@@ -896,8 +1161,6 @@ export default function ServicePage({
     notFound();
   }
 
-  const paragraphs = svc.description.split("\n\n").filter(Boolean);
-
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -938,19 +1201,30 @@ export default function ServicePage({
           </div>
 
           <div
-            className="mb-6 inline-block h-1 w-12 rounded-full"
+            className="mb-5 inline-block h-1 w-12 rounded-full"
             style={{ backgroundColor: svc.color }}
           />
 
-          <h1 className="text-3xl font-bold leading-tight tracking-tight text-text sm:text-4xl lg:text-5xl mb-8">
+          <h1 className="text-3xl font-bold leading-tight tracking-tight text-text sm:text-4xl lg:text-5xl mb-4">
             {svc.title}
           </h1>
 
-          <div className="space-y-4">
-            {paragraphs.map((p, i) => (
-              <p key={i} className="text-base text-muted leading-relaxed">
-                {p}
-              </p>
+          <p className="text-base sm:text-lg text-muted leading-relaxed mb-10 max-w-2xl">
+            {svc.tagline}
+          </p>
+
+          {/* Stats chips */}
+          <div className="flex flex-wrap gap-3">
+            {svc.stats.map((stat) => (
+              <div
+                key={stat.label}
+                className="rounded-xl border border-white/[0.06] bg-card px-5 py-3 flex flex-col items-center min-w-[100px]"
+              >
+                <span className="text-xl font-bold" style={{ color: svc.color }}>
+                  {stat.value}
+                </span>
+                <span className="text-[11px] text-muted mt-0.5 tracking-wide">{stat.label}</span>
+              </div>
             ))}
           </div>
         </div>
@@ -958,24 +1232,100 @@ export default function ServicePage({
 
       <div className="section-divider" />
 
-      {/* ─── Who Needs This ─── */}
+      {/* ─── What We Cover + Key Deliverables ─── */}
       <section className="bg-bg-2">
         <div className="mx-auto max-w-4xl px-4 py-16 sm:py-20">
           <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
-            <span className="text-xs font-medium text-gold tracking-wide">Who Needs This</span>
+            <span className="text-xs font-medium text-gold tracking-wide">Scope of Work</span>
+          </div>
+          <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
+            What We Cover
+          </h2>
+
+          <ul className="space-y-0 divide-y divide-white/[0.04]">
+            {svc.whatWeCover.map((item) => (
+              <li key={item} className="flex items-start gap-3 py-3.5">
+                <span
+                  className="mt-1.5 h-2 w-2 shrink-0 rounded-full"
+                  style={{ backgroundColor: svc.color }}
+                />
+                <span className="text-sm text-muted leading-relaxed">{item}</span>
+              </li>
+            ))}
+          </ul>
+
+          {/* Key Deliverables */}
+          <div className="mt-10">
+            <p className="text-xs font-bold uppercase tracking-[0.12em] text-gold mb-4">
+              Key Deliverables
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {svc.keyDeliverables.map((d) => (
+                <span
+                  key={d}
+                  className="rounded-full border border-white/[0.08] bg-card px-3.5 py-1.5 text-xs text-muted"
+                >
+                  {d}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* ─── How We Work (Steps) ─── */}
+      <section className="bg-bg">
+        <div className="mx-auto max-w-4xl px-4 py-16 sm:py-20">
+          <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
+            <span className="text-xs font-medium text-gold tracking-wide">Our Process</span>
+          </div>
+          <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-10">
+            How We Work
+          </h2>
+
+          <div className="space-y-6">
+            {svc.steps.map((step, i) => (
+              <div key={step.title} className="flex items-start gap-5">
+                <div
+                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2"
+                  style={{ borderColor: svc.color }}
+                >
+                  <span className="text-xs font-bold" style={{ color: svc.color }}>
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                </div>
+                <div className="pt-1">
+                  <h3 className="text-base font-semibold text-text mb-1">{step.title}</h3>
+                  <p className="text-sm text-muted leading-relaxed">{step.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* ─── Who Is This For ─── */}
+      <section className="bg-bg-2">
+        <div className="mx-auto max-w-4xl px-4 py-16 sm:py-20">
+          <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
+            <span className="text-xs font-medium text-gold tracking-wide">Who Is This For</span>
           </div>
           <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
             Is This Service Right for You?
           </h2>
 
-          <div className="space-y-3">
+          <div className="flex flex-wrap gap-3">
             {svc.whoNeeds.map((item) => (
               <div
                 key={item}
-                className="flex items-start gap-3 rounded-xl border border-white/[0.06] bg-card px-5 py-4"
+                className="flex items-center gap-2.5 rounded-xl border border-white/[0.06] bg-card px-4 py-3"
               >
                 <CheckCircle2
-                  className="h-4 w-4 shrink-0 mt-0.5"
+                  className="h-4 w-4 shrink-0"
                   style={{ color: svc.color }}
                 />
                 <span className="text-sm text-muted">{item}</span>
@@ -987,48 +1337,8 @@ export default function ServicePage({
 
       <div className="section-divider" />
 
-      {/* ─── Step by Step Process ─── */}
-      <section className="bg-bg">
-        <div className="mx-auto max-w-4xl px-4 py-16 sm:py-20">
-          <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
-            <span className="text-xs font-medium text-gold tracking-wide">Our Process</span>
-          </div>
-          <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-10">
-            How We Deliver This Service
-          </h2>
-
-          <div className="space-y-6">
-            {svc.steps.map((step, i) => (
-              <div key={step.title} className="flex items-start gap-5">
-                <div
-                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2"
-                  style={{ borderColor: svc.color }}
-                >
-                  <span
-                    className="text-xs font-bold"
-                    style={{ color: svc.color }}
-                  >
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                </div>
-                <div>
-                  <h3 className="text-base font-semibold text-text mb-1">
-                    {step.title}
-                  </h3>
-                  <p className="text-sm text-muted leading-relaxed">
-                    {step.desc}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <div className="section-divider" />
-
       {/* ─── FAQ ─── */}
-      <section className="bg-bg-2">
+      <section className="bg-bg">
         <div className="mx-auto max-w-4xl px-4 py-16 sm:py-20">
           <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
             <span className="text-xs font-medium text-gold tracking-wide">FAQ</span>
@@ -1045,44 +1355,46 @@ export default function ServicePage({
         </div>
       </section>
 
-      <div className="section-divider" />
+      {svc.relatedKB.length > 0 && (
+        <>
+          <div className="section-divider" />
 
-      {/* ─── Related Knowledge Bank ─── */}
-      <section className="bg-bg">
-        <div className="mx-auto max-w-4xl px-4 py-16 sm:py-20">
-          <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
-            <span className="text-xs font-medium text-gold tracking-wide">
-              Related Reading
-            </span>
-          </div>
-          <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
-            From Our Knowledge Bank
-          </h2>
+          {/* ─── Related Knowledge Bank ─── */}
+          <section className="bg-bg-2">
+            <div className="mx-auto max-w-4xl px-4 py-16 sm:py-20">
+              <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
+                <span className="text-xs font-medium text-gold tracking-wide">Related Reading</span>
+              </div>
+              <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
+                From Our Knowledge Bank
+              </h2>
 
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {svc.relatedKB.map((kb) => (
-              <Link
-                key={kb.title}
-                href={kb.href}
-                className="group rounded-xl border border-white/[0.06] bg-card p-5 transition-all hover:border-gold/20 hover:shadow-lg hover:shadow-black/10"
-              >
-                <div className="flex items-start gap-3">
-                  <BookOpen className="h-4 w-4 text-gold shrink-0 mt-0.5" />
-                  <div>
-                    <h3 className="text-sm font-medium text-text group-hover:text-gold transition-colors">
-                      {kb.title}
-                    </h3>
-                    <span className="mt-2 inline-flex items-center gap-1 text-xs text-muted group-hover:text-gold transition-colors">
-                      Read more
-                      <ArrowRight className="h-3 w-3" />
-                    </span>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {svc.relatedKB.map((kb) => (
+                  <Link
+                    key={kb.title}
+                    href={kb.href}
+                    className="group rounded-xl border border-white/[0.06] bg-card p-5 transition-all hover:border-gold/20 hover:shadow-lg hover:shadow-black/10"
+                  >
+                    <div className="flex items-start gap-3">
+                      <BookOpen className="h-4 w-4 text-gold shrink-0 mt-0.5" />
+                      <div>
+                        <h3 className="text-sm font-medium text-text group-hover:text-gold transition-colors">
+                          {kb.title}
+                        </h3>
+                        <span className="mt-2 inline-flex items-center gap-1 text-xs text-muted group-hover:text-gold transition-colors">
+                          Read more
+                          <ArrowRight className="h-3 w-3" />
+                        </span>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        </>
+      )}
 
       <div className="section-divider" />
 

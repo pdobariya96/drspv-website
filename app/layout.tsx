@@ -20,8 +20,16 @@ export const metadata: Metadata = {
     template: "%s | DRSPV & Associates",
   },
   description:
-    "DRSPV & Associates is a leading CA firm in Rajkot, Gujarat offering Income Tax Advisory, GST Compliance, Audit & Assurance, FEMA, IPO Consultancy, CFO Services and Global Accounting across India, USA, UK & Australia.",
+    "DRSPV & Associates is the best CA firm in Rajkot, Gujarat. Trusted chartered accountant in Rajkot for Income Tax Advisory, GST Compliance, Tax Audit, Company Registration, MSME Loan Advisory, FEMA, IPO Consultancy, CFO Services and Global Accounting across India, USA, UK & Australia.",
   keywords: [
+    "CA in Rajkot",
+    "chartered accountant in Rajkot",
+    "best CA firm Rajkot",
+    "GST consultant Rajkot",
+    "income tax consultant Rajkot",
+    "company registration Rajkot",
+    "MSME loan consultant Rajkot",
+    "tax audit Rajkot",
     "CA firm Rajkot",
     "chartered accountant Gujarat",
     "IPO consultant India",
@@ -37,13 +45,13 @@ export const metadata: Metadata = {
     siteName: "DRSPV & Associates",
     title: "DRSPV & Associates — Chartered Accountants",
     description:
-      "Trusted CA firm in Rajkot for Tax Advisory, Audit, GST, FEMA, IPO Consultancy & Global Accounting.",
+      "Best CA firm in Rajkot — trusted chartered accountant for Tax Advisory, GST Compliance, Tax Audit, Company Registration, MSME Loan Advisory, FEMA & IPO Consultancy.",
     images: [{ url: "/images/og-image.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "DRSPV & Associates — Chartered Accountants",
-    description: "CA firm in Rajkot for Tax, Audit, GST, FEMA & IPO Consultancy.",
+    description: "Best CA firm in Rajkot — chartered accountant for Tax, GST Audit, Company Registration, MSME Loans, FEMA & IPO Consultancy.",
     images: ["/images/og-image.jpg"],
   },
   robots: { index: true, follow: true },
@@ -69,7 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               foundingDate: "2023",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "510, RK World Tower, Sheetal Park, 150 Ft. Ring Road",
+                streetAddress: "510, RK World Tower, Near Sheetal Park, 150 Ft. Ring Road",
                 addressLocality: "Rajkot",
                 addressRegion: "Gujarat",
                 postalCode: "360006",
@@ -86,7 +94,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 opens: "09:00",
                 closes: "21:00",
               },
-              areaServed: ["India", "United States", "United Kingdom", "Australia"],
+              areaServed: ["Rajkot", "Gujarat", "India", "United States", "United Kingdom", "Australia"],
             }),
           }}
         />

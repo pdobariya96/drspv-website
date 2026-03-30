@@ -106,7 +106,7 @@ const teamMembers = [
   {
     initials: "SV",
     name: "Mr. Sreekunj N. Vasoya",
-    credentials: "CA (ICAI), B.Com, NISM (Derivatives)",
+    credentials: "CA (ICAI), DISA (ICAI), B.Com, NISM (Derivatives)",
     role: "Principal",
     photo: "/images/team/sreekunj-vasoya.jpg",
     description:
@@ -122,7 +122,7 @@ const offices = [
     label: "Headquarters",
     address: "510, RK World Tower, Sheetal Park, 150 Ft. Ring Road, Rajkot 360006, Gujarat",
     phone: "+91-XXX-XXX-XXXX",
-    email: "rajkot@drspv.in",
+    email: "info@drspv.in",
     highlight: true,
   },
   {
@@ -130,7 +130,7 @@ const offices = [
     label: "Branch Office",
     address: "Ahmedabad, Gujarat",
     phone: "+91-XXX-XXX-XXXX",
-    email: "ahmedabad@drspv.in",
+    email: "info@drspv.in",
     highlight: false,
   },
   {
@@ -138,7 +138,7 @@ const offices = [
     label: "Virtual Office",
     address: "Serving clients in USA, UK & Australia remotely",
     phone: "Via WhatsApp",
-    email: "global@drspv.in",
+    email: "info@drspv.in",
     highlight: false,
   },
 ];

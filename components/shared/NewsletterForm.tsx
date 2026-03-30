@@ -27,7 +27,7 @@ export default function NewsletterForm() {
 
   const onSubmit = (data: FormData) => {
     const subject = encodeURIComponent(`Newsletter Subscription: ${data.email}`);
-    window.open(`mailto:contact@drspv.in?subject=${subject}`, "_blank");
+    window.open(`mailto:info@drspv.in?subject=${subject}`, "_blank");
     setStatus("success");
     setMessage("Thank you! We'll add you to our newsletter.");
     reset();

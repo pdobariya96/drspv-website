@@ -1,41 +1,65 @@
-import { MapPin, ExternalLink, Globe } from "lucide-react";
+import { MapPin, ExternalLink } from "lucide-react";
 
 const offices = [
   {
-    name: "Rajkot HQ",
+    name: "Head Office – Rajkot, India",
     badge: "Headquarters",
     address: [
-      "301, Shalin Complex",
-      "Dr. Yagnik Road, Rajkot",
-      "Gujarat 360001, India",
+      "510, RK World Tower,",
+      "Near Sheetal Park, 150 Ft. Ring Road,",
+      "Rajkot – 360006, Gujarat",
     ],
     mapUrl:
-      "https://maps.google.com/?q=Shalin+Complex+Dr+Yagnik+Road+Rajkot+Gujarat",
+      "https://maps.google.com/?q=510+RK+World+Tower+Sheetal+Park+150+Ft+Ring+Road+Rajkot+Gujarat+360006",
     highlight: true,
   },
   {
-    name: "Ahmedabad",
-    badge: null,
+    name: "Dubai, UAE",
+    badge: "International",
     address: [
-      "612, Privilon",
-      "Ambli BRT Road, Ahmedabad",
-      "Gujarat 380058, India",
+      "Office #1904, Tamani Arts,",
+      "Business Bay,",
+      "Dubai – UAE",
     ],
     mapUrl:
-      "https://maps.google.com/?q=Privilon+Ambli+BRT+Road+Ahmedabad+Gujarat",
+      "https://maps.google.com/?q=Tamani+Arts+Business+Bay+Dubai+UAE",
     highlight: false,
   },
   {
-    name: "International Virtual Office",
+    name: "Surat, India",
     badge: null,
     address: [
-      "Serving clients across",
-      "UAE, USA, UK & Singapore",
-      "Virtual consultations available",
+      "423, Laxmi Enclave 2,",
+      "Katargam,",
+      "Surat – 395004, Gujarat",
     ],
-    mapUrl: null,
+    mapUrl:
+      "https://maps.google.com/?q=Laxmi+Enclave+2+Katargam+Surat+Gujarat+395004",
     highlight: false,
-    isVirtual: true,
+  },
+  {
+    name: "Gondal, India",
+    badge: null,
+    address: [
+      "1st Floor, Tulsi Plaza,",
+      "Sant Nagar,",
+      "Gondal – 360311, Gujarat",
+    ],
+    mapUrl:
+      "https://maps.google.com/?q=Tulsi+Plaza+Sant+Nagar+Gondal+Gujarat+360311",
+    highlight: false,
+  },
+  {
+    name: "Ahmedabad, India",
+    badge: null,
+    address: [
+      "421, Shivalik Shilp 2,",
+      "Near ITC Narmada, Judges Bunglow Road,",
+      "Ahmedabad – 380015, Gujarat",
+    ],
+    mapUrl:
+      "https://maps.google.com/?q=Shivalik+Shilp+2+Judges+Bunglow+Road+Ahmedabad+Gujarat+380015",
+    highlight: false,
   },
 ];
 
@@ -52,7 +76,7 @@ export default function OfficesGrid() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
           {offices.map((o) => (
             <div
               key={o.name}
@@ -69,11 +93,7 @@ export default function OfficesGrid() {
               )}
 
               <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-gold/10">
-                {o.isVirtual ? (
-                  <Globe className="h-5 w-5 text-gold" />
-                ) : (
-                  <MapPin className="h-5 w-5 text-gold" />
-                )}
+                <MapPin className="h-5 w-5 text-gold" />
               </div>
 
               <h3 className="text-base font-bold text-text">{o.name}</h3>
@@ -86,7 +106,7 @@ export default function OfficesGrid() {
                 ))}
               </div>
 
-              {o.mapUrl ? (
+              {o.mapUrl && (
                 <a
                   href={o.mapUrl}
                   target="_blank"
@@ -96,10 +116,6 @@ export default function OfficesGrid() {
                   Open in Google Maps
                   <ExternalLink className="h-3 w-3" />
                 </a>
-              ) : (
-                <p className="mt-5 text-xs text-gold/60">
-                  Available via video conference
-                </p>
               )}
             </div>
           ))}
