@@ -1,5 +1,4 @@
 import Hero from "@/components/home/Hero";
-import StatsBar from "@/components/home/StatsBar";
 import ProblemGrid from "@/components/home/ProblemGrid";
 import ServicesGrid from "@/components/home/ServicesGrid";
 import DeadlineCountdowns from "@/components/home/DeadlineCountdowns";
@@ -21,7 +20,6 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <StatsBar />
       <div className="section-divider" />
 
       {/* ── Trust Badges ── */}

@@ -1,13 +1,13 @@
 import Link from "next/link";
-import { Phone, MessageCircle, ArrowRight, Shield, Globe, Users, Clock } from "lucide-react";
+import { Phone, MessageCircle, ArrowRight } from "lucide-react";
 
 const WA = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "917777970565";
 
-const trustPills = [
-  { icon: Shield, label: "Est. 2023" },
-  { icon: Globe, label: "4 Countries" },
-  { icon: Users, label: "500+ Clients" },
-  { icon: Clock, label: "48hr Response" },
+const heroStats = [
+  { value: "500+", label: "Clients Served" },
+  { value: "15",   label: "Practice Areas" },
+  { value: "4",    label: "Countries" },
+  { value: "3+",   label: "Years of Excellence" },
 ];
 
 export default function Hero() {
@@ -16,86 +16,141 @@ export default function Hero() {
   )}`;
 
   return (
-    <section className="relative overflow-hidden bg-ink">
+    <section className="relative overflow-hidden bg-ink min-h-[88vh] flex items-center">
 
-      {/* Subtle dot texture */}
+      {/* Subtle warm grid texture */}
       <div
-        className="pointer-events-none absolute inset-0 opacity-[0.04]"
+        className="pointer-events-none absolute inset-0 opacity-[0.03]"
         style={{
-          backgroundImage: "radial-gradient(circle, #fff 1px, transparent 1px)",
-          backgroundSize: "28px 28px",
+          backgroundImage:
+            "linear-gradient(rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px)",
+          backgroundSize: "64px 64px",
         }}
       />
 
-      {/* Bottom fade to page bg */}
-      <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-b from-transparent to-bg" />
+      {/* Warm amber glow — top right */}
+      <div
+        className="pointer-events-none absolute -top-40 right-0 w-[700px] h-[700px]"
+        style={{
+          background:
+            "radial-gradient(ellipse at top right, rgba(184,115,10,0.14) 0%, transparent 65%)",
+        }}
+      />
 
-      <div className="relative mx-auto max-w-5xl px-4 pb-20 pt-28 sm:pb-28 sm:pt-36 text-center">
+      {/* Left signature line */}
+      <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-gradient-to-b from-transparent via-gold/60 to-transparent" />
 
-        {/* Live badge */}
-        <div className="mb-8 inline-flex items-center gap-2.5 rounded-full border border-green/20 bg-green/10 px-4 py-1.5">
-          <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green opacity-75" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-green" />
-          </span>
-          <span className="text-xs font-medium text-green">
-            Now accepting new clients across India &amp; abroad
-          </span>
-        </div>
+      {/* Bottom fade */}
+      <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-28 bg-gradient-to-b from-transparent to-bg" />
 
-        {/* Serif heading */}
-        <h1 className="font-display mx-auto max-w-4xl text-3xl font-bold leading-tight tracking-tight text-stone-100 sm:text-5xl lg:text-6xl">
-          CA Firm You Can Trust for{" "}
-          <span className="gold-gradient-text">
-            Tax, Audit &amp; IPO Consultancy
-          </span>
-        </h1>
+      <div className="relative mx-auto max-w-7xl w-full px-6 sm:px-10 lg:px-14 py-32 sm:py-40">
+        <div className="max-w-3xl">
 
-        {/* Subtext */}
-        <p className="mx-auto mt-6 max-w-2xl text-base text-stone-400 sm:text-lg leading-relaxed">
-          DRSPV &amp; Associates — a modern Chartered Accountancy firm delivering income tax advisory,
-          statutory audits, IPO consultancy, and global compliance for businesses across India and abroad.
-        </p>
+          {/* Eyebrow */}
+          <div className="flex items-center gap-3 mb-10">
+            <div className="h-px w-8 bg-gold-3" />
+            <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-3">
+              Chartered Accountants · Rajkot · Est. 2023
+            </span>
+          </div>
 
-        {/* CTA buttons */}
-        <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <a
-            href={`tel:+${WA}`}
-            className="inline-flex items-center gap-2.5 rounded-lg bg-gold px-7 py-3.5 text-sm font-semibold text-white shadow-md transition-all duration-200 hover:bg-gold-2 hover:scale-[1.02] active:scale-[0.98]"
-          >
-            <Phone className="h-4 w-4" />
-            Schedule a Quick Call
-          </a>
-          <a
-            href={waLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 rounded-lg bg-wa-green px-7 py-3.5 text-sm font-semibold text-white shadow-md transition-all duration-200 hover:brightness-110 hover:scale-[1.02] active:scale-[0.98]"
-          >
-            <MessageCircle className="h-4 w-4" />
-            WhatsApp Us Now
-          </a>
-          <Link
-            href="/services"
-            className="inline-flex items-center gap-2 rounded-lg border border-stone-600 bg-transparent px-7 py-3.5 text-sm font-semibold text-stone-300 transition-all duration-200 hover:border-stone-400 hover:text-stone-100 hover:scale-[1.02] active:scale-[0.98]"
-          >
-            View Services
-            <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
-
-        {/* Trust pills */}
-        <div className="mt-14 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-          {trustPills.map((pill) => (
-            <div
-              key={pill.label}
-              className="flex items-center gap-2 rounded-full border border-stone-700 bg-stone-800/60 px-4 py-2"
+          {/* Headline — monumental serif */}
+          <h1 className="font-display font-bold text-stone-50 leading-[1.04] tracking-[-0.02em] mb-7"
+            style={{ fontSize: "clamp(2.6rem, 5.5vw, 4.2rem)" }}>
+            Where Numbers<br />
+            <span
+              style={{
+                background: "linear-gradient(100deg, #F2B53C 0%, #D4890E 60%)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                backgroundClip: "text",
+              }}
             >
-              <pill.icon className="h-3.5 w-3.5 text-gold-3" />
-              <span className="text-xs font-medium text-stone-300">{pill.label}</span>
+              Meet Integrity.
+            </span>
+          </h1>
+
+          {/* Service tags */}
+          <div className="flex flex-wrap gap-2 mb-8">
+            {["Tax Advisory", "Audit", "GST", "IPO Consultancy", "FEMA", "Global Accounting"].map((tag) => (
+              <span
+                key={tag}
+                className="px-3 py-1 rounded-full text-[11px] font-medium text-stone-400 border border-stone-700/70 bg-stone-800/40"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+
+          {/* Sub-headline */}
+          <p className="text-[16px] sm:text-[17px] leading-relaxed text-stone-400 max-w-lg mb-12">
+            A full-service CA firm trusted by 500+ businesses across India and abroad — precise, deadline-driven, and always qualified.
+          </p>
+
+          {/* CTAs */}
+          <div className="flex flex-wrap items-center gap-4">
+            <a
+              href={`tel:+917777970565`}
+              className="inline-flex items-center gap-2.5 rounded-xl px-7 py-3.5 text-sm font-semibold text-stone-900 transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+              style={{ background: "linear-gradient(135deg, #F2B53C, #B8730A)" }}
+            >
+              <Phone className="h-4 w-4" />
+              Schedule a Call
+            </a>
+            <a
+              href={waLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2.5 rounded-xl bg-wa-green px-7 py-3.5 text-sm font-semibold text-white shadow-md transition-all duration-200 hover:brightness-110 hover:scale-[1.02] active:scale-[0.98]"
+            >
+              <MessageCircle className="h-4 w-4" />
+              WhatsApp Us
+            </a>
+            <Link
+              href="/services"
+              className="inline-flex items-center gap-2 text-sm font-medium text-stone-400 hover:text-stone-200 transition-colors"
+            >
+              View all services <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+        </div>
+
+        {/* Stats row */}
+        <div className="mt-20 pt-8 border-t border-stone-700/40 grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-3xl">
+          {heroStats.map((s) => (
+            <div key={s.label}>
+              <div
+                className="font-display text-3xl sm:text-4xl font-bold leading-none"
+                style={{
+                  background: "linear-gradient(135deg, #F2B53C, #D4890E)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text",
+                }}
+              >
+                {s.value}
+              </div>
+              <div className="text-[11px] text-stone-500 mt-1.5 uppercase tracking-wider">{s.label}</div>
             </div>
           ))}
         </div>
+      </div>
+
+      {/* Decorative large monogram — right side */}
+      <div
+        className="pointer-events-none select-none absolute right-10 top-1/2 -translate-y-1/2 hidden xl:block"
+        aria-hidden="true"
+      >
+        <span
+          className="font-display font-bold leading-[0.85] tracking-tight"
+          style={{
+            fontSize: "clamp(8rem, 14vw, 160px)",
+            color: "rgba(255,255,255,0.025)",
+            letterSpacing: "-0.04em",
+          }}
+        >
+          DR<br />SP<br />V
+        </span>
       </div>
     </section>
   );

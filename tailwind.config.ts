@@ -11,26 +11,26 @@ const config: Config = {
     extend: {
       colors: {
         /* ── Backgrounds ── */
-        bg: "#FAFAF7",
-        "bg-2": "#F2EDE4",
-        "bg-3": "#E8E2D8",
+        bg: "#FDFCF8",
+        "bg-2": "#F4F0E6",
+        "bg-3": "#E8E2D4",
         /* ── Cards ── */
         card: "#FFFFFF",
-        "card-2": "#FAF8F4",
+        "card-2": "#FAFAF6",
         /* ── Dark sections (nav, footer, hero) ── */
-        ink: "#0F1F17",
-        "ink-2": "#1A3326",
-        /* ── Accent — deep forest green ── */
-        gold: "#1D5C3A",
-        "gold-2": "#2A7A4F",
-        "gold-3": "#3EA86B",
+        ink: "#1C1A14",
+        "ink-2": "#2C2820",
+        /* ── Accent — warm amber gold ── */
+        gold: "#B8730A",
+        "gold-2": "#D4890E",
+        "gold-3": "#F2B53C",
         /* ── Typography ── */
-        text: "#1A1A18",
-        muted: "#5A5A52",
-        dim: "#9A9A8E",
+        text: "#18160C",
+        muted: "#6A6452",
+        dim: "#A09880",
         /* ── Borders ── */
-        border: "rgba(26,26,24,0.12)",
-        "border-2": "rgba(26,26,24,0.07)",
+        border: "rgba(24,22,12,0.11)",
+        "border-2": "rgba(24,22,12,0.06)",
         /* ── Utility ── */
         green: "#22C55E",
         "wa-green": "#25D366",
@@ -55,7 +55,7 @@ const config: Config = {
         subtle: "0 1px 2px rgba(0,0,0,0.05)",
       },
       borderColor: {
-        DEFAULT: "rgba(26,26,24,0.10)",
+        DEFAULT: "rgba(24,22,15,0.10)",
       },
     },
   },

@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --bg: #FAFAF7;
-  --bg-2: #F2EDE4;
-  --bg-3: #E8E2D8;
+  --bg: #FDFCF8;
+  --bg-2: #F4F0E6;
+  --bg-3: #E8E2D4;
   --card: #FFFFFF;
-  --card-2: #FAF8F4;
-  --ink: #0F1F17;
-  --ink-2: #1A3326;
-  --gold: #1D5C3A;
-  --gold-2: #2A7A4F;
-  --gold-3: #3EA86B;
-  --text: #1A1A18;
-  --muted: #5A5A52;
-  --dim: #9A9A8E;
-  --border: rgba(26,26,24,0.12);
-  --border-2: rgba(26,26,24,0.07);
+  --card-2: #FAFAF6;
+  --ink: #1C1A14;
+  --ink-2: #2C2820;
+  --gold: #B8730A;
+  --gold-2: #D4890E;
+  --gold-3: #F2B53C;
+  --text: #18160C;
+  --muted: #6A6452;
+  --dim: #A09880;
+  --border: rgba(24,22,12,0.11);
+  --border-2: rgba(24,22,12,0.06);
 }
 
 * {
@@ -43,7 +43,7 @@ body {
 }
 
 ::selection {
-  background: rgba(29,92,58,0.15);
+  background: rgba(184,115,10,0.15);
   color: var(--text);
 }
 
@@ -55,7 +55,7 @@ body {
   background: var(--bg-2);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(29,92,58,0.25);
+  background: rgba(184,115,10,0.28);
   border-radius: 3px;
 }
 
@@ -66,7 +66,7 @@ body {
 
 /* Accent gradient text */
 .gold-gradient-text {
-  background: linear-gradient(135deg, #1D5C3A, #3EA86B);
+  background: linear-gradient(135deg, #B8730A, #F2B53C);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -80,10 +80,27 @@ body {
 
 /* Card shadow utility */
 .card-shadow {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04), 0 4px 20px rgba(0,0,0,0.05);
 }
 .card-shadow-hover:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.10), 0 8px 32px rgba(0,0,0,0.06);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.09), 0 12px 40px rgba(0,0,0,0.06);
+  transform: translateY(-2px);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+/* Glass card — for ink/dark section cards */
+.glass-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Gold rule — horizontal signature element */
+.gold-rule {
+  height: 2px;
+  background: linear-gradient(90deg, #B8730A, #F2B53C, #B8730A);
+  border-radius: 2px;
 }
 
 /* Animations */
@@ -115,7 +132,7 @@ body {
 /* MDX prose styles — light mode */
 .prose h2 {
   font-family: var(--font-lora), Lora, Georgia, serif;
-  border-left: 3px solid var(--gold);
+  border-left: 3px solid var(--gold-2);
   padding-left: 12px;
   font-size: 20px;
   font-weight: 600;

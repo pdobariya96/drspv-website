@@ -51,6 +51,13 @@ const servicesData: Record<string, ServiceData> = {
     title: "Income Tax Advisory",
     slug: "income-tax-advisory",
     tagline: "Strategic tax planning and compliance for individuals, HNIs, and businesses — preventive, not reactive.",
+    relatedKB: [
+      { title: "Basis of Charge & Residential Status", href: "/knowledge-bank/income-tax/ch-01-basis-of-charge" },
+      { title: "Deductions — 80C to 80U Complete Guide", href: "/knowledge-bank/income-tax/ch-09-deductions-80c-to-80u" },
+      { title: "Returns Filing — Sec 139 to 142", href: "/knowledge-bank/income-tax/ch-16-returns-filing-sec139-142" },
+      { title: "TDS, TCS & Advance Tax", href: "/knowledge-bank/income-tax/ch-10-tds-tcs-advance-tax" },
+      { title: "Special Tax Rates — Sec 115", href: "/knowledge-bank/income-tax/ch-23-special-tax-rates-sec115" },
+    ],
     stats: [
       { value: "Est. 2023", label: "Founded" },
       { value: "500+", label: "Clients Served" },
@@ -117,7 +124,6 @@ Every engagement includes a dedicated CA, regular compliance calendar updates, a
         a: "Our fees are fixed and transparent, based on the complexity of your income sources and the scope of advisory required. We provide a detailed engagement letter before starting work. There are no hidden charges. Contact us for a customised quote based on your specific requirements.",
       },
     ],
-    relatedKB: [],
     keywords: ["income tax advisory", "tax planning India", "ITR filing CA", "tax consultant Rajkot", "HNI tax planning"],
   },
 

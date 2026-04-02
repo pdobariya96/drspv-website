@@ -45,11 +45,16 @@ export default function Nav() {
 
   return (
     <>
+      {/* Signature gold top strip */}
+      <div className="fixed top-0 left-0 right-0 z-50 h-[2px]"
+        style={{ background: "linear-gradient(90deg, #B8730A 0%, #F2B53C 50%, #B8730A 100%)" }}
+      />
+
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 h-[60px] flex items-center transition-colors duration-300 ${
+        className={`fixed top-[2px] left-0 right-0 z-50 h-[60px] flex items-center transition-all duration-300 ${
           scrolled
-            ? "bg-card/95 backdrop-blur-md border-b border-stone-200 shadow-sm shadow-black/6"
-            : "bg-card/80 backdrop-blur-sm"
+            ? "bg-card/96 backdrop-blur-md border-b border-stone-200/80 shadow-sm shadow-black/5"
+            : "bg-card/85 backdrop-blur-sm"
         }`}
       >
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4">
