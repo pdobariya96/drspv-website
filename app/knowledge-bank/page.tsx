@@ -141,7 +141,7 @@ export default function KnowledgeBankPage() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden py-20 sm:py-28">
-        <div className="absolute inset-0 grid-bg" />
+        
         <div className="relative mx-auto max-w-4xl px-4 text-center">
           <span className="inline-block rounded-full bg-gold/10 border border-gold/20 px-4 py-1.5 text-[11px] uppercase tracking-[2px] text-gold font-medium mb-6">
             Free &middot; No signup &middot; Written by CAs
@@ -158,7 +158,7 @@ export default function KnowledgeBankPage() {
           {/* Search Bar (visual, links to search) */}
           <Link
             href="/resources"
-            className="mx-auto flex max-w-lg items-center gap-3 rounded-xl bg-card border border-white/[0.06] px-5 py-3.5 transition-all hover:border-gold/30"
+            className="mx-auto flex max-w-lg items-center gap-3 rounded-xl bg-card border border-stone-200 px-5 py-3.5 transition-all hover:border-gold/30"
           >
             <Search className="h-5 w-5 text-muted shrink-0" />
             <span className="text-sm text-muted">
@@ -171,7 +171,7 @@ export default function KnowledgeBankPage() {
             {popularTags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full bg-bg-3 border border-white/[0.06] px-3 py-1 text-xs text-muted"
+                className="rounded-full bg-bg-3 border border-stone-200 px-3 py-1 text-xs text-muted"
               >
                 {tag}
               </span>
@@ -181,7 +181,7 @@ export default function KnowledgeBankPage() {
       </section>
 
       {/* Stats */}
-      <section className="border-y border-white/[0.06] bg-bg-2/50">
+      <section className="border-y border-stone-200 bg-bg-2/50">
         <div className="mx-auto max-w-7xl px-4 py-8 grid grid-cols-2 sm:grid-cols-5 gap-6 text-center">
           {[
             { value: "70+", label: "Articles" },
@@ -210,7 +210,7 @@ export default function KnowledgeBankPage() {
             <Link
               key={p.slug}
               href={`/knowledge-bank/${p.slug}`}
-              className={`group relative rounded-xl bg-card border border-white/[0.06] overflow-hidden p-6 sm:p-8 transition-all hover:border-gold/30 hover:shadow-lg hover:shadow-gold/5 hover:-translate-y-0.5`}
+              className={`group relative rounded-xl bg-card border border-stone-200 overflow-hidden p-6 sm:p-8 transition-all hover:border-gold/30 hover:shadow-lg hover:shadow-gold/5 hover:-translate-y-0.5`}
             >
               <div
                 className={`absolute inset-0 bg-gradient-to-br ${p.gradient} opacity-50`}
@@ -251,7 +251,7 @@ export default function KnowledgeBankPage() {
             <Link
               key={article.title}
               href={article.href}
-              className="group rounded-xl bg-card border border-white/[0.06] p-5 transition-all hover:border-gold/30 hover:-translate-y-0.5"
+              className="group rounded-xl bg-card border border-stone-200 p-5 transition-all hover:border-gold/30 hover:-translate-y-0.5"
             >
               <div className="flex items-center gap-2 mb-3">
                 <BookOpen className="h-3.5 w-3.5 text-gold" />

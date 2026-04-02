@@ -150,7 +150,7 @@ export default function ServicesGrid() {
             <Link
               key={s.slug}
               href={`/services/${s.slug}`}
-              className="group relative flex flex-col gap-4 rounded-xl border border-white/[0.06] bg-card p-6 transition-all duration-300 hover:border-gold/30 hover:bg-card/80"
+              className="group relative flex flex-col gap-4 rounded-xl border border-stone-200 bg-card p-6 transition-all duration-300 hover:border-gold/30 hover:bg-card/80"
             >
               <div className="flex items-center justify-between">
                 <div

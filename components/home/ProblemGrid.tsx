@@ -103,7 +103,7 @@ export default function ProblemGrid() {
             <Link
               key={p.slug}
               href={p.href ?? `/i-need-help-with/${p.slug}`}
-              className="group relative flex flex-col gap-4 rounded-xl border border-white/[0.06] bg-card p-6 transition-all duration-300 hover:border-gold/30 hover:bg-card/80 hover:shadow-lg hover:shadow-gold/[0.03]"
+              className="group relative flex flex-col gap-4 rounded-xl border border-stone-200 bg-card p-6 transition-all duration-300 hover:border-gold/30 hover:bg-card/80 hover:shadow-lg hover:shadow-gold/[0.03]"
             >
               <div
                 className={`flex h-11 w-11 items-center justify-center rounded-full ${p.bg}`}

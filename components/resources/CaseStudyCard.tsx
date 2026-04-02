@@ -23,7 +23,7 @@ export default function CaseStudyCard({
   href = "#",
 }: CaseStudyCardProps) {
   return (
-    <div className="relative flex flex-col overflow-hidden rounded-xl border border-white/[0.06] bg-card transition-all duration-300 hover:border-gold/20">
+    <div className="relative flex flex-col overflow-hidden rounded-xl border border-stone-200 bg-card transition-all duration-300 hover:border-gold/20">
       {/* Colored top line */}
       <div className={`h-1 w-full ${tagColor}`} />
 
@@ -61,8 +61,8 @@ export default function CaseStudyCard({
         </div>
 
         {/* Footer */}
-        <div className="mt-6 flex items-center justify-between border-t border-white/[0.06] pt-4">
-          <span className="rounded-full bg-white/[0.04] px-2.5 py-0.5 text-[10px] font-medium text-muted">
+        <div className="mt-6 flex items-center justify-between border-t border-stone-200 pt-4">
+          <span className="rounded-full bg-stone-100/70 px-2.5 py-0.5 text-[10px] font-medium text-muted">
             {industry}
           </span>
           <Link

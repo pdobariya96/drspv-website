@@ -63,7 +63,7 @@ export default function TaxCalendar({ deadlines }: TaxCalendarProps) {
               className={`rounded-full px-4 py-1.5 text-xs font-medium transition-all ${
                 filter === f
                   ? "bg-gold text-bg"
-                  : "border border-white/[0.06] bg-card text-muted hover:text-text"
+                  : "border border-stone-200 bg-card text-muted hover:text-text"
               }`}
             >
               {f}
@@ -72,10 +72,10 @@ export default function TaxCalendar({ deadlines }: TaxCalendarProps) {
         </div>
 
         {/* Table */}
-        <div className="overflow-x-auto rounded-xl border border-white/[0.06]">
+        <div className="overflow-x-auto rounded-xl border border-stone-200">
           <table className="w-full min-w-[700px]">
             <thead>
-              <tr className="border-b border-white/[0.06] bg-bg-3">
+              <tr className="border-b border-stone-200 bg-bg-3">
                 <th className="px-4 py-3 text-left text-[10px] font-semibold uppercase tracking-wider text-muted">
                   Status
                 </th>
@@ -103,7 +103,7 @@ export default function TaxCalendar({ deadlines }: TaxCalendarProps) {
               {filtered.map((d, i) => (
                 <tr
                   key={`${d.name}-${i}`}
-                  className="border-b border-white/[0.04] transition-colors hover:bg-white/[0.02]"
+                  className="border-b border-stone-100 transition-colors hover:bg-stone-50/60"
                 >
                   <td className="px-4 py-3">
                     <span

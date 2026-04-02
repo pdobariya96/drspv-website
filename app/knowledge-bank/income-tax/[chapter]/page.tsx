@@ -56,10 +56,10 @@ const mdxComponents = {
     </div>
   ),
   th: (props: React.HTMLAttributes<HTMLTableCellElement>) => (
-    <th className="bg-bg-3 text-text text-xs font-medium uppercase tracking-wider p-3 text-left border-b border-white/[0.06]" {...props} />
+    <th className="bg-bg-3 text-text text-xs font-medium uppercase tracking-wider p-3 text-left border-b border-stone-200" {...props} />
   ),
   td: (props: React.HTMLAttributes<HTMLTableCellElement>) => (
-    <td className="p-3 text-sm text-muted border-b border-white/[0.06]" {...props} />
+    <td className="p-3 text-sm text-muted border-b border-stone-200" {...props} />
   ),
 };
 
@@ -98,7 +98,7 @@ export default async function IncomeTaxChapterPage({ params }: PageProps) {
                 className={`block rounded-lg px-3 py-2 text-xs transition-colors ${
                   a.slug === chapter
                     ? "bg-gold/10 text-gold border border-gold/20"
-                    : "text-muted hover:text-text hover:bg-white/[0.04]"
+                    : "text-muted hover:text-text hover:bg-stone-100/70"
                 }`}
               >
                 <span className="font-medium">
@@ -153,11 +153,11 @@ export default async function IncomeTaxChapterPage({ params }: PageProps) {
         </div>
 
         {/* Prev / Next */}
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 border-t border-white/[0.06] pt-8">
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 border-t border-stone-200 pt-8">
           {prev ? (
             <Link
               href={`/knowledge-bank/income-tax/${prev.slug}`}
-              className="group rounded-lg bg-card border border-white/[0.06] p-4 transition-all hover:border-gold/30"
+              className="group rounded-lg bg-card border border-stone-200 p-4 transition-all hover:border-gold/30"
             >
               <span className="text-[10px] uppercase tracking-[2px] text-dim flex items-center gap-1">
                 <ArrowLeft className="h-3 w-3" /> Previous
@@ -172,7 +172,7 @@ export default async function IncomeTaxChapterPage({ params }: PageProps) {
           {next && (
             <Link
               href={`/knowledge-bank/income-tax/${next.slug}`}
-              className="group rounded-lg bg-card border border-white/[0.06] p-4 text-right transition-all hover:border-gold/30"
+              className="group rounded-lg bg-card border border-stone-200 p-4 text-right transition-all hover:border-gold/30"
             >
               <span className="text-[10px] uppercase tracking-[2px] text-dim flex items-center justify-end gap-1">
                 Next <ArrowRight className="h-3 w-3" />
@@ -185,7 +185,7 @@ export default async function IncomeTaxChapterPage({ params }: PageProps) {
         </div>
 
         {/* Article Feedback */}
-        <div className="mt-10 rounded-xl bg-card border border-white/[0.06] p-6 text-center">
+        <div className="mt-10 rounded-xl bg-card border border-stone-200 p-6 text-center">
           <p className="text-sm text-text font-medium mb-3">
             Was this article helpful?
           </p>

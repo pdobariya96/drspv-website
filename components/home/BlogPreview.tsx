@@ -59,7 +59,7 @@ export default function BlogPreview() {
           {/* Featured large card */}
           <Link
             href={`/blog/${featured.slug}`}
-            className="group col-span-1 flex flex-col justify-end rounded-xl border border-white/[0.06] bg-card-2 p-7 lg:col-span-3 lg:min-h-[340px]"
+            className="group col-span-1 flex flex-col justify-end rounded-xl border border-stone-200 bg-card-2 p-7 lg:col-span-3 lg:min-h-[340px]"
           >
             <div className="absolute inset-x-0 top-0 h-1 rounded-t-xl bg-gradient-to-r from-gold/60 to-gold/0" />
             <span
@@ -89,7 +89,7 @@ export default function BlogPreview() {
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="group flex flex-1 flex-col justify-end rounded-xl border border-white/[0.06] bg-card p-6"
+                className="group flex flex-1 flex-col justify-end rounded-xl border border-stone-200 bg-card p-6"
               >
                 <span
                   className={`mb-3 inline-block w-fit rounded-full px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-[0.08em] ${post.categoryColor}`}

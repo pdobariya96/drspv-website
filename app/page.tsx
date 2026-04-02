@@ -3,12 +3,19 @@ import StatsBar from "@/components/home/StatsBar";
 import ProblemGrid from "@/components/home/ProblemGrid";
 import ServicesGrid from "@/components/home/ServicesGrid";
 import DeadlineCountdowns from "@/components/home/DeadlineCountdowns";
-import Testimonials from "@/components/home/Testimonials";
 import BlogPreview from "@/components/home/BlogPreview";
-
 import OfficesGrid from "@/components/home/OfficesGrid";
 import NewsletterForm from "@/components/shared/NewsletterForm";
 import WhatsAppCTA from "@/components/shared/WhatsAppCTA";
+
+const trustBadges = [
+  { label: "ICAI Registered Firm", sub: "Institute of Chartered Accountants of India" },
+  { label: "IBBI Registered Valuers", sub: "Insolvency & Bankruptcy Board of India" },
+  { label: "DISA Certified", sub: "Diploma in Information Systems Audit (ICAI)" },
+  { label: "Est. 2023", sub: "Rajkot, Gujarat — Headquarters" },
+  { label: "4 Countries", sub: "India · UAE · USA · UK · Australia" },
+  { label: "15 Practice Areas", sub: "Tax · Audit · IPO · FEMA · CFO & More" },
+];
 
 export default function HomePage() {
   return (
@@ -16,13 +23,33 @@ export default function HomePage() {
       <Hero />
       <StatsBar />
       <div className="section-divider" />
+
+      {/* ── Trust Badges ── */}
+      <section className="bg-bg py-10 px-4">
+        <div className="mx-auto max-w-6xl">
+          <p className="text-center text-[10px] uppercase tracking-[0.16em] text-muted mb-6 font-medium">
+            Credentials &amp; Recognitions
+          </p>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
+            {trustBadges.map((b) => (
+              <div
+                key={b.label}
+                className="rounded-xl border border-stone-200 bg-card px-4 py-4 text-center shadow-subtle hover:border-gold/20 transition-colors"
+              >
+                <p className="text-xs font-semibold text-text leading-tight">{b.label}</p>
+                <p className="mt-1 text-[10px] text-muted leading-snug">{b.sub}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
       <ProblemGrid />
       <div className="section-divider" />
       <ServicesGrid />
       <div className="section-divider" />
       <DeadlineCountdowns />
-      <div className="section-divider" />
-      <Testimonials />
       <div className="section-divider" />
       <BlogPreview />
       <div className="section-divider" />

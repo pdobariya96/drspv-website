@@ -88,10 +88,10 @@ const mdxComponents = {
     </div>
   ),
   th: (props: React.HTMLAttributes<HTMLTableCellElement>) => (
-    <th className="bg-bg-3 text-text text-xs font-medium uppercase tracking-wider p-3 text-left border-b border-white/[0.06]" {...props} />
+    <th className="bg-bg-3 text-text text-xs font-medium uppercase tracking-wider p-3 text-left border-b border-stone-200" {...props} />
   ),
   td: (props: React.HTMLAttributes<HTMLTableCellElement>) => (
-    <td className="p-3 text-sm text-muted border-b border-white/[0.06]" {...props} />
+    <td className="p-3 text-sm text-muted border-b border-stone-200" {...props} />
   ),
 };
 
@@ -103,7 +103,7 @@ const categoryColors: Record<string, string> = {
   IPO: "text-ipo-amber bg-ipo-amber/10 border-ipo-amber/20",
   FEMA: "text-fema-purple bg-fema-purple/10 border-fema-purple/20",
   Business: "text-biz-orange bg-biz-orange/10 border-biz-orange/20",
-  General: "text-muted bg-white/5 border-white/10",
+  General: "text-muted bg-white/5 border-stone-200",
 };
 
 export default async function BlogPostPage({ params }: PageProps) {
@@ -152,7 +152,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       />
 
       {/* Article Toolbar */}
-      <div className="border-b border-white/[0.06] bg-bg-2/80 backdrop-blur-sm">
+      <div className="border-b border-stone-200 bg-bg-2/80 backdrop-blur-sm">
         <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2 text-xs text-muted">
             <Link href="/blog" className="hover:text-gold transition-colors flex items-center gap-1">
@@ -169,7 +169,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               href={`https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg p-2 text-dim hover:text-text hover:bg-white/[0.04] transition-colors"
+              className="rounded-lg p-2 text-dim hover:text-text hover:bg-stone-100/70 transition-colors"
               aria-label="Share on Twitter"
             >
               <Share2 className="h-4 w-4" />
@@ -178,7 +178,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               href={`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg p-2 text-dim hover:text-text hover:bg-white/[0.04] transition-colors"
+              className="rounded-lg p-2 text-dim hover:text-text hover:bg-stone-100/70 transition-colors"
               aria-label="Share on LinkedIn"
             >
               <Link2 className="h-4 w-4" />
@@ -234,12 +234,12 @@ export default async function BlogPostPage({ params }: PageProps) {
 
           {/* Tags */}
           {post.frontmatter.keywords && post.frontmatter.keywords.length > 0 && (
-            <div className="mt-8 pt-6 border-t border-white/[0.06]">
+            <div className="mt-8 pt-6 border-t border-stone-200">
               <div className="flex flex-wrap gap-2">
                 {post.frontmatter.keywords.map((kw) => (
                   <span
                     key={kw}
-                    className="rounded-full bg-bg-3 border border-white/[0.06] px-3 py-1 text-xs text-muted"
+                    className="rounded-full bg-bg-3 border border-stone-200 px-3 py-1 text-xs text-muted"
                   >
                     {kw}
                   </span>
@@ -249,7 +249,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           )}
 
           {/* Article Feedback */}
-          <div className="mt-10 rounded-xl bg-card border border-white/[0.06] p-6 text-center">
+          <div className="mt-10 rounded-xl bg-card border border-stone-200 p-6 text-center">
             <p className="text-sm text-text font-medium mb-3">
               Was this article helpful?
             </p>
@@ -280,7 +280,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
             {/* Recent Posts */}
             {recentPosts.length > 0 && (
-              <div className="rounded-xl bg-card border border-white/[0.06] p-5">
+              <div className="rounded-xl bg-card border border-stone-200 p-5">
                 <h3 className="text-sm font-semibold text-text mb-4 flex items-center gap-2">
                   <TrendingUp className="h-4 w-4 text-gold" />
                   Recent Articles

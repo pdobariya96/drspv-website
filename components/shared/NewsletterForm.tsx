@@ -34,7 +34,7 @@ export default function NewsletterForm() {
   };
 
   return (
-    <div className="rounded-xl bg-card border border-white/[0.06] p-6 sm:p-8">
+    <div className="rounded-xl bg-card border border-stone-200 p-6 sm:p-8">
       <div className="mb-5">
         <h3 className="text-lg font-semibold text-text mb-1">Stay Updated</h3>
         <p className="text-muted text-sm">
@@ -58,7 +58,7 @@ export default function NewsletterForm() {
                 autoComplete="email"
                 {...register("email")}
                 className={`w-full rounded-lg bg-bg-2 border ${
-                  errors.email ? "border-red/50" : "border-white/[0.06]"
+                  errors.email ? "border-red/50" : "border-stone-200"
                 } py-3 pl-10 pr-4 text-sm text-text placeholder:text-dim outline-none transition-colors focus:border-gold/50 focus:ring-1 focus:ring-gold/30`}
               />
             </div>
@@ -70,7 +70,7 @@ export default function NewsletterForm() {
           <button
             type="submit"
             disabled={status === "loading"}
-            className="w-full rounded-lg bg-gold px-4 py-3 text-sm font-semibold text-bg transition-all duration-200 hover:bg-gold-2 hover:shadow-lg hover:shadow-gold/15 disabled:opacity-60 disabled:cursor-not-allowed active:scale-[0.98]"
+            className="w-full rounded-lg bg-gold px-4 py-3 text-sm font-semibold text-white transition-all duration-200 hover:bg-gold-2 hover:shadow-lg hover:shadow-gold/15 disabled:opacity-60 disabled:cursor-not-allowed active:scale-[0.98]"
           >
             {status === "loading" ? (
               <span className="inline-flex items-center gap-2">

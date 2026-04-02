@@ -8,7 +8,7 @@ import { Download } from "lucide-react";
  */
 export default function EmailGate() {
   return (
-    <div className="mx-auto max-w-md rounded-xl border border-white/[0.06] bg-card p-8 text-center">
+    <div className="mx-auto max-w-md rounded-xl border border-stone-200 bg-card p-8 text-center">
       <div className="mb-6 flex flex-col items-center gap-3">
         <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gold/10">
           <Download className="h-5 w-5 text-gold" />
@@ -23,7 +23,7 @@ export default function EmailGate() {
 
       <a
         href="/downloads"
-        className="inline-flex items-center justify-center gap-2 rounded-lg bg-gold px-6 py-3 text-sm font-semibold text-bg transition-all duration-200 hover:brightness-110"
+        className="inline-flex items-center justify-center gap-2 rounded-lg bg-gold px-6 py-3 text-sm font-semibold text-white transition-all duration-200 hover:brightness-110"
       >
         <Download className="h-4 w-4" />
         Browse Downloads

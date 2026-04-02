@@ -70,7 +70,7 @@ export default function ArticleSidebar({
             />
             <button
               type="submit"
-              className="w-full h-7 text-[11px] font-semibold bg-gold text-bg rounded hover:bg-gold-2 transition-colors"
+              className="w-full h-7 text-[11px] font-semibold bg-gold text-white rounded hover:bg-gold-2 transition-colors"
             >
               Subscribe
             </button>

@@ -90,13 +90,13 @@ export default function ResourcesPage() {
       </section>
 
       {/* Resource Cards Grid */}
-      <section className="bg-bg-2 py-16 px-4 border-y border-white/[0.06]">
+      <section className="bg-bg-2 py-16 px-4 border-y border-stone-200">
         <div className="mx-auto max-w-7xl grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {resources.map((r) => (
             <Link
               key={r.title}
               href={r.href}
-              className={`group rounded-2xl bg-card border border-white/[0.06] border-t-2 border-t-transparent ${r.color} p-6 transition-all duration-300 hover:shadow-lg hover:shadow-black/20 hover:border-white/[0.1]`}
+              className={`group rounded-2xl bg-card border border-stone-200 border-t-2 border-t-transparent ${r.color} p-6 transition-all duration-300 hover:shadow-lg hover:shadow-black/20 hover:border-stone-300`}
             >
               <div
                 className={`w-12 h-12 rounded-xl ${r.iconBg} flex items-center justify-center mb-4`}

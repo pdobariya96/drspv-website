@@ -182,10 +182,10 @@ export default function SearchOverlay() {
     >
       <div
         ref={cardRef}
-        className="w-full max-w-[680px] rounded-xl bg-card border border-white/[0.06] shadow-2xl overflow-hidden animate-in fade-in"
+        className="w-full max-w-[680px] rounded-xl bg-card border border-stone-200 shadow-2xl overflow-hidden animate-in fade-in"
       >
         {/* Search input */}
-        <div className="relative flex items-center border-b border-white/[0.06]">
+        <div className="relative flex items-center border-b border-stone-200">
           <Search className="absolute left-4 h-5 w-5 text-muted pointer-events-none" />
           <input
             ref={inputRef}
@@ -196,13 +196,13 @@ export default function SearchOverlay() {
             className="w-full bg-transparent py-4 pl-12 pr-12 text-base text-text placeholder:text-dim outline-none focus:ring-0"
           />
           <div className="absolute right-3 flex items-center gap-2">
-            <kbd className="hidden sm:inline-flex h-5 items-center rounded border border-white/[0.08] bg-white/[0.04] px-1.5 text-[10px] font-medium text-dim">
+            <kbd className="hidden sm:inline-flex h-5 items-center rounded border border-stone-200 bg-stone-100/70 px-1.5 text-[10px] font-medium text-dim">
               ESC
             </kbd>
             <button
               onClick={closeOverlay}
               aria-label="Close search"
-              className="flex h-7 w-7 items-center justify-center rounded-md text-muted hover:text-text hover:bg-white/[0.06] transition-colors"
+              className="flex h-7 w-7 items-center justify-center rounded-md text-muted hover:text-text hover:bg-stone-100 transition-colors"
             >
               <X className="h-4 w-4" />
             </button>
@@ -228,7 +228,7 @@ export default function SearchOverlay() {
                   <button
                     key={s}
                     onClick={() => setQuery(s)}
-                    className="rounded-full bg-white/[0.04] border border-white/[0.06] px-3 py-1 text-xs text-muted hover:text-text hover:bg-white/[0.08] transition-colors"
+                    className="rounded-full bg-stone-100/70 border border-stone-200 px-3 py-1 text-xs text-muted hover:text-text hover:bg-stone-100 transition-colors"
                   >
                     {s}
                   </button>
@@ -265,7 +265,7 @@ export default function SearchOverlay() {
                         key={idx}
                         href={r.href}
                         onClick={closeOverlay}
-                        className="flex items-start gap-3 rounded-lg px-3 py-2.5 hover:bg-white/[0.04] transition-colors group"
+                        className="flex items-start gap-3 rounded-lg px-3 py-2.5 hover:bg-stone-100/70 transition-colors group"
                       >
                         <Icon
                           className={`h-4 w-4 mt-0.5 shrink-0 ${meta.color} opacity-60`}
@@ -279,7 +279,7 @@ export default function SearchOverlay() {
                           </p>
                         </div>
                         {r.category && (
-                          <span className="text-[9px] font-semibold uppercase tracking-wider text-dim bg-white/[0.04] rounded px-1.5 py-0.5 shrink-0 mt-0.5">
+                          <span className="text-[9px] font-semibold uppercase tracking-wider text-dim bg-stone-100/70 rounded px-1.5 py-0.5 shrink-0 mt-0.5">
                             {r.category}
                           </span>
                         )}
@@ -293,11 +293,11 @@ export default function SearchOverlay() {
         </div>
 
         {/* Footer hint */}
-        <div className="border-t border-white/[0.06] px-4 py-2.5 flex items-center justify-between">
+        <div className="border-t border-stone-200 px-4 py-2.5 flex items-center justify-between">
           <p className="text-[11px] text-dim">
             Type to search across all content
           </p>
-          <kbd className="hidden sm:inline-flex h-5 items-center rounded border border-white/[0.08] bg-white/[0.04] px-1.5 text-[10px] font-medium text-dim">
+          <kbd className="hidden sm:inline-flex h-5 items-center rounded border border-stone-200 bg-stone-100/70 px-1.5 text-[10px] font-medium text-dim">
             {typeof navigator !== "undefined" &&
             /Mac/.test(navigator.userAgent)
               ? "\u2318"

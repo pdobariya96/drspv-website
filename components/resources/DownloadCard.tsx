@@ -23,7 +23,7 @@ export default function DownloadCard({
   gateHref = "#",
 }: DownloadCardProps) {
   return (
-    <div className="flex flex-col rounded-xl border border-white/[0.06] bg-card p-6 transition-all duration-300 hover:border-gold/20">
+    <div className="flex flex-col rounded-xl border border-stone-200 bg-card p-6 transition-all duration-300 hover:border-gold/20">
       <div className="mb-4 flex items-start gap-3">
         <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-red/10">
           <FileText className="h-5 w-5 text-red" />
@@ -43,7 +43,7 @@ export default function DownloadCard({
         <span className="h-1 w-1 rounded-full bg-dim" />
         <span>Updated {updated}</span>
         <span className="h-1 w-1 rounded-full bg-dim" />
-        <span className="rounded-full bg-white/[0.04] px-2 py-0.5 text-[10px] font-medium">
+        <span className="rounded-full bg-stone-100/70 px-2 py-0.5 text-[10px] font-medium">
           {category}
         </span>
       </div>
@@ -51,7 +51,7 @@ export default function DownloadCard({
       {gated ? (
         <Link
           href={gateHref}
-          className="mt-5 inline-flex items-center gap-1.5 rounded-lg bg-gold px-4 py-2.5 text-xs font-semibold text-bg transition-all duration-200 hover:brightness-110 hover:scale-[1.02] active:scale-[0.98]"
+          className="mt-5 inline-flex items-center gap-1.5 rounded-lg bg-gold px-4 py-2.5 text-xs font-semibold text-white transition-all duration-200 hover:brightness-110 hover:scale-[1.02] active:scale-[0.98]"
         >
           Get free
           <ArrowRight className="h-3 w-3" />

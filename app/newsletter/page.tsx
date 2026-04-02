@@ -63,7 +63,7 @@ export default function NewsletterPage() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden py-20 sm:py-28">
-        <div className="absolute inset-0 grid-bg" />
+        
         <div className="relative mx-auto max-w-2xl px-4 text-center">
           <div className="mx-auto mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-gold/10 border border-gold/20">
             <Mail className="h-7 w-7 text-gold" />
@@ -112,7 +112,7 @@ export default function NewsletterPage() {
           {benefits.map((b) => (
             <div
               key={b.title}
-              className="rounded-xl bg-card border border-white/[0.06] p-6"
+              className="rounded-xl bg-card border border-stone-200 p-6"
             >
               <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-gold/10 border border-gold/20">
                 <b.icon className="h-5 w-5 text-gold" />
@@ -129,7 +129,7 @@ export default function NewsletterPage() {
       </section>
 
       {/* WhatsApp CTA */}
-      <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#0F1E35] to-[#0B1628] border-y border-white/[0.06]">
+      <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#0F1E35] to-[#0B1628] border-y border-stone-200">
         <div className="mx-auto max-w-7xl px-4 py-10 sm:py-14 flex flex-col items-center gap-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-text tracking-tight">
             Prefer WhatsApp updates?

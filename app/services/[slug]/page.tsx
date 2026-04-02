@@ -1134,8 +1134,8 @@ export function generateMetadata({
 
 function FAQItem({ q, a }: { q: string; a: string }) {
   return (
-    <details className="group border border-white/[0.06] rounded-xl bg-card overflow-hidden">
-      <summary className="flex items-center justify-between cursor-pointer px-6 py-4 text-sm font-medium text-text hover:bg-white/[0.02] transition-colors">
+    <details className="group border border-stone-200 rounded-xl bg-card overflow-hidden">
+      <summary className="flex items-center justify-between cursor-pointer px-6 py-4 text-sm font-medium text-text hover:bg-stone-50/60 transition-colors">
         <span className="pr-4">{q}</span>
         <ChevronDown className="h-4 w-4 text-muted shrink-0 transition-transform group-open:rotate-180" />
       </summary>
@@ -1185,9 +1185,8 @@ export default function ServicePage({
 
       {/* ─── Hero ─── */}
       <section className="relative overflow-hidden bg-bg">
-        <div className="absolute inset-0 grid-bg" />
+        
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute left-1/2 top-0 -translate-x-1/2 h-[600px] w-[900px] rounded-full bg-gold/[0.06] blur-[120px]" />
         </div>
 
         <div className="relative mx-auto max-w-4xl px-4 pt-28 pb-16 sm:pt-36 sm:pb-20">
@@ -1205,7 +1204,7 @@ export default function ServicePage({
             style={{ backgroundColor: svc.color }}
           />
 
-          <h1 className="text-3xl font-bold leading-tight tracking-tight text-text sm:text-4xl lg:text-5xl mb-4">
+          <h1 className="font-display text-3xl font-bold leading-tight tracking-tight text-text sm:text-4xl lg:text-5xl mb-4">
             {svc.title}
           </h1>
 
@@ -1218,7 +1217,7 @@ export default function ServicePage({
             {svc.stats.map((stat) => (
               <div
                 key={stat.label}
-                className="rounded-xl border border-white/[0.06] bg-card px-5 py-3 flex flex-col items-center min-w-[100px]"
+                className="rounded-xl border border-stone-200 bg-card px-5 py-3 flex flex-col items-center min-w-[100px]"
               >
                 <span className="text-xl font-bold" style={{ color: svc.color }}>
                   {stat.value}
@@ -1238,11 +1237,11 @@ export default function ServicePage({
           <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
             <span className="text-xs font-medium text-gold tracking-wide">Scope of Work</span>
           </div>
-          <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
+          <h2 className="font-display text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
             What We Cover
           </h2>
 
-          <ul className="space-y-0 divide-y divide-white/[0.04]">
+          <ul className="space-y-0 divide-y divide-stone-100">
             {svc.whatWeCover.map((item) => (
               <li key={item} className="flex items-start gap-3 py-3.5">
                 <span
@@ -1263,7 +1262,7 @@ export default function ServicePage({
               {svc.keyDeliverables.map((d) => (
                 <span
                   key={d}
-                  className="rounded-full border border-white/[0.08] bg-card px-3.5 py-1.5 text-xs text-muted"
+                  className="rounded-full border border-stone-200 bg-card px-3.5 py-1.5 text-xs text-muted"
                 >
                   {d}
                 </span>
@@ -1281,7 +1280,7 @@ export default function ServicePage({
           <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
             <span className="text-xs font-medium text-gold tracking-wide">Our Process</span>
           </div>
-          <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-10">
+          <h2 className="font-display text-2xl font-bold tracking-tight text-text sm:text-3xl mb-10">
             How We Work
           </h2>
 
@@ -1314,7 +1313,7 @@ export default function ServicePage({
           <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
             <span className="text-xs font-medium text-gold tracking-wide">Who Is This For</span>
           </div>
-          <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
+          <h2 className="font-display text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
             Is This Service Right for You?
           </h2>
 
@@ -1322,7 +1321,7 @@ export default function ServicePage({
             {svc.whoNeeds.map((item) => (
               <div
                 key={item}
-                className="flex items-center gap-2.5 rounded-xl border border-white/[0.06] bg-card px-4 py-3"
+                className="flex items-center gap-2.5 rounded-xl border border-stone-200 bg-card px-4 py-3"
               >
                 <CheckCircle2
                   className="h-4 w-4 shrink-0"
@@ -1343,7 +1342,7 @@ export default function ServicePage({
           <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
             <span className="text-xs font-medium text-gold tracking-wide">FAQ</span>
           </div>
-          <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
+          <h2 className="font-display text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
             Frequently Asked Questions
           </h2>
 
@@ -1365,7 +1364,7 @@ export default function ServicePage({
               <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
                 <span className="text-xs font-medium text-gold tracking-wide">Related Reading</span>
               </div>
-              <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
+              <h2 className="font-display text-2xl font-bold tracking-tight text-text sm:text-3xl mb-8">
                 From Our Knowledge Bank
               </h2>
 
@@ -1374,7 +1373,7 @@ export default function ServicePage({
                   <Link
                     key={kb.title}
                     href={kb.href}
-                    className="group rounded-xl border border-white/[0.06] bg-card p-5 transition-all hover:border-gold/20 hover:shadow-lg hover:shadow-black/10"
+                    className="group rounded-xl border border-stone-200 bg-card p-5 transition-all hover:border-gold/20 hover:shadow-lg hover:shadow-black/10"
                   >
                     <div className="flex items-start gap-3">
                       <BookOpen className="h-4 w-4 text-gold shrink-0 mt-0.5" />

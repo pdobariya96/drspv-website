@@ -10,19 +10,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: "#07101E",
-        "bg-2": "#0B1628",
-        "bg-3": "#0F1E35",
-        card: "#111F38",
-        "card-2": "#0D1930",
-        gold: "#C9A84C",
-        "gold-2": "#E8C55A",
-        "gold-3": "#F5D98A",
-        border: "rgba(201,168,76,0.15)",
-        "border-2": "rgba(255,255,255,0.06)",
-        text: "#F0EDE8",
-        muted: "#8A93A8",
-        dim: "#4A5568",
+        /* ── Backgrounds ── */
+        bg: "#FAFAF7",
+        "bg-2": "#F2EDE4",
+        "bg-3": "#E8E2D8",
+        /* ── Cards ── */
+        card: "#FFFFFF",
+        "card-2": "#FAF8F4",
+        /* ── Dark sections (nav, footer, hero) ── */
+        ink: "#0F1F17",
+        "ink-2": "#1A3326",
+        /* ── Accent — deep forest green ── */
+        gold: "#1D5C3A",
+        "gold-2": "#2A7A4F",
+        "gold-3": "#3EA86B",
+        /* ── Typography ── */
+        text: "#1A1A18",
+        muted: "#5A5A52",
+        dim: "#9A9A8E",
+        /* ── Borders ── */
+        border: "rgba(26,26,24,0.12)",
+        "border-2": "rgba(26,26,24,0.07)",
+        /* ── Utility ── */
         green: "#22C55E",
         "wa-green": "#25D366",
         red: "#EF4444",
@@ -38,9 +47,15 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Inter", "system-ui", "sans-serif"],
+        serif: ["var(--font-lora)", "Lora", "Georgia", "serif"],
+      },
+      boxShadow: {
+        card: "0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04)",
+        "card-hover": "0 4px 12px rgba(0,0,0,0.10), 0 8px 32px rgba(0,0,0,0.06)",
+        subtle: "0 1px 2px rgba(0,0,0,0.05)",
       },
       borderColor: {
-        DEFAULT: "rgba(255,255,255,0.06)",
+        DEFAULT: "rgba(26,26,24,0.10)",
       },
     },
   },

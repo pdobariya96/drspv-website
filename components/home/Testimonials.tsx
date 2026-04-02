@@ -41,7 +41,7 @@ export default function Testimonials() {
           {testimonials.map((t) => (
             <div
               key={t.name}
-              className="group flex flex-col rounded-xl border border-white/[0.06] bg-card p-6 transition-all duration-300 hover:border-gold/20"
+              className="group flex flex-col rounded-xl border border-stone-200 bg-card p-6 transition-all duration-300 hover:border-gold/20"
             >
               {/* Stars */}
               <div className="mb-4 flex gap-0.5">
@@ -60,7 +60,7 @@ export default function Testimonials() {
               </p>
 
               {/* Author */}
-              <div className="mt-6 flex items-center gap-3 border-t border-white/[0.06] pt-5">
+              <div className="mt-6 flex items-center gap-3 border-t border-stone-200 pt-5">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gold/10 text-xs font-bold text-gold">
                   {t.initials}
                 </div>

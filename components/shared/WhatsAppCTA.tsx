@@ -12,7 +12,7 @@ export default function WhatsAppCTA() {
   const callLink = `tel:+${PH}`;
 
   return (
-    <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#0F1E35] to-[#0B1628] border-y border-white/[0.06]">
+    <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#0F1E35] to-[#0B1628] border-y border-stone-200">
       <div className="mx-auto max-w-7xl px-4 py-10 sm:py-14 flex flex-col items-center gap-6 text-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-text tracking-tight">
           Stop worrying. Talk to us today.

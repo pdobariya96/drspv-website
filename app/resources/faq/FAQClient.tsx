@@ -44,7 +44,7 @@ export default function FAQClient({ faqs }: { faqs: FAQ[] }) {
   });
 
   return (
-    <section className="bg-bg-2 py-12 px-4 border-t border-white/[0.06]">
+    <section className="bg-bg-2 py-12 px-4 border-t border-stone-200">
       <div className="mx-auto max-w-7xl">
         {/* Search + Filter */}
         <div className="mb-8 space-y-4">
@@ -55,7 +55,7 @@ export default function FAQClient({ faqs }: { faqs: FAQ[] }) {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search questions..."
-              className="w-full rounded-lg bg-card border border-white/[0.06] pl-10 pr-4 py-2.5 text-sm text-text placeholder:text-dim focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors"
+              className="w-full rounded-lg bg-card border border-stone-200 pl-10 pr-4 py-2.5 text-sm text-text placeholder:text-dim focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors"
             />
           </div>
           <div className="flex flex-wrap gap-2">
@@ -66,7 +66,7 @@ export default function FAQClient({ faqs }: { faqs: FAQ[] }) {
                 className={`px-4 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
                   activeCategory === cat
                     ? "bg-gold text-bg"
-                    : "bg-card border border-white/[0.06] text-muted hover:text-text hover:border-gold/30"
+                    : "bg-card border border-stone-200 text-muted hover:text-text hover:border-gold/30"
                 }`}
               >
                 {cat}
@@ -94,7 +94,7 @@ export default function FAQClient({ faqs }: { faqs: FAQ[] }) {
                   className={`rounded-xl bg-card border transition-all duration-200 ${
                     isOpen
                       ? "border-it-blue/30 border-l-2 border-l-it-blue"
-                      : "border-white/[0.06]"
+                      : "border-stone-200"
                   }`}
                 >
                   <button
@@ -117,7 +117,7 @@ export default function FAQClient({ faqs }: { faqs: FAQ[] }) {
                   </button>
                   {isOpen && (
                     <div className="px-5 pb-5 pt-0">
-                      <div className="border-t border-white/[0.06] pt-4">
+                      <div className="border-t border-stone-200 pt-4">
                         <p className="text-sm text-muted leading-relaxed">
                           {faq.answer}
                         </p>
@@ -141,7 +141,7 @@ export default function FAQClient({ faqs }: { faqs: FAQ[] }) {
           {/* Sidebar */}
           <div className="space-y-4">
             {/* Topic Counts */}
-            <div className="rounded-xl bg-card border border-white/[0.06] p-5">
+            <div className="rounded-xl bg-card border border-stone-200 p-5">
               <h3 className="text-sm font-bold text-text mb-4">
                 Browse by Topic
               </h3>

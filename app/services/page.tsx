@@ -287,9 +287,8 @@ export default function ServicesPage() {
     <>
       {/* ─── Hero ─── */}
       <section className="relative overflow-hidden bg-bg">
-        <div className="absolute inset-0 grid-bg" />
+        
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute left-1/2 top-0 -translate-x-1/2 h-[600px] w-[900px] rounded-full bg-gold/[0.06] blur-[120px]" />
         </div>
 
         <div className="relative mx-auto max-w-5xl px-4 pt-28 pb-16 sm:pt-36 sm:pb-20 text-center">
@@ -297,7 +296,7 @@ export default function ServicesPage() {
             <span className="text-xs font-medium text-gold tracking-wide">Our Services</span>
           </div>
 
-          <h1 className="mx-auto max-w-4xl text-3xl font-bold leading-tight tracking-tight text-text sm:text-4xl lg:text-5xl">
+          <h1 className="mx-auto max-w-4xl font-display text-3xl font-bold leading-tight tracking-tight text-text sm:text-4xl lg:text-5xl">
             Comprehensive CA Services for{" "}
             <span className="gold-gradient-text">Every Business Need</span>
           </h1>
@@ -316,7 +315,7 @@ export default function ServicesPage() {
             {services.map((svc) => (
               <div
                 key={svc.slug}
-                className="group rounded-2xl border border-white/[0.06] bg-card overflow-hidden transition-all hover:border-white/[0.12] hover:shadow-lg hover:shadow-black/20"
+                className="group rounded-2xl border border-stone-200 bg-card overflow-hidden transition-all hover:border-white/[0.12] hover:shadow-lg hover:shadow-black/20"
               >
                 {/* Colored top line */}
                 <div className="h-[3px]" style={{ backgroundColor: svc.color }} />
@@ -342,7 +341,7 @@ export default function ServicesPage() {
                   </ul>
 
                   {/* Footer */}
-                  <div className="border-t border-white/[0.06] pt-4 flex items-center justify-between">
+                  <div className="border-t border-stone-200 pt-4 flex items-center justify-between">
                     <span className="text-[10px] text-dim uppercase tracking-wider">
                       {svc.whoFor}
                     </span>
@@ -370,7 +369,7 @@ export default function ServicesPage() {
             <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
               <span className="text-xs font-medium text-gold tracking-wide">Why DRSPV</span>
             </div>
-            <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl">
+            <h2 className="font-display text-2xl font-bold tracking-tight text-text sm:text-3xl">
               What Sets Us Apart
             </h2>
           </div>
@@ -379,7 +378,7 @@ export default function ServicesPage() {
             {whyCards.map((card) => (
               <div
                 key={card.title}
-                className="rounded-xl border border-white/[0.06] bg-card p-6 text-center transition-colors hover:border-gold/20"
+                className="rounded-xl border border-stone-200 bg-card p-6 text-center transition-colors hover:border-gold/20"
               >
                 <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10">
                   <card.icon className="h-6 w-6 text-gold" />
@@ -401,7 +400,7 @@ export default function ServicesPage() {
             <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
               <span className="text-xs font-medium text-gold tracking-wide">Our Process</span>
             </div>
-            <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl">
+            <h2 className="font-display text-2xl font-bold tracking-tight text-text sm:text-3xl">
               How We Work With You
             </h2>
           </div>

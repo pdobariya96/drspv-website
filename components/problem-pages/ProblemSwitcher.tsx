@@ -12,7 +12,7 @@ interface ProblemSwitcherProps {
 
 export default function ProblemSwitcher({ problems }: ProblemSwitcherProps) {
   return (
-    <div className="w-full border-b border-white/[0.06] bg-bg-2">
+    <div className="w-full border-b border-stone-200 bg-bg-2">
       <div className="mx-auto max-w-6xl px-4">
         <nav className="hide-scrollbar flex h-[38px] items-center gap-0 overflow-x-auto">
           {problems.map((p) => (

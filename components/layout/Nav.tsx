@@ -48,8 +48,8 @@ export default function Nav() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 h-[60px] flex items-center transition-colors duration-300 ${
           scrolled
-            ? "bg-bg/95 backdrop-blur-md border-b border-white/[0.06] shadow-lg shadow-black/20"
-            : "bg-bg/80 backdrop-blur-sm"
+            ? "bg-card/95 backdrop-blur-md border-b border-stone-200 shadow-sm shadow-black/6"
+            : "bg-card/80 backdrop-blur-sm"
         }`}
       >
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4">
@@ -73,7 +73,7 @@ export default function Nav() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-3 py-1.5 text-[13px] font-medium text-muted hover:text-text transition-colors rounded-md hover:bg-white/[0.04]"
+                className="px-3 py-1.5 text-[13px] font-medium text-muted hover:text-text transition-colors rounded-md hover:bg-stone-100/70"
               >
                 {link.label}
               </Link>
@@ -85,7 +85,7 @@ export default function Nav() {
             <button
               onClick={openSearch}
               aria-label="Search"
-              className="flex h-9 w-9 items-center justify-center rounded-lg text-muted hover:text-text hover:bg-white/[0.06] transition-colors"
+              className="flex h-9 w-9 items-center justify-center rounded-lg text-muted hover:text-text hover:bg-stone-100 transition-colors"
             >
               <Search className="h-[18px] w-[18px]" />
             </button>
@@ -112,7 +112,7 @@ export default function Nav() {
             <button
               onClick={() => setMobileOpen(true)}
               aria-label="Open menu"
-              className="xl:hidden flex h-9 w-9 items-center justify-center rounded-lg text-muted hover:text-text hover:bg-white/[0.06] transition-colors"
+              className="xl:hidden flex h-9 w-9 items-center justify-center rounded-lg text-muted hover:text-text hover:bg-stone-100 transition-colors"
             >
               <Menu className="h-5 w-5" />
             </button>
@@ -130,16 +130,16 @@ export default function Nav() {
 
       {/* Mobile Drawer */}
       <div
-        className={`fixed top-0 right-0 z-[70] h-full w-[300px] bg-bg-2 border-l border-white/[0.06] shadow-2xl transform transition-transform duration-300 ease-out xl:hidden ${
+        className={`fixed top-0 right-0 z-[70] h-full w-[300px] bg-bg-2 border-l border-stone-200 shadow-2xl transform transition-transform duration-300 ease-out xl:hidden ${
           mobileOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex items-center justify-between px-5 h-[60px] border-b border-white/[0.06]">
+        <div className="flex items-center justify-between px-5 h-[60px] border-b border-stone-200">
           <span className="text-sm font-semibold text-text">Menu</span>
           <button
             onClick={() => setMobileOpen(false)}
             aria-label="Close menu"
-            className="flex h-8 w-8 items-center justify-center rounded-lg text-muted hover:text-text hover:bg-white/[0.06] transition-colors"
+            className="flex h-8 w-8 items-center justify-center rounded-lg text-muted hover:text-text hover:bg-stone-100 transition-colors"
           >
             <X className="h-5 w-5" />
           </button>
@@ -151,7 +151,7 @@ export default function Nav() {
               key={link.href}
               href={link.href}
               onClick={() => setMobileOpen(false)}
-              className="block rounded-lg px-4 py-3 text-sm font-medium text-muted hover:text-text hover:bg-white/[0.04] transition-colors"
+              className="block rounded-lg px-4 py-3 text-sm font-medium text-muted hover:text-text hover:bg-stone-100/70 transition-colors"
             >
               {link.label}
             </Link>

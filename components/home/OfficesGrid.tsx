@@ -83,7 +83,7 @@ export default function OfficesGrid() {
               className={`relative flex flex-col rounded-xl border bg-card p-6 transition-all duration-300 hover:border-gold/20 ${
                 o.highlight
                   ? "border-gold/30"
-                  : "border-white/[0.06]"
+                  : "border-stone-200"
               }`}
             >
               {o.badge && (

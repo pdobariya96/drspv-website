@@ -45,7 +45,7 @@ export default function NoticeTypes({ types }: NoticeTypesProps) {
             return (
               <div
                 key={t.title}
-                className="relative flex flex-col rounded-xl border border-white/[0.06] bg-card p-6 pt-8"
+                className="relative flex flex-col rounded-xl border border-stone-200 bg-card p-6 pt-8"
               >
                 {/* Colored top bar */}
                 <div

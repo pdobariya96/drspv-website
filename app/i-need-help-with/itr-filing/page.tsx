@@ -48,7 +48,7 @@ export default function ITRFilingPage() {
   return (
     <>
       {/* Breadcrumb Tabs */}
-      <nav className="w-full border-b border-white/[0.06] bg-bg-2/80 backdrop-blur-sm sticky top-0 z-30">
+      <nav className="w-full border-b border-stone-200 bg-bg-2/80 backdrop-blur-sm sticky top-0 z-30">
         <div className="mx-auto max-w-7xl px-4 flex items-center gap-1 overflow-x-auto py-3 scrollbar-none">
           {tabs.map((t) => (
             <Link
@@ -57,7 +57,7 @@ export default function ITRFilingPage() {
               className={`shrink-0 rounded-full px-4 py-1.5 text-xs font-medium transition-colors ${
                 t.slug === "itr-filing"
                   ? "bg-gold/15 text-gold border border-gold/30"
-                  : "text-muted hover:text-text hover:bg-white/[0.04]"
+                  : "text-muted hover:text-text hover:bg-stone-100/70"
               }`}
             >
               {t.label}
@@ -69,7 +69,7 @@ export default function ITRFilingPage() {
       {/* Problem Hero */}
       <section className="relative overflow-hidden py-16 sm:py-24">
         <div className="absolute inset-0 bg-gradient-to-b from-it-blue/[0.06] via-transparent to-transparent" />
-        <div className="absolute inset-0 grid-bg" />
+        
         <div className="relative mx-auto max-w-4xl px-4">
           <span className="inline-block rounded-full bg-it-blue/10 border border-it-blue/20 px-3 py-1 text-[11px] uppercase tracking-[2px] text-it-blue font-medium mb-5">
             ITR Filing
@@ -110,7 +110,7 @@ export default function ITRFilingPage() {
             ].map((pill) => (
               <span
                 key={pill}
-                className="inline-flex items-center gap-1.5 rounded-full bg-card border border-white/[0.06] px-3 py-1 text-xs text-muted"
+                className="inline-flex items-center gap-1.5 rounded-full bg-card border border-stone-200 px-3 py-1 text-xs text-muted"
               >
                 <CheckCircle className="h-3 w-3 text-gst-green" />
                 {pill}
@@ -151,7 +151,7 @@ export default function ITRFilingPage() {
           ].map((card) => (
             <div
               key={card.title}
-              className="rounded-xl bg-card border border-white/[0.06] overflow-hidden"
+              className="rounded-xl bg-card border border-stone-200 overflow-hidden"
             >
               <div className={`h-1 ${card.barColor}`} />
               <div className="p-6">
@@ -273,8 +273,8 @@ export default function ITRFilingPage() {
         <h2 className="text-2xl font-bold text-text mb-8">
           From Our Case Files
         </h2>
-        <div className="rounded-xl bg-card border border-white/[0.06] overflow-hidden">
-          <div className="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-white/[0.06]">
+        <div className="rounded-xl bg-card border border-stone-200 overflow-hidden">
+          <div className="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-stone-200">
             <div className="p-6">
               <span className="text-[10px] uppercase tracking-[2px] text-red font-medium">
                 Problem
@@ -342,7 +342,7 @@ export default function ITRFilingPage() {
             <Link
               key={r.title}
               href={r.href}
-              className="group rounded-lg bg-card border border-white/[0.06] p-5 transition-all hover:border-gold/30 hover:-translate-y-0.5"
+              className="group rounded-lg bg-card border border-stone-200 p-5 transition-all hover:border-gold/30 hover:-translate-y-0.5"
             >
               <div className="flex items-center gap-2 mb-2">
                 <BookOpen className="h-3.5 w-3.5 text-gold" />
@@ -362,7 +362,7 @@ export default function ITRFilingPage() {
       </section>
 
       {/* WhatsApp CTA */}
-      <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#0F1E35] to-[#0B1628] border-y border-white/[0.06]">
+      <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#0F1E35] to-[#0B1628] border-y border-stone-200">
         <div className="mx-auto max-w-7xl px-4 py-10 sm:py-14 flex flex-col items-center gap-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-text tracking-tight">
             File your ITR with a qualified CA. No stress, no errors.

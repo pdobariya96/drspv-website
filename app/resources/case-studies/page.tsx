@@ -77,12 +77,12 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* Case Study Cards */}
-      <section className="bg-bg-2 py-12 px-4 border-t border-white/[0.06]">
+      <section className="bg-bg-2 py-12 px-4 border-t border-stone-200">
         <div className="mx-auto max-w-7xl grid md:grid-cols-2 gap-6">
           {caseStudies.map((cs, idx) => (
             <div
               key={idx}
-              className="rounded-2xl bg-card border border-white/[0.06] overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-black/20"
+              className="rounded-2xl bg-card border border-stone-200 overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-black/20"
             >
               <div className="h-1" style={{ backgroundColor: cs.color }} />
               <div className="p-6">
@@ -131,7 +131,7 @@ export default function CaseStudiesPage() {
                 </div>
 
                 {/* Footer */}
-                <div className="flex items-center justify-between pt-4 border-t border-white/[0.06]">
+                <div className="flex items-center justify-between pt-4 border-t border-stone-200">
                   <span className="text-[10px] uppercase tracking-wider text-dim font-medium">
                     {cs.industry}
                   </span>
@@ -143,7 +143,7 @@ export default function CaseStudiesPage() {
       </section>
 
       {/* CTA */}
-      <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#111F38] to-[#0B1628] border-y border-white/[0.06]">
+      <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#111F38] to-[#0B1628] border-y border-stone-200">
         <div className="mx-auto max-w-7xl px-4 py-10 sm:py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="text-center sm:text-left">
             <h3 className="text-xl sm:text-2xl font-bold text-text mb-1">

@@ -95,7 +95,7 @@ export default function KnowledgeBankPreview() {
           {pillars.map((p) => (
             <div
               key={p.slug}
-              className={`group flex flex-col rounded-xl border border-white/[0.06] bg-card p-6 transition-all duration-300 ${p.borderColor}`}
+              className={`group flex flex-col rounded-xl border border-stone-200 bg-card p-6 transition-all duration-300 ${p.borderColor}`}
             >
               <div className="flex items-center gap-3">
                 <div
@@ -126,7 +126,7 @@ export default function KnowledgeBankPreview() {
 
               <Link
                 href={`/knowledge/${p.slug}`}
-                className={`mt-6 inline-flex w-fit items-center gap-1.5 rounded-lg border border-white/[0.06] px-4 py-2 text-xs font-semibold text-text transition-all duration-300 ${p.hoverBg} group-hover:text-bg group-hover:border-transparent`}
+                className={`mt-6 inline-flex w-fit items-center gap-1.5 rounded-lg border border-stone-200 px-4 py-2 text-xs font-semibold text-text transition-all duration-300 ${p.hoverBg} group-hover:text-bg group-hover:border-transparent`}
               >
                 Explore
                 <ArrowRight className="h-3 w-3" />

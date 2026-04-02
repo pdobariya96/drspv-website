@@ -75,7 +75,7 @@ export default function GSTPillarPage() {
       {/* Hero */}
       <section className="relative overflow-hidden py-16 sm:py-24">
         <div className="absolute inset-0 bg-gradient-to-b from-gst-green/[0.06] via-transparent to-transparent" />
-        <div className="absolute inset-0 grid-bg" />
+        
         <div className="relative mx-auto max-w-4xl px-4">
           <div className="flex items-center gap-3 mb-6">
             <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-gst-green/10 border border-gst-green/20">
@@ -118,7 +118,7 @@ export default function GSTPillarPage() {
               <Link
                 key={mod.number}
                 href={href}
-                className="group flex gap-5 rounded-xl bg-card border border-white/[0.06] p-5 sm:p-6 transition-all hover:border-gold/30 hover:-translate-y-0.5"
+                className="group flex gap-5 rounded-xl bg-card border border-stone-200 p-5 sm:p-6 transition-all hover:border-gold/30 hover:-translate-y-0.5"
               >
                 <div className="shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-gst-green/10 border border-gst-green/20 text-gst-green font-bold text-sm">
                   {String(mod.number).padStart(2, "0")}

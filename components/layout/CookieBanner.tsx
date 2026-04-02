@@ -43,7 +43,7 @@ export default function CookieBanner() {
         }}
       />
 
-      <div className="bg-card border-t border-white/[0.06]">
+      <div className="bg-card border-t border-stone-200">
         <div className="mx-auto max-w-7xl px-4 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           {/* Left: Text */}
           <div className="flex items-start gap-3 flex-1">
@@ -65,13 +65,13 @@ export default function CookieBanner() {
           <div className="flex items-center gap-3 shrink-0">
             <button
               onClick={handleDecline}
-              className="rounded-lg border border-white/[0.1] px-5 py-2 text-sm font-medium text-muted hover:text-text hover:bg-white/[0.04] transition-all"
+              className="rounded-lg border border-stone-300 px-5 py-2 text-sm font-medium text-muted hover:text-text hover:bg-stone-100/70 transition-all"
             >
               Decline
             </button>
             <button
               onClick={handleAccept}
-              className="rounded-lg bg-gold px-5 py-2 text-sm font-semibold text-bg hover:bg-gold-2 transition-all active:scale-[0.97]"
+              className="rounded-lg bg-gold px-5 py-2 text-sm font-semibold text-white hover:bg-gold-2 transition-all active:scale-[0.97]"
             >
               Accept All
             </button>

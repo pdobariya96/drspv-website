@@ -71,7 +71,7 @@ export default function GlossaryBrowser({ terms }: GlossaryBrowserProps) {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search terms..."
-              className="w-full rounded-lg border border-white/[0.06] bg-card py-2.5 pl-10 pr-4 text-sm text-text placeholder:text-muted/60 outline-none focus:border-gold/30 transition-colors"
+              className="w-full rounded-lg border border-stone-200 bg-card py-2.5 pl-10 pr-4 text-sm text-text placeholder:text-muted/60 outline-none focus:border-gold/30 transition-colors"
             />
           </div>
         </div>

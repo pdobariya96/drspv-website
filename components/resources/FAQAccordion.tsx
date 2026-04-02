@@ -43,7 +43,7 @@ export default function FAQAccordion({ faqs }: FAQAccordionProps) {
                 className={`overflow-hidden rounded-xl border transition-all duration-300 ${
                   isOpen
                     ? "border-it-blue/30 bg-card"
-                    : "border-white/[0.06] bg-card"
+                    : "border-stone-200 bg-card"
                 }`}
               >
                 <button
@@ -66,7 +66,7 @@ export default function FAQAccordion({ faqs }: FAQAccordionProps) {
                 </button>
 
                 {isOpen && (
-                  <div className="border-t border-white/[0.06] px-6 pb-5 pt-4">
+                  <div className="border-t border-stone-200 px-6 pb-5 pt-4">
                     <div className="flex gap-3">
                       <span className="mt-0.5 h-full w-[3px] shrink-0 rounded-full bg-it-blue" />
                       <div>

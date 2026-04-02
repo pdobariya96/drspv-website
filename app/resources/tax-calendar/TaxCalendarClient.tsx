@@ -143,7 +143,7 @@ export default function TaxCalendarClient({
   return (
     <>
       {/* Countdown Panels */}
-      <section className="bg-bg-2 py-12 px-4 border-y border-white/[0.06]">
+      <section className="bg-bg-2 py-12 px-4 border-y border-stone-200">
         <div className="mx-auto max-w-7xl">
           <div className="flex items-center gap-2 mb-6">
             <AlertTriangle className="h-4 w-4 text-ipo-amber" />
@@ -172,7 +172,7 @@ export default function TaxCalendarClient({
                 className={`px-4 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
                   activeFilter === f
                     ? "bg-gold text-bg"
-                    : "bg-card border border-white/[0.06] text-muted hover:text-text hover:border-gold/30"
+                    : "bg-card border border-stone-200 text-muted hover:text-text hover:border-gold/30"
                 }`}
               >
                 {f}
@@ -183,7 +183,7 @@ export default function TaxCalendarClient({
               className={`px-4 py-1.5 rounded-full text-xs font-medium transition-all duration-200 ${
                 showPassed
                   ? "bg-dim/20 border border-dim/40 text-text"
-                  : "bg-card border border-white/[0.06] text-muted hover:text-text hover:border-gold/30"
+                  : "bg-card border border-stone-200 text-muted hover:text-text hover:border-gold/30"
               }`}
             >
               {showPassed ? "Hide Past" : "Show Past"}
@@ -194,11 +194,11 @@ export default function TaxCalendarClient({
           </div>
 
           {/* Table */}
-          <div className="rounded-xl border border-white/[0.06] overflow-hidden">
+          <div className="rounded-xl border border-stone-200 overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
-                  <tr className="bg-card/80 border-b border-white/[0.06]">
+                  <tr className="bg-card/80 border-b border-stone-200">
                     <th className="text-left px-4 py-3 text-xs font-semibold text-muted uppercase tracking-wider w-8">
                       &nbsp;
                     </th>
@@ -219,7 +219,7 @@ export default function TaxCalendarClient({
                     </th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-white/[0.04]">
+                <tbody className="divide-y divide-stone-100">
                   {filtered.map((d, i) => {
                     const status = getStatus(d.date);
                     return (

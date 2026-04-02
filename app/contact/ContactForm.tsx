@@ -86,7 +86,7 @@ export default function ContactForm() {
           <input
             {...register("name")}
             placeholder="Rajesh Patel"
-            className="w-full rounded-lg bg-bg-2 border border-white/[0.06] px-4 py-2.5 text-sm text-text placeholder:text-dim focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors"
+            className="w-full rounded-lg bg-bg-2 border border-stone-200 px-4 py-2.5 text-sm text-text placeholder:text-dim focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors"
           />
           {errors.name && (
             <p className="mt-1 text-xs text-red">{errors.name.message}</p>
@@ -99,7 +99,7 @@ export default function ContactForm() {
           <input
             {...register("phone")}
             placeholder="+91 98765 43210"
-            className="w-full rounded-lg bg-bg-2 border border-white/[0.06] px-4 py-2.5 text-sm text-text placeholder:text-dim focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors"
+            className="w-full rounded-lg bg-bg-2 border border-stone-200 px-4 py-2.5 text-sm text-text placeholder:text-dim focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors"
           />
           {errors.phone && (
             <p className="mt-1 text-xs text-red">{errors.phone.message}</p>
@@ -115,7 +115,7 @@ export default function ContactForm() {
           {...register("email")}
           type="email"
           placeholder="you@example.com"
-          className="w-full rounded-lg bg-bg-2 border border-white/[0.06] px-4 py-2.5 text-sm text-text placeholder:text-dim focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors"
+          className="w-full rounded-lg bg-bg-2 border border-stone-200 px-4 py-2.5 text-sm text-text placeholder:text-dim focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors"
         />
         {errors.email && (
           <p className="mt-1 text-xs text-red">{errors.email.message}</p>
@@ -128,7 +128,7 @@ export default function ContactForm() {
         </label>
         <select
           {...register("service")}
-          className="w-full rounded-lg bg-bg-2 border border-white/[0.06] px-4 py-2.5 text-sm text-text focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors appearance-none"
+          className="w-full rounded-lg bg-bg-2 border border-stone-200 px-4 py-2.5 text-sm text-text focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors appearance-none"
           defaultValue=""
         >
           <option value="" disabled className="text-dim">
@@ -153,7 +153,7 @@ export default function ContactForm() {
           {...register("message")}
           rows={4}
           placeholder="Tell us about your requirements..."
-          className="w-full rounded-lg bg-bg-2 border border-white/[0.06] px-4 py-2.5 text-sm text-text placeholder:text-dim focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors resize-none"
+          className="w-full rounded-lg bg-bg-2 border border-stone-200 px-4 py-2.5 text-sm text-text placeholder:text-dim focus:outline-none focus:border-gold/40 focus:ring-1 focus:ring-gold/20 transition-colors resize-none"
         />
         {errors.message && (
           <p className="mt-1 text-xs text-red">{errors.message.message}</p>
@@ -167,7 +167,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full flex items-center justify-center gap-2 rounded-lg bg-gold px-6 py-3 text-sm font-semibold text-bg transition-all duration-200 hover:bg-gold-2 hover:shadow-lg hover:shadow-gold/20 disabled:opacity-60 disabled:cursor-not-allowed active:scale-[0.98]"
+        className="w-full flex items-center justify-center gap-2 rounded-lg bg-gold px-6 py-3 text-sm font-semibold text-white transition-all duration-200 hover:bg-gold-2 hover:shadow-lg hover: disabled:opacity-60 disabled:cursor-not-allowed active:scale-[0.98]"
       >
         {isSubmitting ? (
           <>

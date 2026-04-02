@@ -86,7 +86,7 @@ export default function BlogSidebar({
               />
               <button
                 type="submit"
-                className="w-full h-8 text-xs font-semibold bg-gold text-bg rounded hover:bg-gold-2 transition-colors"
+                className="w-full h-8 text-xs font-semibold bg-gold text-white rounded hover:bg-gold-2 transition-colors"
               >
                 Subscribe Free
               </button>

@@ -176,9 +176,8 @@ export default function AboutPage() {
     <>
       {/* ─── Hero ─── */}
       <section className="relative overflow-hidden bg-bg">
-        <div className="absolute inset-0 grid-bg" />
+        
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute left-1/2 top-0 -translate-x-1/2 h-[600px] w-[900px] rounded-full bg-gold/[0.06] blur-[120px]" />
         </div>
 
         <div className="relative mx-auto max-w-6xl px-4 pt-28 pb-16 sm:pt-36 sm:pb-20">
@@ -191,7 +190,7 @@ export default function AboutPage() {
                 </span>
               </div>
 
-              <h1 className="text-3xl font-bold leading-tight tracking-tight text-text sm:text-4xl lg:text-5xl">
+              <h1 className="font-display text-3xl font-bold leading-tight tracking-tight text-text sm:text-4xl lg:text-5xl">
                 Trusted CA Firm Built on{" "}
                 <span className="gold-gradient-text">
                   Expertise &amp; Integrity
@@ -218,7 +217,7 @@ export default function AboutPage() {
                 {trustPills.map((pill) => (
                   <div
                     key={pill.label}
-                    className="flex items-center gap-2 rounded-full border border-white/[0.06] bg-card/50 px-4 py-2"
+                    className="flex items-center gap-2 rounded-full border border-stone-200 bg-card/50 px-4 py-2"
                   >
                     <pill.icon className="h-3.5 w-3.5 text-gold" />
                     <span className="text-xs font-medium text-muted">{pill.label}</span>
@@ -239,7 +238,7 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              <div className="space-y-4 border-t border-white/[0.06] pt-6">
+              <div className="space-y-4 border-t border-stone-200 pt-6">
                 <div className="flex items-start gap-3">
                   <Briefcase className="h-4 w-4 text-gold mt-0.5" />
                   <div>
@@ -284,7 +283,7 @@ export default function AboutPage() {
       </section>
 
       {/* ─── Stats Bar ─── */}
-      <section className="bg-bg-2 border-y border-white/[0.06]">
+      <section className="bg-bg-2 border-y border-stone-200">
         <div className="mx-auto max-w-6xl px-4 py-10">
           <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
             {stats.map((s) => (
@@ -305,7 +304,7 @@ export default function AboutPage() {
           <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
             <span className="text-xs font-medium text-gold tracking-wide">Our Story</span>
           </div>
-          <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-12">
+          <h2 className="font-display text-2xl font-bold tracking-tight text-text sm:text-3xl mb-12">
             Building a Modern CA Practice
           </h2>
 
@@ -325,7 +324,7 @@ export default function AboutPage() {
               {values.map((v) => (
                 <div
                   key={v.title}
-                  className="rounded-xl border border-white/[0.06] bg-card p-6 transition-colors hover:border-gold/20"
+                  className="rounded-xl border border-stone-200 bg-card p-6 transition-colors hover:border-gold/20"
                 >
                   <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-gold/10">
                     <v.icon className="h-5 w-5 text-gold" />
@@ -347,7 +346,7 @@ export default function AboutPage() {
           <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
             <span className="text-xs font-medium text-gold tracking-wide">Our Team</span>
           </div>
-          <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-4">
+          <h2 className="font-display text-2xl font-bold tracking-tight text-text sm:text-3xl mb-4">
             Meet the Partners
           </h2>
           <p className="text-muted text-sm max-w-2xl mb-12">
@@ -359,7 +358,7 @@ export default function AboutPage() {
             {teamMembers.map((member) => (
               <div
                 key={member.name}
-                className="rounded-2xl border border-white/[0.06] bg-card overflow-hidden transition-colors hover:border-white/[0.1]"
+                className="rounded-2xl border border-stone-200 bg-card overflow-hidden transition-colors hover:border-stone-300"
               >
                 {/* Partner Photo */}
                 <div className="relative w-full aspect-[3/4] bg-bg-2">
@@ -372,7 +371,7 @@ export default function AboutPage() {
                       sizes="(max-width: 768px) 100vw, 33vw"
                     />
                   ) : (
-                    <div className={`flex h-full w-full items-center justify-center border-b border-white/[0.06] ${colorMap[member.color]}`}>
+                    <div className={`flex h-full w-full items-center justify-center border-b border-stone-200 ${colorMap[member.color]}`}>
                       <span className="text-4xl font-bold">{member.initials}</span>
                     </div>
                   )}
@@ -389,7 +388,7 @@ export default function AboutPage() {
                     {member.skills.map((skill) => (
                       <span
                         key={skill}
-                        className="rounded-full border border-white/[0.06] bg-white/[0.03] px-3 py-1 text-[10px] font-medium text-muted"
+                        className="rounded-full border border-stone-200 bg-stone-50 px-3 py-1 text-[10px] font-medium text-muted"
                       >
                         {skill}
                       </span>
@@ -410,7 +409,7 @@ export default function AboutPage() {
           <div className="mb-4 inline-flex items-center gap-2.5 rounded-full border border-gold/20 bg-gold/[0.08] px-4 py-1.5">
             <span className="text-xs font-medium text-gold tracking-wide">Our Offices</span>
           </div>
-          <h2 className="text-2xl font-bold tracking-tight text-text sm:text-3xl mb-12">
+          <h2 className="font-display text-2xl font-bold tracking-tight text-text sm:text-3xl mb-12">
             Where to Find Us
           </h2>
 
@@ -421,13 +420,13 @@ export default function AboutPage() {
                 className={`rounded-2xl border bg-card p-6 ${
                   office.highlight
                     ? "border-gold/30"
-                    : "border-white/[0.06]"
+                    : "border-stone-200"
                 }`}
               >
                 <div className="flex items-center gap-3 mb-4">
                   <div
                     className={`flex h-10 w-10 items-center justify-center rounded-lg ${
-                      office.highlight ? "bg-gold/10" : "bg-white/[0.04]"
+                      office.highlight ? "bg-gold/10" : "bg-stone-100/70"
                     }`}
                   >
                     <MapPin

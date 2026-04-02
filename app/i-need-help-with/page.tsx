@@ -112,7 +112,7 @@ export default function INeedHelpWithPage() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden py-20 sm:py-28">
-        <div className="absolute inset-0 grid-bg" />
+        
         <div className="relative mx-auto max-w-4xl px-4 text-center">
           <span className="inline-block rounded-full bg-gold/10 border border-gold/20 px-4 py-1.5 text-[11px] uppercase tracking-[2px] text-gold font-medium mb-6">
             Problem Solver
@@ -135,7 +135,7 @@ export default function INeedHelpWithPage() {
             <Link
               key={p.slug}
               href={`/i-need-help-with/${p.slug}`}
-              className={`group rounded-xl bg-card border border-white/[0.06] p-6 transition-all duration-200 hover:border-gold/30 hover:shadow-lg hover:shadow-gold/5 hover:-translate-y-0.5`}
+              className={`group rounded-xl bg-card border border-stone-200 p-6 transition-all duration-200 hover:border-gold/30 hover:shadow-lg hover:shadow-gold/5 hover:-translate-y-0.5`}
             >
               <div
                 className={`mb-4 flex h-11 w-11 items-center justify-center rounded-lg ${p.bg} border ${p.border}`}
@@ -160,7 +160,7 @@ export default function INeedHelpWithPage() {
       </section>
 
       {/* WhatsApp CTA */}
-      <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#0F1E35] to-[#0B1628] border-y border-white/[0.06]">
+      <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#0F1E35] to-[#0B1628] border-y border-stone-200">
         <div className="mx-auto max-w-7xl px-4 py-10 sm:py-14 flex flex-col items-center gap-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-text tracking-tight">
             Not sure where to start? Just message us.

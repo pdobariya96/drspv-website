@@ -20,7 +20,7 @@ function DownloadCard({ item }: { item: DownloadItem }) {
   const downloadUrl = `/downloads/${item.id}.pdf`;
 
   return (
-    <div className="rounded-2xl bg-card border border-white/[0.06] overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-black/20 hover:border-white/[0.1]">
+    <div className="rounded-2xl bg-card border border-stone-200 overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-black/20 hover:border-stone-300">
       <div className="h-1" style={{ backgroundColor: item.color }} />
       <div className="p-5">
         <div className="flex items-start gap-3 mb-3">
@@ -77,7 +77,7 @@ export default function DownloadsClient({
   downloads: DownloadItem[];
 }) {
   return (
-    <section className="bg-bg-2 py-12 px-4 border-t border-white/[0.06]">
+    <section className="bg-bg-2 py-12 px-4 border-t border-stone-200">
       <div className="mx-auto max-w-7xl">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {downloads.map((item) => (

@@ -24,7 +24,7 @@ const categoryColors: Record<string, string> = {
   IPO: "text-ipo-amber bg-ipo-amber/10 border-ipo-amber/20",
   FEMA: "text-fema-purple bg-fema-purple/10 border-fema-purple/20",
   Business: "text-biz-orange bg-biz-orange/10 border-biz-orange/20",
-  General: "text-muted bg-white/5 border-white/10",
+  General: "text-muted bg-white/5 border-stone-200",
 };
 
 function getCategoryStyle(cat: string) {
@@ -48,7 +48,7 @@ export default function BlogPage() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden py-16 sm:py-20">
-        <div className="absolute inset-0 grid-bg" />
+        
         <div className="relative mx-auto max-w-7xl px-4">
           <span className="inline-block rounded-full bg-gold/10 border border-gold/20 px-4 py-1.5 text-[11px] uppercase tracking-[2px] text-gold font-medium mb-4">
             Blog
@@ -79,7 +79,7 @@ export default function BlogPage() {
                 {featured[0] && (
                   <Link
                     href={`/blog/${featured[0].slug}`}
-                    className="group rounded-xl bg-card border border-white/[0.06] p-6 transition-all hover:border-gold/30 hover:-translate-y-0.5 sm:col-span-2"
+                    className="group rounded-xl bg-card border border-stone-200 p-6 transition-all hover:border-gold/30 hover:-translate-y-0.5 sm:col-span-2"
                   >
                     <span
                       className={`inline-block rounded-full border px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider mb-3 ${getCategoryStyle(
@@ -115,7 +115,7 @@ export default function BlogPage() {
                   <Link
                     key={post.slug}
                     href={`/blog/${post.slug}`}
-                    className="group rounded-xl bg-card border border-white/[0.06] p-5 transition-all hover:border-gold/30 hover:-translate-y-0.5"
+                    className="group rounded-xl bg-card border border-stone-200 p-5 transition-all hover:border-gold/30 hover:-translate-y-0.5"
                   >
                     <span
                       className={`inline-block rounded-full border px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider mb-2 ${getCategoryStyle(
@@ -146,7 +146,7 @@ export default function BlogPage() {
               All Articles
             </h2>
             {allPosts.length === 0 ? (
-              <div className="rounded-xl bg-card border border-white/[0.06] p-10 text-center">
+              <div className="rounded-xl bg-card border border-stone-200 p-10 text-center">
                 <p className="text-muted text-sm">
                   No blog posts yet. Check back soon for expert articles on tax
                   and finance.
@@ -158,7 +158,7 @@ export default function BlogPage() {
                   <Link
                     key={post.slug}
                     href={`/blog/${post.slug}`}
-                    className="group rounded-xl bg-card border border-white/[0.06] p-5 transition-all hover:border-gold/30 hover:-translate-y-0.5"
+                    className="group rounded-xl bg-card border border-stone-200 p-5 transition-all hover:border-gold/30 hover:-translate-y-0.5"
                   >
                     <span
                       className={`inline-block rounded-full border px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider mb-2 ${getCategoryStyle(
@@ -212,7 +212,7 @@ export default function BlogPage() {
           <NewsletterForm />
 
           {/* Most Read */}
-          <div className="rounded-xl bg-card border border-white/[0.06] p-5">
+          <div className="rounded-xl bg-card border border-stone-200 p-5">
             <h3 className="text-sm font-semibold text-text mb-4 flex items-center gap-2">
               <TrendingUp className="h-4 w-4 text-gold" />
               Most Read
@@ -236,7 +236,7 @@ export default function BlogPage() {
           </div>
 
           {/* Deadlines */}
-          <div className="rounded-xl bg-card border border-white/[0.06] p-5">
+          <div className="rounded-xl bg-card border border-stone-200 p-5">
             <h3 className="text-sm font-semibold text-text mb-4 flex items-center gap-2">
               <Bell className="h-4 w-4 text-red" />
               Upcoming Deadlines
@@ -255,7 +255,7 @@ export default function BlogPage() {
 
           {/* Tags */}
           {categories.length > 0 && (
-            <div className="rounded-xl bg-card border border-white/[0.06] p-5">
+            <div className="rounded-xl bg-card border border-stone-200 p-5">
               <h3 className="text-sm font-semibold text-text mb-4 flex items-center gap-2">
                 <Tag className="h-4 w-4 text-gold" />
                 Categories
@@ -264,7 +264,7 @@ export default function BlogPage() {
                 {categories.map((cat) => (
                   <span
                     key={cat.name}
-                    className="rounded-full bg-bg-3 border border-white/[0.06] px-3 py-1 text-xs text-muted"
+                    className="rounded-full bg-bg-3 border border-stone-200 px-3 py-1 text-xs text-muted"
                   >
                     {cat.name}{" "}
                     <span className="text-dim">({cat.count})</span>

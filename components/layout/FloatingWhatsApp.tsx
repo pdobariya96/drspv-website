@@ -12,7 +12,7 @@ export default function FloatingWhatsApp() {
   return (
     <div className="fixed bottom-5 right-5 z-50 group">
       {/* Tooltip */}
-      <span className="absolute bottom-full right-0 mb-2 whitespace-nowrap rounded-lg bg-card px-3 py-1.5 text-xs font-medium text-text shadow-xl border border-white/[0.06] opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">
+      <span className="absolute bottom-full right-0 mb-2 whitespace-nowrap rounded-lg bg-card px-3 py-1.5 text-xs font-medium text-text shadow-xl border border-stone-200 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">
         Chat with us on WhatsApp
       </span>
 

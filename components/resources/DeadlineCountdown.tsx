@@ -66,13 +66,13 @@ export default function DeadlineCountdown({
   const gradient = colorToGradient(color);
 
   return (
-    <div className="relative flex flex-col items-center overflow-hidden rounded-xl border border-white/[0.06] bg-card p-6 text-center">
+    <div className="relative flex flex-col items-center overflow-hidden rounded-xl border border-stone-200 bg-card p-6 text-center">
       {/* Top gradient bar */}
       <div
         className={`absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${gradient}`}
       />
 
-      <span className="mt-2 rounded-full bg-white/[0.04] px-2.5 py-0.5 text-[10px] font-semibold text-muted">
+      <span className="mt-2 rounded-full bg-stone-100/70 px-2.5 py-0.5 text-[10px] font-semibold text-muted">
         {act}
       </span>
 
@@ -102,7 +102,7 @@ export default function DeadlineCountdown({
         href={waLink}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-6 inline-flex items-center gap-2 rounded-lg bg-gold px-5 py-2.5 text-xs font-semibold text-bg transition-all duration-200 hover:brightness-110 hover:scale-[1.02] active:scale-[0.98]"
+        className="mt-6 inline-flex items-center gap-2 rounded-lg bg-gold px-5 py-2.5 text-xs font-semibold text-white transition-all duration-200 hover:brightness-110 hover:scale-[1.02] active:scale-[0.98]"
       >
         <MessageCircle className="h-3.5 w-3.5" />
         Remind me on WhatsApp

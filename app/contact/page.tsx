@@ -114,7 +114,7 @@ export default function ContactPage() {
                   {...(m.external
                     ? { target: "_blank", rel: "noopener noreferrer" }
                     : {})}
-                  className="group flex items-start gap-4 rounded-xl bg-card/60 border border-white/[0.06] p-4 transition-all duration-200 hover:bg-card hover:border-gold/20"
+                  className="group flex items-start gap-4 rounded-xl bg-card/60 border border-stone-200 p-4 transition-all duration-200 hover:bg-card hover:border-gold/20"
                 >
                   <div
                     className={`shrink-0 w-10 h-10 rounded-lg ${m.accent} flex items-center justify-center`}
@@ -135,7 +135,7 @@ export default function ContactPage() {
 
           {/* Right Column - Contact Form */}
           <div id="contact-form">
-            <div className="rounded-2xl bg-card border border-white/[0.06] overflow-hidden">
+            <div className="rounded-2xl bg-card border border-stone-200 overflow-hidden">
               <div className="h-1 bg-gradient-to-r from-gold to-gold-2" />
               <div className="p-6 sm:p-8">
                 <h2 className="text-xl font-bold text-text mb-1">
@@ -165,12 +165,12 @@ export default function ContactPage() {
       </section>
 
       {/* Info Cards */}
-      <section className="bg-bg-2 py-12 px-4 border-y border-white/[0.06]">
+      <section className="bg-bg-2 py-12 px-4 border-y border-stone-200">
         <div className="mx-auto max-w-7xl grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {infoCards.map((c) => (
             <div
               key={c.label}
-              className="rounded-xl bg-card/60 border border-white/[0.06] p-5"
+              className="rounded-xl bg-card/60 border border-stone-200 p-5"
             >
               <div className="w-9 h-9 rounded-lg bg-gold/10 flex items-center justify-center mb-3">
                 <c.icon className="h-4.5 w-4.5 text-gold" />
@@ -190,7 +190,7 @@ export default function ContactPage() {
       <section className="bg-bg py-16 px-4">
         <div className="mx-auto max-w-7xl grid lg:grid-cols-2 gap-8">
           {/* Map Placeholder */}
-          <div className="rounded-2xl bg-card border border-white/[0.06] overflow-hidden flex flex-col items-center justify-center min-h-[350px] relative">
+          <div className="rounded-2xl bg-card border border-stone-200 overflow-hidden flex flex-col items-center justify-center min-h-[350px] relative">
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-card/80" />
             <div className="relative z-10 text-center p-8">
               <div className="w-16 h-16 rounded-full bg-gold/10 flex items-center justify-center mx-auto mb-4">
@@ -218,7 +218,7 @@ export default function ContactPage() {
           </div>
 
           {/* Office Hours */}
-          <div className="rounded-2xl bg-card border border-white/[0.06] p-6 sm:p-8">
+          <div className="rounded-2xl bg-card border border-stone-200 p-6 sm:p-8">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 rounded-lg bg-gold/10 flex items-center justify-center">
                 <Clock className="h-5 w-5 text-gold" />
@@ -230,7 +230,7 @@ export default function ContactPage() {
                 </p>
               </div>
             </div>
-            <div className="space-y-0 divide-y divide-white/[0.06]">
+            <div className="space-y-0 divide-y divide-stone-200">
               {officeHours.map((row) => (
                 <div
                   key={row.day}
@@ -264,7 +264,7 @@ export default function ContactPage() {
       </section>
 
       {/* WhatsApp CTA Strip */}
-      <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#111F38] to-[#0B1628] border-y border-white/[0.06]">
+      <section className="w-full bg-gradient-to-r from-[#0B1628] via-[#111F38] to-[#0B1628] border-y border-stone-200">
         <div className="mx-auto max-w-7xl px-4 py-8 sm:py-10 flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="text-center sm:text-left">
             <h3 className="text-xl sm:text-2xl font-bold text-text mb-1">
