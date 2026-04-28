@@ -14,7 +14,7 @@ const SERVICES = [
   { label: "Due Diligence", href: "/services/due-diligence" },
   { label: "Startup Advisory", href: "/services/startup-advisory" },
   { label: "Company Incorporation", href: "/services/company-incorporation" },
-  { label: "Valuation Services (IBBI)", href: "/services/valuation-services" },
+  { label: "Valuation Services", href: "/services/valuation-services" },
   { label: "Debt Funding Advisory", href: "/services/debt-funding-advisory" },
 ];
 

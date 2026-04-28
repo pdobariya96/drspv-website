@@ -850,13 +850,13 @@ We also perform data analytics-based audits using CAATs (Computer Assisted Audit
   },
 
   "valuation-services": {
-    title: "Valuation Services (IBBI Registered)",
+    title: "Valuation Services",
     slug: "valuation-services",
-    tagline: "IBBI-registered valuers providing defensible, regulation-compliant valuations for M&A transactions, IBC proceedings, and Income Tax purposes.",
+    tagline: "Defensible, regulation-compliant valuations for M&A transactions, IBC proceedings, and Income Tax purposes — prepared by qualified professionals.",
     stats: [
-      { value: "IBBI", label: "Registered Valuers" },
       { value: "Est. 2023", label: "Founded" },
       { value: "Ind AS", label: "Compliant Reports" },
+      { value: "48hr", label: "Response Guarantee" },
     ],
     whatWeCover: [
       "Business valuation for M&A — DCF, comparable company, and earnings-based approaches",
@@ -868,16 +868,16 @@ We also perform data analytics-based audits using CAATs (Computer Assisted Audit
       "Scheme of arrangement and merger / demerger swap ratio determination",
       "ESOP valuation — Black-Scholes and option pricing models",
     ],
-    keyDeliverables: ["Valuation Report", "IBBI Certificate", "Sensitivity Analysis", "Comparable Analysis", "Fair Value Opinion", "Board Presentation"],
+    keyDeliverables: ["Valuation Report", "Valuation Certificate", "Sensitivity Analysis", "Comparable Analysis", "Fair Value Opinion", "Board Presentation"],
     color: "#EC4899",
-    metaTitle: "Valuation Services - IBBI Registered Valuers",
+    metaTitle: "Valuation Services — Business & Securities Valuation | DRSPV",
     metaDesc:
-      "IBBI-registered valuers providing independent business valuation, securities valuation, fair value assessment for M&A, IBC proceedings, and tax compliance purposes.",
-    description: `Accurate and defensible valuations are fundamental to corporate transactions, regulatory compliance, and dispute resolution. DRSPV & Associates provides professional valuation services through our IBBI-registered valuers (Insolvency and Bankruptcy Board of India) with expertise in valuing businesses, securities, financial assets, and intangible assets.
+      "Independent business valuation, securities valuation, and fair value assessment for M&A, IBC proceedings, and Income Tax compliance — by qualified CA professionals.",
+    description: `Accurate and defensible valuations are fundamental to corporate transactions, regulatory compliance, and dispute resolution. DRSPV & Associates provides professional valuation services with expertise in valuing businesses, securities, financial assets, and intangible assets.
 
 Our valuation services cover a wide range of requirements under Indian law. Under the Companies Act 2013, we provide valuations for share allotment under Section 247, mergers and demergers (Sections 230-232), buy-back of shares, scheme of arrangements, and conversion of companies. Under the Income Tax Act 2025, we provide fair market value assessments for transactions involving shares and securities, including valuations under Section 92 (transfer pricing) and for gift taxation purposes.
 
-For IBC proceedings, we provide valuations of corporate debtors as required under the Insolvency and Bankruptcy Code 2016. Our valuers are registered with IBBI under the Companies (Registered Valuers and Valuation) Rules 2017 in the asset class of Securities or Financial Assets. We prepare fair value and liquidation value reports for resolution professionals and the Committee of Creditors.
+For IBC proceedings, we provide valuations of corporate debtors as required under the Insolvency and Bankruptcy Code 2016 — covering fair value and liquidation value reports for resolution professionals and the Committee of Creditors.
 
 Our valuation methodologies include Discounted Cash Flow (DCF), Comparable Company Analysis, Comparable Transaction Analysis, Net Asset Value (NAV), and Earnings-based approaches. We select the appropriate methodology based on the nature of the asset, purpose of valuation, availability of data, and regulatory requirements. Every valuation report is prepared in compliance with ICAI Valuation Standards and relevant regulatory guidelines.`,
     whoNeeds: [
@@ -891,12 +891,12 @@ Our valuation methodologies include Discounted Cash Flow (DCF), Comparable Compa
       { title: "Engagement & Scoping", desc: "Understand the purpose of valuation, asset class, applicable regulations, and valuation date. Issue engagement letter with scope and methodology." },
       { title: "Data Collection", desc: "Collect financial statements, projections, industry data, comparable company data, and other relevant information needed for the valuation." },
       { title: "Analysis & Valuation", desc: "Apply appropriate valuation methodologies (DCF, comparable analysis, NAV), perform sensitivity analysis, and arrive at the fair value or fair market value." },
-      { title: "Report & Certification", desc: "Issue IBBI-compliant valuation report with detailed methodology, assumptions, limitations, and certified opinion on value. Present findings to stakeholders." },
+      { title: "Report & Certification", desc: "Issue a regulation-compliant valuation report with detailed methodology, assumptions, limitations, and certified opinion on value. Present findings to stakeholders." },
     ],
     faq: [
       {
-        q: "What is an IBBI-registered valuer?",
-        a: "An IBBI-registered valuer is a professional registered with the Insolvency and Bankruptcy Board of India under the Companies (Registered Valuers and Valuation) Rules 2017. Registration requires passing the valuation examination, completion of educational courses, and membership with a Registered Valuers Organisation (RVO).",
+        q: "Who conducts valuations at DRSPV?",
+        a: "Valuations are conducted by qualified Chartered Accountants with expertise in business, securities, and financial asset valuation under the Companies Act 2013, Income Tax Act 2025, and Insolvency and Bankruptcy Code 2016.",
       },
       {
         q: "When is a registered valuer required?",
@@ -908,7 +908,7 @@ Our valuation methodologies include Discounted Cash Flow (DCF), Comparable Compa
       },
     ],
     relatedKB: [],
-    keywords: ["IBBI registered valuer", "business valuation India", "share valuation CA", "IBC valuation services", "fair market value assessment"],
+    keywords: ["business valuation India", "share valuation CA", "IBC valuation services", "fair market value assessment", "valuation for M&A"],
   },
   "debt-funding-advisory": {
     title: "Debt Funding Advisory",

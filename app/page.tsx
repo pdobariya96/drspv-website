@@ -9,7 +9,7 @@ import WhatsAppCTA from "@/components/shared/WhatsAppCTA";
 
 const trustBadges = [
   { label: "ICAI Registered Firm", sub: "Institute of Chartered Accountants of India" },
-  { label: "IBBI Registered Valuers", sub: "Insolvency & Bankruptcy Board of India" },
+  { label: "Business Valuations", sub: "M&A, IBC & Income Tax Purposes" },
   { label: "DISA Certified", sub: "Diploma in Information Systems Audit (ICAI)" },
   { label: "Est. 2023", sub: "Rajkot, Gujarat — Headquarters" },
   { label: "4 Countries", sub: "India · UAE · USA · UK · Australia" },

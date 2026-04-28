@@ -118,8 +118,8 @@ const services = [
   {
     num: "12",
     icon: Scale,
-    title: "Valuation Services (IBBI)",
-    desc: "IBBI-registered valuers for business, securities, and financial asset valuations.",
+    title: "Valuation Services",
+    desc: "Business, securities, and financial asset valuations for M&A, IBC, and Income Tax compliance.",
     color: "text-startup-rose",
     bg: "bg-startup-rose/10",
     slug: "valuation-services",

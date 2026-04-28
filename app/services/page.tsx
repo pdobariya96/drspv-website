@@ -191,10 +191,10 @@ const services = [
   },
   {
     number: "12",
-    title: "Valuation Services (IBBI Registered)",
+    title: "Valuation Services",
     slug: "valuation-services",
     description:
-      "IBBI-registered valuers providing independent valuation of businesses, securities, financial assets, and intangibles under Companies Act, SEBI regulations, Income Tax Act, and IBC.",
+      "Independent valuation of businesses, securities, financial assets, and intangibles under Companies Act, SEBI regulations, Income Tax Act, and IBC — by qualified CA professionals.",
     bullets: [
       "Business & enterprise valuation",
       "Valuation of shares & securities",
